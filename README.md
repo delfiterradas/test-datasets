@@ -72,7 +72,7 @@ The spatial_omics folder contains subfolders for different platforms in the emer
 
 ### earth_sciences
 
-The earth sciences folder contain subfolders for different data formats encountered in the earth sciences. Subfolders names indicate the type of data. If lower level subfolder exist, their names indicate file formats. 
+The earth sciences folder contain subfolders for different data formats encountered in the earth sciences. Subfolders names indicate the type of data. If lower level subfolder exist, their names indicate file formats.
 
 ## Data Description
 
@@ -165,8 +165,8 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'test.paired_end.methylated.sorted.bam.csi': csi index for the sorted bam file
       - 'test.paired_end.name.sorted.bam': Paired-end bam file sorted by name
       - 'test.paired_end.sorted.bam': Paired-end bam file
-      - 'test.paired_end.sorted.bam.bai': bam index for the sorted bam file 
-      - 'test.paired_end.sorted.bam.csi': csi index for the sorted bam file 
+      - 'test.paired_end.sorted.bam.bai': bam index for the sorted bam file
+      - 'test.paired_end.sorted.bam.csi': csi index for the sorted bam file
       - 'test.paired_end.umi.sorted.bam': Position sorted alignment of 'test.umi_extract\_{1,2}.fastq.gz'
       - 'test.paired_end.umi.sorted.bam.bai': bam index for the sorted bam file
       - 'test.paired_end.umi.sorted.bam.csi': csi index for the sorted bam file
@@ -317,7 +317,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - test_scATAC_S1_L001_I1_001.fastq.gz: Dual index i7 read (8bp) of a downsamples version of the cellranger-atac-tiny-bcl-simple-1.0.0.csv data (chr1).
       - test_scATAC_S1_L001_R\{1,3\}\_001.fastq.gz: Read 1 and 2 of a downsamples version of the cellranger-atac-tiny-bcl-simple-1.0.0.csv data (chr1).
       - test_scATAC_S1_L001_R2_001.fastq.gz: Dual index i5 read (16 bp) of a downsamples version of the cellranger-atac-tiny-bcl-simple-1.0.0.csv data (chr1).
-    
+
     - universc
       - homo_sapiens_chr22_reference.tar.gz: reference genome processed using the cellranger v3.0.2.9001
 
@@ -699,8 +699,8 @@ The earth sciences folder contain subfolders for different data formats encounte
     - test.cram: The converted CRAM from the BAM file
     - test.cram.crai: The index of the CRAM file
     - test.bed: A BED file containing only the regions from chr11
-  - rnaseq: 
-    - test_starfusion.annotfilterrule.pm: Filtering rules for `prep_genome_lib.pl` script in starfusion 
+  - rnaseq:
+    - test_starfusion.annotfilterrule.pm: Filtering rules for `prep_genome_lib.pl` script in starfusion
   - scrnaseq:
     - csv:
       - SRR28679756_filtered_matrix.csv: SRR28679756 was processed with nf-core/scrnaseq v4.0.0 and subsetted to 100 cells and 100 genes.
@@ -812,7 +812,7 @@ The earth sciences folder contain subfolders for different data formats encounte
             - merged.dmp: IDs of merged nodes and resulting nodes (Betacoronavirus and Severe acute respiratory syndrome-related coronavirus ids)
             - names.dmp: Taxonomy names
             - nodes.dmp: Taxonomy nodes with associated information
-            - readme.txt: Description of included files and table fields  
+            - readme.txt: Description of included files and table fields
   - streptococcus_agalactiae
     - genome
       - emu
@@ -835,8 +835,8 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'MW539688.1.fasta': sequence of the mitochondrial reference genome for Deilephila porcellus
       - 'MW539688.1.gb': gene annotation for the mitochondrial reference genome for Deilephila porcellus
   - arabidopsis_thaliana
-    - genome 
-      - 'ont_Col-0_tets_data_Chr1_5mb_7mb.bam': basecalled, unaligned ONT reads from Chromosome 1:5mb-7mb region for Arabidopsis thaliana. 
+    - genome
+      - 'ont_Col-0_tets_data_Chr1_5mb_7mb.bam': basecalled, unaligned ONT reads from Chromosome 1:5mb-7mb region for Arabidopsis thaliana.
       - 'trimmed_ont_Col-0_tets_data_Chr1_5mb_7mb.bam': basecalled, unaligned and trimmed ONT reads from Chromosome 1:5mb-7mb region for Arabidopsis thaliana.
     - plastid
       - 'ddAraThal4.HiFi.reads.fasta': test dataset for plastid reads for Arabidopsis thaliana
@@ -973,9 +973,11 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'rmarkdown_notebook.Rmd': exemplary R notebook
 - tsv
   - 'test.tsv': exemplary tab-separated file obtained from [here](https://bioinf.shenwei.me/csvtk/usage/#split)
+  - 'ani.tsv': exemplary tab-seperated file describing pairwise similarities from [here](https://github.com/refresh-bio/clusty).
 - txt
   - 'hello.txt': one-line txt file
   - 'taxonomy_ids.txt': contains species names, to be used as input for [goat-cli taxon search tool](https://github.com/genomehubs/goat-cli).
+  - 'ani_ids.txt': list of ids associated with 'tsv/ani.tsv' used as an input for [clusty](https://github.com/refresh-bio/clusty).
 - tar
   - 'hello.tar.gz': gzipped tar archive containing a single file without a directory
 
