@@ -1,3 +1,34 @@
+## date = '2025-12-09 08:34:08.076514'
+## execstr = '/usr/local/bin/metagene generate Homo_sapiens.GRCh38.111_chr20 --annotation_files Homo_sapiens.GRCh38.111_chr20.gtf'
+## args = {  
+##          'add_three'                 : False,,
+##          'annotation_files'          : ['Homo_sapiens.GRCh38.111_chr20.gtf'],,
+##          'annotation_format'         : 'GTF2',,
+##          'bed_extra_columns'         : 0,,
+##          'downstream'                : 50,,
+##          'gff_cds_types'             : {'CDS_fragment', 'CDS_indpendently_known', 'CDS_predicted', 'CDS'},,
+##          'gff_exon_types'            : {'exon_of_single_exon_gene', 'exon', 'interior_exon', 'three_prime_coding_exonfive_prime_noncoding_exon', 'coding_exon', 'three_prime_noncoding_exon', 'pseudogenic_exon', 'five_prime_coding_exon', 'interior_coding_exon', 'noncoding_exon'},,
+##          'gff_transcript_types'      : {'arginyl_tRNA', 'pseudouridylation_guide_snoRNA', 'tRNA', 'tmRNA', 'rRNA_cleavage_RNA', 'rRNA_21S', 'U14_snoRNA', 'telomeric_transcript', 'recoded_mRNA', 'miRNA', 'snoRNA', 'dicistronic_mRNA', 'mature_transcript', 'OxyS_RNA', 'non_functional_homolog_of_pseudogenic_transcript', 'anti_ARRET', 'edited_transcript_by_A_to_I_substitution', 'glutaminyl_tRNA', 'vault_RNA', 'U1_snRNA', 'asparaginyl_tRNA', 'H_ACA_box_snoRNA', 'large_subunit_rRNA', 'small_regulatory_ncRNA', 'glycyl_tRNA', 'ARIA', 'rRNA', 'RprA_RNA', 'spot42_RNA', 'threonyl_tRNA', 'polycistronic_mRNA', 'rRNA_16S', 'CsrB_RsmB_RNA', 'lincRNA', 'enhancerRNA', 'small_subunit_rRNA', 'tryptophanyl_tRNA', 'U12_snRNA', 'prolyl_tRNA', 'mRNA_with_plus_1_frameshift', 'antisense_lncRNA', 'rasiRNA', 'intronic_lncRNA', 'enzymatic_RNA', 'mRNA_recoded_by_codon_redefinition', 'Y_RNA', 'U6atac_snRNA', 'antisense_RNA', 'mRNA', 'edited_mRNA', 'pyrrollysyl_tRNA', 'RNA_6S', 'isoleucyl_tRNA', 'GcvB_RNA', 'rRNA_5_8S', 'tyrosyl_tRNA', 'mRNA_with_plus_2_frameshift', 'class_I_RNA', 'methionyl_tRNA', 'histidyl_tRNA', 'TERRA', 'pseudogenic_transcript', 'valyl_tRNA', 'rRNA_23S', 'seryl_tRNA', 'U3_snoRNA', 'scRNA', 'rRNA_18S', 'telomerase_RNA', 'rRNA_25S', 'trans_spliced_mRNA', 'moR', 'SRP_RNA', 'snRNA', 'priRNA', 'tasiRNA', 'C_D_box_snoRNA', 'U4atac_snRNA', 'phenylalanyl_tRNA', 'piRNA', 'selenocysteinyl_tRNA', 'aspartyl_tRNA', 'ARRET', 'RNase_MRP_RNA', 'mRNA_with_frameshift', 'glutamyl_tRNA', 'U6_snRNA', 'U11_snRNA', 'guide_RNA', 'RNase_P_RNA', 'lysyl_tRNA', 'ncRNA', 'cysteinyl_tRNA', 'leucyl_tRNA', 'alanyl_tRNA', 'mRNA_recoded_by_translational_bypass', 'U2_snRNA', 'transcript', 'monocistronic_mRNA', 'mRNA_with_minus_2_frameshift', 'class_II_RNA', 'shRNA', 'IoR', 'U5_snRNA', 'DsrA_RNA', 'edited_transcript', 'rRNA_5S', 'methylation_guide_snoRNA', 'lnc_RNA', 'polyadenylated_mRNA', 'mRNA_with_minus_1_frameshift', 'rRNA_28S', 'RRE_RNA', 'U4_snRNA', 'siRNA', 'MicF_RNA'},,
+##          'group_by'                  : 'gene_id',,
+##          'landmark'                  : 'cds_start',,
+##          'mask_add_three'            : False,,
+##          'mask_annotation_files'     : [],,
+##          'mask_annotation_format'    : 'GTF2',,
+##          'mask_bed_extra_columns'    : 0,,
+##          'mask_gff_cds_types'        : {'CDS_fragment', 'CDS_indpendently_known', 'CDS_predicted', 'CDS'},,
+##          'mask_gff_exon_types'       : {'exon_of_single_exon_gene', 'exon', 'interior_exon', 'three_prime_coding_exonfive_prime_noncoding_exon', 'coding_exon', 'three_prime_noncoding_exon', 'pseudogenic_exon', 'five_prime_coding_exon', 'interior_coding_exon', 'noncoding_exon'},,
+##          'mask_gff_transcript_types' : {'arginyl_tRNA', 'pseudouridylation_guide_snoRNA', 'tRNA', 'tmRNA', 'rRNA_cleavage_RNA', 'rRNA_21S', 'U14_snoRNA', 'telomeric_transcript', 'recoded_mRNA', 'miRNA', 'snoRNA', 'dicistronic_mRNA', 'mature_transcript', 'OxyS_RNA', 'non_functional_homolog_of_pseudogenic_transcript', 'anti_ARRET', 'edited_transcript_by_A_to_I_substitution', 'glutaminyl_tRNA', 'vault_RNA', 'U1_snRNA', 'asparaginyl_tRNA', 'H_ACA_box_snoRNA', 'large_subunit_rRNA', 'small_regulatory_ncRNA', 'glycyl_tRNA', 'ARIA', 'rRNA', 'RprA_RNA', 'spot42_RNA', 'threonyl_tRNA', 'polycistronic_mRNA', 'rRNA_16S', 'CsrB_RsmB_RNA', 'lincRNA', 'enhancerRNA', 'small_subunit_rRNA', 'tryptophanyl_tRNA', 'U12_snRNA', 'prolyl_tRNA', 'mRNA_with_plus_1_frameshift', 'antisense_lncRNA', 'rasiRNA', 'intronic_lncRNA', 'enzymatic_RNA', 'mRNA_recoded_by_codon_redefinition', 'Y_RNA', 'U6atac_snRNA', 'antisense_RNA', 'mRNA', 'edited_mRNA', 'pyrrollysyl_tRNA', 'RNA_6S', 'isoleucyl_tRNA', 'GcvB_RNA', 'rRNA_5_8S', 'tyrosyl_tRNA', 'mRNA_with_plus_2_frameshift', 'class_I_RNA', 'methionyl_tRNA', 'histidyl_tRNA', 'TERRA', 'pseudogenic_transcript', 'valyl_tRNA', 'rRNA_23S', 'seryl_tRNA', 'U3_snoRNA', 'scRNA', 'rRNA_18S', 'telomerase_RNA', 'rRNA_25S', 'trans_spliced_mRNA', 'moR', 'SRP_RNA', 'snRNA', 'priRNA', 'tasiRNA', 'C_D_box_snoRNA', 'U4atac_snRNA', 'phenylalanyl_tRNA', 'piRNA', 'selenocysteinyl_tRNA', 'aspartyl_tRNA', 'ARRET', 'RNase_MRP_RNA', 'mRNA_with_frameshift', 'glutamyl_tRNA', 'U6_snRNA', 'U11_snRNA', 'guide_RNA', 'RNase_P_RNA', 'lysyl_tRNA', 'ncRNA', 'cysteinyl_tRNA', 'leucyl_tRNA', 'alanyl_tRNA', 'mRNA_recoded_by_translational_bypass', 'U2_snRNA', 'transcript', 'monocistronic_mRNA', 'mRNA_with_minus_2_frameshift', 'class_II_RNA', 'shRNA', 'IoR', 'U5_snRNA', 'DsrA_RNA', 'edited_transcript', 'rRNA_5S', 'methylation_guide_snoRNA', 'lnc_RNA', 'polyadenylated_mRNA', 'mRNA_with_minus_1_frameshift', 'rRNA_28S', 'RRE_RNA', 'U4_snRNA', 'siRNA', 'MicF_RNA'},,
+##          'mask_maxmem'               : 0,,
+##          'mask_sorted'               : False,,
+##          'mask_tabix'                : False,,
+##          'maxmem'                    : 0,,
+##          'outbase'                   : 'Homo_sapiens.GRCh38.111_chr20',,
+##          'program'                   : 'generate',,
+##          'sorted'                    : False,,
+##          'tabix'                     : False,,
+##          'upstream'                  : 50,,
+##          'warnlevel'                 : 0,
+##        }
 region_id	window_size	region	masked	alignment_offset	zero_point
 ENSG00000025772	100	20:44960283-44960383(-)	na	0	50
 ENSG00000053438	100	20:37521281-37521381(+)	na	0	50
