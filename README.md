@@ -436,6 +436,10 @@ The earth sciences folder contain subfolders for different data formats encounte
       - plastid
         - Homo_sapiens.GRCh38.111_chr20_rois.txt: metagene generated from Homo_sapiens.GRCh38.111_chr20.gtf using plastid `metagene generate` command
         - SRX11780887_p_offsets.txt: p-site offsets genereated from SRX11780887_chr20.bam and Homo_sapiens.GRCh38.111_chr20.gtf using plastid `psite` command
+      - ribocode
+        - genome_updated.gtf.gz: GTF with gene names updated via ribocode/gtfupdate, compressed for efficient storage
+        - annotation.tar.gz: Tarball containing annotation directory output from ribocode/prepare for testing ribocode/metaplots and ribocode/ribocode modules
+        - test_pre_config.txt: P-site configuration file output from ribocode/metaplots for testing ribocode/ribocode module
       - salmon.merged.gene_counts_length_scaled.tsv: Example matrix containing both Riboseq and RNA-seq runs, suitable for translational efficiency analysis
       - samplesheet.csv: Sample sheet corresponding to salmon.merged.gene_counts_length_scaled.tsv
   - illumina
