@@ -72,7 +72,7 @@ The spatial_omics folder contains subfolders for different platforms in the emer
 
 ### earth_sciences
 
-The earth sciences folder contain subfolders for different data formats encountered in the earth sciences. Subfolders names indicate the type of data. If lower level subfolder exist, their names indicate file formats. 
+The earth sciences folder contain subfolders for different data formats encountered in the earth sciences. Subfolders names indicate the type of data. If lower level subfolder exist, their names indicate file formats.
 
 ## Data Description
 
@@ -165,8 +165,8 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'test.paired_end.methylated.sorted.bam.csi': csi index for the sorted bam file
       - 'test.paired_end.name.sorted.bam': Paired-end bam file sorted by name
       - 'test.paired_end.sorted.bam': Paired-end bam file
-      - 'test.paired_end.sorted.bam.bai': bam index for the sorted bam file 
-      - 'test.paired_end.sorted.bam.csi': csi index for the sorted bam file 
+      - 'test.paired_end.sorted.bam.bai': bam index for the sorted bam file
+      - 'test.paired_end.sorted.bam.csi': csi index for the sorted bam file
       - 'test.paired_end.umi.sorted.bam': Position sorted alignment of 'test.umi_extract\_{1,2}.fastq.gz'
       - 'test.paired_end.umi.sorted.bam.bai': bam index for the sorted bam file
       - 'test.paired_end.umi.sorted.bam.csi': csi index for the sorted bam file
@@ -317,7 +317,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - test_scATAC_S1_L001_I1_001.fastq.gz: Dual index i7 read (8bp) of a downsamples version of the cellranger-atac-tiny-bcl-simple-1.0.0.csv data (chr1).
       - test_scATAC_S1_L001_R\{1,3\}\_001.fastq.gz: Read 1 and 2 of a downsamples version of the cellranger-atac-tiny-bcl-simple-1.0.0.csv data (chr1).
       - test_scATAC_S1_L001_R2_001.fastq.gz: Dual index i5 read (16 bp) of a downsamples version of the cellranger-atac-tiny-bcl-simple-1.0.0.csv data (chr1).
-    
+
     - universc
       - homo_sapiens_chr22_reference.tar.gz: reference genome processed using the cellranger v3.0.2.9001
 
@@ -364,6 +364,12 @@ The earth sciences folder contain subfolders for different data formats encounte
       - sequence/chr22_23800000-23980000.fa: Fasta file containing a section of chr22
     - chr22_chr22_KI270734v1_random: directory for reference files using chr22 and chr22_KI270734v1_random, for paraphase
       - sequence/genome.fa.gz: Gzipped fasta file from GRCh38 with bases not within chr22:18912282-18936793 and chr22_KI270734v1_random:137587-162092 hard masked to N.
+    - genetic_map: directory containing genetic map of GRCh38 in various format
+      - .21/22.eagle.map.gz: tab delimited gzipped map with header: chr (no prefix), position, COMBINED_rate(cM/Mb) Genetic_Map(cM)
+      - .chr21/22.stitch.map: space delimited map with header: position, COMBINED_rate(cM/Mb) Genetic_Map(cM)
+      - .chr21/22.glimpse.map: tab delimited with header: pos (position), chr, cM (centiMorgan)
+      - .chr21/22.plink.map: space delimited map without header: chr, id (all empty "."), centiMorgan, position
+      - .chr21/22.minimac.map: tab delimited with header: #chr, position, chr, Genetic_Map(cM)
     - vcf
       - dbsnp: DBSnp file downsampled based on reference position
       - gnomAD: gnomAD file downsampled based on reference position
@@ -386,6 +392,9 @@ The earth sciences folder contain subfolders for different data formats encounte
     - genome.fasta.gz.gzi: index file for 'genome.fasta.gz'
     - genome2.fasta: Reference fasta based on chr22:16600000-16800000
     - genome3.fasta: Reference fasta based on chr19:45760000-45770300
+    - genomeGRCh38_chr21_22.fa.gz: bgzipped version of GRCh38 fasta file containing whole chr21 and chr22
+    - genomeGRCh38_chr21_22.fa.gz.fai: index file for 'genomeGRCh38_chr21_22.fa.gz'
+    - genomeGRCh38_chr21_22.fa.gz.gzi: index file for 'genomeGRCh38_chr21_22.fa.gz'
     - genome_motifs.txt: TF motifs used for cellranger-atac
     - genome.NC_012920_1.gb: Contains mtDNA reference genome in Genbank format
     - transcriptome.fasta: Reference transcriptome based on `genome.fasta`
@@ -424,6 +433,13 @@ The earth sciences folder contain subfolders for different data formats encounte
         - SRX11780888_chr20.bam.bai index for filtered and trimmed reads from SRX11780888, aligned to human Chr20
         - SRX11780887.Aligned.toTranscriptome.out.bam filtered and trimmed reads from SRX11780887, aligned to human Chr20, transcriptomic coordinates
         - SRX11780888.Aligned.toTranscriptome.out.bam filtered and trimmed reads from SRX11780888, aligned to human Chr20, transcriptomic coordinates
+      - plastid
+        - Homo_sapiens.GRCh38.111_chr20_rois.txt: metagene generated from Homo_sapiens.GRCh38.111_chr20.gtf using plastid `metagene generate` command
+        - SRX11780887_p_offsets.txt: p-site offsets genereated from SRX11780887_chr20.bam and Homo_sapiens.GRCh38.111_chr20.gtf using plastid `psite` command
+      - ribocode
+        - genome_updated.gtf.gz: GTF with gene names updated via ribocode/gtfupdate, compressed for efficient storage
+        - annotation.tar.gz: Tarball containing annotation directory output from ribocode/prepare for testing ribocode/metaplots and ribocode/ribocode modules
+        - test_pre_config.txt: P-site configuration file output from ribocode/metaplots for testing ribocode/ribocode module
       - salmon.merged.gene_counts_length_scaled.tsv: Example matrix containing both Riboseq and RNA-seq runs, suitable for translational efficiency analysis
       - samplesheet.csv: Sample sheet corresponding to salmon.merged.gene_counts_length_scaled.tsv
   - illumina
@@ -441,6 +457,10 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'example_hla_pe.sorted.bam': Sorted BAM file for HLATyping workflow / OptiType module.
       - 'example_hla_pe.sorted.bam.bai': Sorted BAM file index for HLATyping workflow / OptiType module.
       - mitochon_standin.recalibrated.sorted: copy of the old, smaller test2.paired_end.recalibrated.sorted, this is to be used to test mutect2's mitochondria mode, as the current recal bams are far too big. This should be replaced once rarediseases obtain an actual mitochondria sample.
+      - NA12878.chr21_22.1X.bam{.bai}: Full coverage (32X) bam file of individual NA12878 for chr21 and 22 between position 16570000-16610000 with index.
+      - NA12878.chr21_22.1X.bam{.bai}: Downsampled at 1X bam file of individual NA12878 for chr21 and 22 between position 16570000-16610000 with index.
+      - NA19401.chr21_22.1X.bam{.bai}: Full coverage (32X) bam file of individual NA19401 for chr21 and 22 between position 16570000-16610000 with index.
+      - NA19401.chr21_22.1X.bam{.bai}: Downsampled at 1X bam file of individual NA19401 for chr21 and 22 between position 16570000-16610000 with index.
       - test_illumina_mt: bam file containing mt data, to test eklipse
       - 'test3.single_end.markduplicates.sorted.bam': Mapped, sorted, and duplicate removed reads from ancient DNA across all human chromosomes on the hs37d5 human reference. Data from [ERR2857053](https://www.ebi.ac.uk/ena/browser/view/ERR2857053) downsampled to 10% of original reads.
       - 'test.rna.paired_end.bam': STAR-aligned, unsorted, paired-end RNAseq bam file from the test*rnaseq*{1,2}.fastq.gz: chr22 of sample GM12878 (SRA accession: SRX2900878)
@@ -563,6 +583,9 @@ The earth sciences folder contain subfolders for different data formats encounte
     - vcf:
       - test.rnaseq.vcf: RNAseq vcf corresponding to `test.rnaseq_{1,2}` reads
       - test.genome_21.somatic_sv.vcf: Indels VCF corresponding to `test.paired_end.recalibrated.sorted` and `genome_21.fasta` generated with Manta
+      - NA12878.chr21_22.1X.glimpse2.vcf.gz{.csi}: Imputed variants of NA12878.chr21_22.1X.bam file with glimpse2 for chr21 and 22 between position 16570000-16610000 with index.
+      - NA19401.chr21_22.1X.glimpse2.vcf.gz{.csi}: Imputed variants of NA19401.chr21_22.1X.bam file with glimpse2 for chr21 and 22 between position 16570000-16610000 with index.
+      - NA12878_GIAB.chr21_22.vcf.gz{.csi}: Benchmarking variants file from Genome In A Bottle initiative for individual NA12878 for chr21 and 22 between position 16570000-16610000 with index.
       - NA12878*chrM.vcf.gz: mitochondrial variants corresponding to `testdata/NA12878_mito*{1,2}.fq.gz`from the`rarediseases` branch.
       - empty.vcf.gz: The RNAseq VCF with all variants removed
       - empty.vcf.gz.tbi: The index of the empty vcf
@@ -642,6 +665,11 @@ The earth sciences folder contain subfolders for different data formats encounte
     - plink_simulated.pgen: case-control simulated variants dataset in PLINK 2 binary format
     - plink_simulated.psam: case-control simulated variants dataset in PLINK 2 binary format
     - plink_simulated.pvar: case-control simulated variants dataset in PLINK 2 binary format
+    - 1000GP.chr*.vcf.gz: Reference panel phased VCF of the 1000 Genome Project in various format to be used for imputation for chr21 and 22 between position 16570000-16610000 with index.
+    - 1000GP.chr*.hap/legend/samples.gz: Same as 1000GP.chr*.vcf.gz but converted to hap/legend/samples format with bcftools
+    - 1000GP.chr*.sites.vcf.gz: Variants informations present in 1000GP.chr*.vcf.gz obtain with `bcftools view -G -m 2 -M 2`
+    - 1000GP.chr*.posfile: Variants position in tabulated format without header: chr, position, ref, alt
+    - 1000GP.chr*.chunks.txt: chunks of the chromosome obtain with GLIMPSE_chunk
   - svsig:
 
     - NA03697B2_new.pbmm2.repeats.svsig.gz: structural variant file for NA03697B2_new.pbmm2.repeats.bam, created with PBSV discover version (2.9.0 default settings)
@@ -678,8 +706,8 @@ The earth sciences folder contain subfolders for different data formats encounte
     - test.cram: The converted CRAM from the BAM file
     - test.cram.crai: The index of the CRAM file
     - test.bed: A BED file containing only the regions from chr11
-  - rnaseq: 
-    - test_starfusion.annotfilterrule.pm: Filtering rules for `prep_genome_lib.pl` script in starfusion 
+  - rnaseq:
+    - test_starfusion.annotfilterrule.pm: Filtering rules for `prep_genome_lib.pl` script in starfusion
   - scrnaseq:
     - csv:
       - SRR28679756_filtered_matrix.csv: SRR28679756 was processed with nf-core/scrnaseq v4.0.0 and subsetted to 100 cells and 100 genes.
@@ -791,7 +819,7 @@ The earth sciences folder contain subfolders for different data formats encounte
             - merged.dmp: IDs of merged nodes and resulting nodes (Betacoronavirus and Severe acute respiratory syndrome-related coronavirus ids)
             - names.dmp: Taxonomy names
             - nodes.dmp: Taxonomy nodes with associated information
-            - readme.txt: Description of included files and table fields  
+            - readme.txt: Description of included files and table fields
   - streptococcus_agalactiae
     - genome
       - emu
@@ -814,8 +842,8 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'MW539688.1.fasta': sequence of the mitochondrial reference genome for Deilephila porcellus
       - 'MW539688.1.gb': gene annotation for the mitochondrial reference genome for Deilephila porcellus
   - arabidopsis_thaliana
-    - genome 
-      - 'ont_Col-0_tets_data_Chr1_5mb_7mb.bam': basecalled, unaligned ONT reads from Chromosome 1:5mb-7mb region for Arabidopsis thaliana. 
+    - genome
+      - 'ont_Col-0_tets_data_Chr1_5mb_7mb.bam': basecalled, unaligned ONT reads from Chromosome 1:5mb-7mb region for Arabidopsis thaliana.
       - 'trimmed_ont_Col-0_tets_data_Chr1_5mb_7mb.bam': basecalled, unaligned and trimmed ONT reads from Chromosome 1:5mb-7mb region for Arabidopsis thaliana.
     - plastid
       - 'ddAraThal4.HiFi.reads.fasta': test dataset for plastid reads for Arabidopsis thaliana
@@ -937,6 +965,11 @@ The earth sciences folder contain subfolders for different data formats encounte
   - yte_map_file.yaml: map file to test YTE
 - csv
   - 'test.csv': exemplary comma-separated file obtained from [here](https://bioinf.shenwei.me/csvtk/usage/#split)
+  - 'test2.csv': exemplary comma-separated file with user data (id, first_name, last_name, email)
+  - 'test3.csv': exemplary comma-separated file with email and last_login timestamps
+- fastq
+  - 'rrna_reads_1.fastq.gz': Synthetic 5.8S rRNA paired-end reads (R1), 10 reads from rfam-5.8s-database-id98 for testing rRNA removal tools
+  - 'rrna_reads_2.fastq.gz': Synthetic 5.8S rRNA paired-end reads (R2), matching R1 file
 - models
   - clair3_hifi.tar.gz: gzipped tar folder containing models needed to run clair3 on Hifi data
 - notebooks
@@ -947,9 +980,11 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'rmarkdown_notebook.Rmd': exemplary R notebook
 - tsv
   - 'test.tsv': exemplary tab-separated file obtained from [here](https://bioinf.shenwei.me/csvtk/usage/#split)
+  - 'ani.tsv': exemplary tab-seperated file describing pairwise similarities from [here](https://github.com/refresh-bio/clusty).
 - txt
   - 'hello.txt': one-line txt file
   - 'taxonomy_ids.txt': contains species names, to be used as input for [goat-cli taxon search tool](https://github.com/genomehubs/goat-cli).
+  - 'ani_ids.txt': list of ids associated with 'tsv/ani.tsv' used as an input for [clusty](https://github.com/refresh-bio/clusty).
 - tar
   - 'hello.tar.gz': gzipped tar archive containing a single file without a directory
 
