@@ -145,6 +145,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - graphtyper: files for testing graphtyper
       - 'regions.txt': chromosome names and positions for MT192765.1 genome
     - PRG_test: zipped directory to build a test Population Reference Graph
+    - nirvana: Reference cache for Nirvana tool obtained from the website
   - gsmr
     - 'sumstats.tsv': GWAS Summary statistics of variants from a subset of chr6, in the GCTA-Cojo format
     - 'sumstats_copy.tsv': A copy of sumstats.tsv file, to be used as an outcome file
