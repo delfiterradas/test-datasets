@@ -169,6 +169,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'test.paired_end.sorted.bam': Paired-end bam file
       - 'test.paired_end.sorted.bam.bai': bam index for the sorted bam file 
       - 'test.paired_end.sorted.bam.csi': csi index for the sorted bam file 
+      - 'test.paired_end.sorted.invalid.sam': Paired-end sam file, invalid per format definition since alignments miss corresponding target in header
       - 'test.paired_end.umi.sorted.bam': Position sorted alignment of 'test.umi_extract\_{1,2}.fastq.gz'
       - 'test.paired_end.umi.sorted.bam.bai': bam index for the sorted bam file
       - 'test.paired_end.umi.sorted.bam.csi': csi index for the sorted bam file
