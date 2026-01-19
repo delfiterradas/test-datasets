@@ -579,6 +579,73 @@ This dataset contains:
 
 This folder contains `AnnotFilterRule.pm` which comes from [The Broad](https://data.broadinstitute.org/Trinity/CTAT_RESOURCE_LIB/AnnotFilterRule.pm) and is used for filtering in `starfusion`. 
 
+### Gens test data
+
+These files are used to test the Gens input preprocessing module. 
+
+The following two are received by running the following WGS processing pipeline: https://github.com/SMD-Bioinformatics-Lund/nextflow_wgs
+
+#### Binned coverage
+
+`data/genomics/homo_sapiens/illumina/gatk/hg002_chr20_90000_to_100000.standardizedCR.tsv`
+
+The relevant pipeline commands. Inputs is an aligned BAM-file, and an interval file specifying 100bp bins. It also requires a GATK format panel of normal.
+
+```
+gatk CollectReadCounts \\
+   -I $bam -L $params.COV_INTERVAL_LIST \\
+   --interval-merging-rule OVERLAPPING_ONLY -O ${bam}.hdf5
+
+gatk --java-options "-Xmx30g" DenoiseReadCounts \\
+   -I ${bam}.hdf5 --count-panel-of-normals ${PON[sex]} \\
+   --standardized-copy-ratios ${id}.standardizedCR.tsv \\
+   --denoised-copy-ratios ${id}.denoisedCR.tsv
+```
+
+This output is then processed to retrieve only chromsome 20 entries in the positions 90,000 - 100,000.
+
+```
+grep -E "^@|^20" hg002.standardizedCR.tsv | awk '$2 >= 90000 && $2 <= 100000' > hg002_chr20_90000_to_100000.standardizedCR.tsv
+```
+
+#### SNV calls (gGVCF)
+
+`data/genomics/homo_sapiens/illumina/vcf/hg002_chr20_90000_to_100000.dnascope.gvcf.gz`
+
+Output from running DNA-scope on the aligned BAM file and then exacting the range 90000 to 100000 from chromosome 20.
+
+DNAscope is a reimplementation and slight improvement on GATK's HaplotypeCaller.
+
+Using masked hg38 as reference. Using base quality calibrated inputs.
+
+```
+sentieon driver \\
+   -r ${params.genome_file} \\
+   -q $bqsr \\
+   -i $bam \\
+   --algo DNAscope --emit_mode GVCF ${id}.dnascope.gvcf.gz
+```
+
+```
+zcat hg002.dnascope.gvcf.gz | grep -E "^#|^20" | awk '/^#/ || ($2 >= 90000 && $2 <= 100000>)' > hg002_chr20_90000_to_100000.dnascope.gvcf
+bgzip hg002_chr20_90000_to_100000.dnascope.gvcf
+tabix hg002_chr20_90000_to_100000.dnascope.gvcf.gz
+```
+
+#### B-allele frequency sampling locations
+
+* data/genomics/homo_sapiens/illumina/tab/gnomad_hg38_chr20_90000_to_100000.0.05.txt.gz
+
+Subset of the file https://github.com/SMD-Bioinformatics-Lund/gens/releases/download/v4.3.0/gnomad_hg38.0.05.txt.gz
+
+It is based on Gnomad (v2), where locations with an ALT allele frequency >= 0.05 is extracted. This file only contains the locations on these calls (i.e. col 1: chrom, col 2: position).
+
+Then the target range is extracted:
+
+```
+zcat gnomad_hg38.0.05.txt.gz | awk '$1 == 20 && ($2 >= 90000 && $2 <= 100000)' | gzip > gnomad_hg38_chr20_90000_to_100000.0.05.txt.gz
+```
+
 ### Missing files
 
 1. Single-end reads
