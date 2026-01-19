@@ -583,9 +583,9 @@ This folder contains `AnnotFilterRule.pm` which comes from [The Broad](https://d
 
 These files are used to test the Gens input preprocessing module. 
 
-The following two are received by running the following WGS processing pipeline: https://github.com/SMD-Bioinformatics-Lund/nextflow_wgs
-
 #### Binned coverage
+
+This file was obtained from the following WGS processing pipeline: [SMD WGS pipeline](https://github.com/SMD-Bioinformatics-Lund/nextflow_wgs).
 
 `data/genomics/homo_sapiens/illumina/gatk/hg002_chr20_90000_to_100000.standardizedCR.tsv`
 
@@ -609,6 +609,8 @@ grep -E "^@|^20" hg002.standardizedCR.tsv | awk '$2 >= 90000 && $2 <= 100000' > 
 ```
 
 #### SNV calls (gGVCF)
+
+This file was obtained from the following WGS processing pipeline: [SMD WGS pipeline](https://github.com/SMD-Bioinformatics-Lund/nextflow_wgs).
 
 `data/genomics/homo_sapiens/illumina/vcf/hg002_chr20_90000_to_100000.dnascope.gvcf.gz`
 
