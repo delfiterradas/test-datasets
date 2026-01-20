@@ -618,7 +618,7 @@ The earth sciences folder contain subfolders for different data formats encounte
   - pacbio:
 
     - bam:
-      - 200080.GRCh38.haplotagged.chrM.downsampled.bam: aligned bam file containing only chrM and downsampled. Original file from [Platinum-Pedigree-Datasets](https://github.com/Platinum-Pedigree-Consortium/Platinum-Pedigree-Datasets)
+      - 200080.GRCh38.haplotagged.chrM.downsampled.bam: aligned and downsampled bam file containing only chrM. Original file from [Platinum-Pedigree-Datasets](https://github.com/Platinum-Pedigree-Consortium/Platinum-Pedigree-Datasets)
       - 200080.GRCh38.haplotagged.chrM.downsampled.bam.bai: index file for 200080.GRCh38.haplotagged.chrM.downsampled.bam
       - alz.bam: raw reads extracted from the [public Alzheimer dataset](https://downloads.pacbcloud.com/public/dataset/IsoSeq_sandbox/2020_Alzheimer8M_subset/alz.1perc.subreads.bam)
       - alz.bam.pbi: pacbio index generated with pbindex
