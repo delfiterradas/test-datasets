@@ -206,6 +206,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'test2\_{1,2}.fastq.gz‘: copies of the above reads
       - 'test.methylated\_{1,2}.fastq.gz' sarscov2 paired-end bisulfite sequencing reads (generated with [Sherman](https://github.com/FelixKrueger/Sherman))
       - test_1_broken.fastq.gz: The six first sequences from `test_1.fastq.gz`, with four broken records to test quality check software
+      - sarscov2_mus-musculus.fastq.gz: This is concatination of sarscov2 `test_1.fastq.gz and mus_musculus `/data/genomics/mus_musculus/illumina/10xgenomics/multiome/SRR18907480_chr19_sub_S1_L001_R1_001.fastq.gz`
     - fastqc
       - `test_fastqc.html` - FastQC HTML output from `test_1.fastq.gz` FASTQ
       - `test_fastqc.zip` - FastQC zip output from `test_1.fastq.gz` FASTQ
