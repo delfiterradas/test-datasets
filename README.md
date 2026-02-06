@@ -834,6 +834,12 @@ The earth sciences folder contain subfolders for different data formats encounte
     - nanopore
        - fastq
         - test.fastg.gz: Öong-read sequencing reads of the genome steptococcus agalactiae.
+  - streptomyces_coelicolor
+    - fixtures_bigslice_gbk.tar.gz: a directory in the required `bigslice` input format. Contains:
+      - dataset_1/NC_003888.3/NC_003888.3.region002.gbk: GenBank file for the first genomic region of NC_003888.3.
+      - dataset_1/NC_003888.3/NC_003888.3.region002.gbk: GenBank file for the second genomic region of NC_003888.3.
+      - taxonomy/dataset_1_taxonomy.tsv: tab-separated file providing taxonomy information for the genomes in the dataset (columns: # Genome folder	Kingdom	Phylum	Class	Order	Family	Genus	Species	Organism).
+      - datasets.tsv: tab-separated file listing datasets, their paths, corresponding taxonomy files, and descriptions (columns: # Dataset name	Path to folder	Path to taxonomy	Description).
 
 
 - eukaryotes
