@@ -847,6 +847,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - samplesheet.csv: sample sheet as used by the nf-core/rnaseq test profile
     - kallisto_results.tar.gz: archive of the kallisto results folder taken from a run of nf-core/rnaseq (a53a004) with the test profile and '--pseudo_aligner kallisto' set,
     - salmon_results.tar.gz: archive of the salmon results folder taken from a run of nf-core/rnaseq (a53a004) with the test profile and '--pseudo_aligner salmon' set,
+    - rsem_results.tar.gz: archive of RSEM quantification results (3 samples: WT_REP2, RAP1_UNINDUCED_REP1, RAP1_IAA_30M_REP1) generated from GSE110004 S. cerevisiae FASTQ data using RSEM with STAR aligner. Each sample subdirectory contains .genes.results and .isoforms.results files.
     - genome_gfp.gtf: merged gtf file taken from a run of nf-core/rnaseq (a53a004) with the test profile and '--pseudo_aligner kallisto' set
   - actinidia_chinensis
     - genome
