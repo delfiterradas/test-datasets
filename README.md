@@ -929,6 +929,7 @@ The earth sciences folder contain subfolders for different data formats encounte
 - hhsuite
   - pfam.tar.gz: An hh-suite formatted mini test database, containing PF00001.26 and PF00002.29 from pfam version 37.4.
 - interproscan
+  - human_skin_metagenome_ips_result.tsv: InterProScan TSV output generated from protein sequences predicted on contigs derived from a human skin metagenome, originally analysed with the MGnify v5 pipeline.
   - interproscan_test.tar.gz: An interproscan formatted mini test database, containing a few entries from the `hamap/2023_05`, `sfld/4` and `tigrfam/15.0` databases.
   - l_arginase.faa: A single protein (`GI|225038609|EFDID|719595|FULL`) that matches a family entry from the `interproscan/hamap` test dataset, the Glutaminase/Asparaginase family (`SFLDS00057`).
 - maxquant
