@@ -577,6 +577,12 @@ The earth sciences folder contain subfolders for different data formats encounte
     - narrowPeak:
       - test.narrowPeak: Genome narrowPeak file obtained using MACS2
       - test2.narrowPeak: Genome narrowPeak file obtained using MACS2, replicate from `test.narrowPeak`
+    - pharmcat:
+      - test.single.sample.vcf.gz: Output generated from the PharmCAT positions VCF after preprocessing into the PharmCAT-specific format.
+      - test.chr22.single.sample.vcf.gz: Output generated from the PharmCAT positions VCF for chr 22 after preprocessing into the PharmCAT-specific format.
+      - test2.single.sample.vcf.gz: Output generated from the PharmCAT positions VCF after preprocessing into the PharmCAT-specific format, including non-reference alleles.
+      - test.outsideCall.tsv: Tab-separated file containing haplotype information derived from external calls and formatted according to PharmCAT specifications.
+      - test.chr22.outsideCall.tsv: Tab-separated file containing haplotype information derived from external calls for chr 22.
     - plink
       - test.rnaseq.bed: Plink binaries obtained using test.rnaseq.vcf with plink tool
       - test.rnaseq.bim: Plink binaries obtained using test.rnaseq.vcf with plink tool
