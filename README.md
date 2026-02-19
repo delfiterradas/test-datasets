@@ -913,6 +913,10 @@ The earth sciences folder contain subfolders for different data formats encounte
 
 ### proteomics
 
+- cif
+  - '1011031.cif': mmCIF file for the atomic structure of carborundum determined by X-Rays (source: project-gemmi)
+  - '2013551.cif': mmCIF file for Magnesium diiodide (source: project-gemmi)
+  - 'hem.cif': mmCIF file for protoporphyrin IX containing FE (source: project-gemmi)
 - database
   - 'yeast_UPS.fasta': FASTA database for Yeast organism.
   - 'yeast_UPS_mini.fasta': Minimal subset (10 sequences) of yeast UPS database for efficient DIA-NN testing.
