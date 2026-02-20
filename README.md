@@ -40,7 +40,6 @@ Additionally there is a special subfolder for metagenome related files
   - rgi
   - taxonomy
 
-The `fasta` directory contains metagenomic sequence data, the `rgi` folder contains Resistance Gene Identifier data from the CARD database (May 2025 release, see https://card.mcmaster.ca/download for details), and the `taxonomy` directory contains metadata for taxonomic classifier (TaxIDs, etc).
 
 All folders are structured in a similar way, with any genome-specific files in `genome` (e.g. fasta, gtf, ...) and technology specific raw-data files in the `10xgenomics`, `illumina`, `nanopore`, `pacbio`, `hic` and `cooler` subfolders whenever available.
 `Genomics` contains all typical data required for genomics modules, such as fasta, fastq and bam files. Every folder in `genomics` corresponds to a single organism. For every data file, a short description about how this file was generated is available either in this description or in the respective subfolder.
@@ -299,6 +298,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'prot_nodes.dmp': sars-cov-2 dmp node file used for associated protein with tax ID (tested with DIAMOND). Subset from NCBI taxdmp nodes.dmp.
     - 'prot.accession2taxid.gz': sars-cov-2 ORF1ab polyprotein accession ID to tax id file, to match sars-cov-2 proteome.fasta
     - 'prot_seqid2taxid.map': taxonomy mapping file of the SARS-CoV2 proteome accession ID to the NCBI taxonomy ID
+    - 'card-data.tar.bz2': Resistance Gene Identifier data from the CARD database (May 2025 release, see https://card.mcmaster.ca/download for details)
 
 - homo_sapiens
 
