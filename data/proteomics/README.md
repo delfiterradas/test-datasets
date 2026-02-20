@@ -6,6 +6,7 @@
 - [database](#database)
 - [diann](#diann)
 - [hhsuite](#hhsuite)
+- [interproscan](#interproscan)
 - [maxquant](#maxquant)
 - [msspectra](#msspectra)
 - [parameter](#parameter)
@@ -38,6 +39,11 @@ Such databases usually consist of the following six files, inside a folder, whic
 <dbname>_hhm.ffindex    index file for packed HHM file
 ```
 More information regarding HH-suite format databases can be found [here](https://github.com/soedinglab/hh-suite/wiki#hh-suite-databases).
+
+## interproscan
+
+The `interproscan` folder contains example InterProScan protein file inputs, test databases, and output files.
+InterProScan integrates multiple protein signature databases (e.g. Pfam, TIGRFAMs, Gene3D, SMART, CDD) to provide functional annotation of protein sequences. 
 
 ## maxquant
 
