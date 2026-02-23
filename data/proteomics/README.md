@@ -17,7 +17,7 @@
 This folder contains test datasets for electrostatics calculations performed using `APBS` and structures prepared with `PDB2PQR`.
 The `.pqr` files contain atomic charges and radii required for continuum electrostatics calculations.
 The `APBS` input file (`.in`) defines the physical parameters for solving the Poisson–Boltzmann equation.
-These files are intended for testing modules related to:
+Test data files were sourced directly from the `apbs` [repository](https://github.com/Electrostatics/apbs/tree/main/examples/solv). These files are intended for testing modules related to:
 - Electrostatics calculations
 - Solvation energy estimation
 - Protein–ligand electrostatic analysis
