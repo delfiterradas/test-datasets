@@ -28,6 +28,7 @@ elec name methanol-solv
     temp 300.00
     calcenergy total
     calcforce no            
+    write pot dx pot1
 end
 
 # METHANOL SOLVATION ENERGY -- REFERENCE STATE
@@ -51,6 +52,7 @@ elec name methanol-ref
     temp 300.00
     calcenergy total
     calcforce no
+    write pot dx pot2
 end
 
 # METHOXIDE SOLVATION ENERGY -- SOLVATED STATE
@@ -74,6 +76,7 @@ elec name methoxide-solv
     temp 300.00
     calcenergy total
     calcforce no
+    write pot dx pot3
 end
 
 # METHOXIDE SOLVATION ENERGY -- REFERENCE STATE
@@ -97,7 +100,7 @@ elec name methoxide-ref
     temp 300.00
     calcenergy total
     calcforce no
-    write pot dx pot
+    write pot dx pot4
 end
 
 # Methanol solvation energy
