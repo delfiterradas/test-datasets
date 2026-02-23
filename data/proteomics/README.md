@@ -2,6 +2,7 @@
 
 ## Table of contents
 
+- [apbs](#apbs)
 - [cif](#cif)
 - [database](#database)
 - [diann](#diann)
@@ -11,6 +12,16 @@
 - [msspectra](#msspectra)
 - [parameter](#parameter)
 - [pdb](#pdb)
+
+## apbs
+This folder contains test datasets for electrostatics calculations performed using `APBS` and structures prepared with `PDB2PQR`.
+The `.pqr` files contain atomic charges and radii required for continuum electrostatics calculations.
+The `APBS` input file (`.in`) defines the physical parameters for solving the Poisson–Boltzmann equation.
+Test data files were sourced directly from the `apbs` [repository](https://github.com/Electrostatics/apbs/tree/main/examples/solv). These files are intended for testing modules related to:
+- Electrostatics calculations
+- Solvation energy estimation
+- Protein–ligand electrostatic analysis
+- Structural validation workflows involving electrostatic potentials
 
 ## cif
 The cif folder contains protein structure files in mmCIF (.cif) format.
