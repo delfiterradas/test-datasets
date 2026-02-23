@@ -913,6 +913,10 @@ The earth sciences folder contain subfolders for different data formats encounte
 
 ### proteomics
 
+- apbs
+  - 'apbs-mol.in': APBS input file defining a single-molecule electrostatics calculation.
+  - 'methanol.pqr': PQR-format structure of methanol with atomic charges and radii, used in `apbs-mol.in`.
+  - 'methoxide.pqr': PQR-format structure of methoxide anion with atomic charges and radii, used in `apbs-mol.in`.
 - cif
   - '1011031.cif': mmCIF file for the atomic structure of carborundum determined by X-Rays (source: project-gemmi)
   - '2013551.cif': mmCIF file for Magnesium diiodide (source: project-gemmi)
