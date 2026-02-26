@@ -228,7 +228,7 @@ unzip ${ASCAT_PATH}G1000_loci_WGS_hg38.zip G1000_loci_hg38_chr22.txt -d ${ASCAT_
 for i in 21 22; do
    cp ${ASCAT_PATH}G1000_loci_hg38_chr${i}.txt ${ASCAT_PATH}G1000_loci_hg38_${i}.txt
    sed -i 's/^/chr/' ${ASCAT_PATH}G1000_loci_hg38_chr${i}.txt
-done 
+done
 
 wget https://zenodo.org/records/14008443/files/G1000_alleles_WGS_hg38.zip -O ${ASCAT_PATH}G1000_alleles_WGS_hg38.zip
 unzip ${ASCAT_PATH}G1000_alleles_WGS_hg38.zip G1000_alleles_hg38_chr21.txt -d ${ASCAT_PATH}
@@ -546,6 +546,10 @@ The mini dataset was generated from the public pacbio dataset [pbmc singlecell m
 samtools view --subsample 0.01 --subsample-seed 42 -b output.5p--3p.bam > mini.5p--3p.bam
 ```
 
+#### yaml
+
+Contains a rules file for the paraphrase module.
+
 ### Scramble test dataset
 
 This folder contains test data containing soft-clipped clusters. The data was fetched from the official [repository](https://github.com/GeneDx/scramble/tree/master/validation) of the tool
@@ -577,11 +581,11 @@ This dataset contains:
 
 ### RNASeq data
 
-This folder contains `AnnotFilterRule.pm` which comes from [The Broad](https://data.broadinstitute.org/Trinity/CTAT_RESOURCE_LIB/AnnotFilterRule.pm) and is used for filtering in `starfusion`. 
+This folder contains `AnnotFilterRule.pm` which comes from [The Broad](https://data.broadinstitute.org/Trinity/CTAT_RESOURCE_LIB/AnnotFilterRule.pm) and is used for filtering in `starfusion`.
 
 ### Gens test data
 
-These files are used to test the Gens input preprocessing module. 
+These files are used to test the Gens input preprocessing module.
 
 #### Binned coverage
 
