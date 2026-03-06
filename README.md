@@ -574,6 +574,9 @@ The earth sciences folder contain subfolders for different data formats encounte
       - test{,2}.genome.vcf.idx: Index feature file based on `test{,2}.genome.vcf` file
     - interop_bcl2fastqstats:
       - test_flowcell_stats.tar.gz: Minimal flowcell with Interop files and bcl2fastq statistics files (no bcl files)
+    - mitosalt:
+      - test_mitosalt.breakpoint: Mitochondrial deletion breakpoint file created by mitosalt
+      - test_mitosalt.cluster: Mitochondrial deletion cluster file created by mitosalt
     - mpileup:
       - test.mpileup.gz: Pileup file correspongind to `test_paired_end_recalibrated_sorted_bam` (normal) generate with `samtools mpileup`
       - test2.mpileup.gz: Pileup file correspongind to `test2_paired_end_recalibrated_sorted_bam` (tumor) generate with `samtools mpileup`
