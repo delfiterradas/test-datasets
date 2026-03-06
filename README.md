@@ -405,6 +405,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - genomeGRCh38_chr21_22.fa.gz.gzi: index file for 'genomeGRCh38_chr21_22.fa.gz'
     - genome_motifs.txt: TF motifs used for cellranger-atac
     - genome.NC_012920_1.gb: Contains mtDNA reference genome in Genbank format
+    - human_mt_rCRS.fasta: Reference fasta for mitochondrial genome based on Cambridge Reference Sequence
     - transcriptome.fasta: Reference transcriptome based on `genome.fasta`
     - gff3: Encode GFF3 file downsampled based on reference position
     - gtf: Encode GTF file downsampled based on reference position, `genome_minimal.gtf` is a minimal version containing only the standard fields
@@ -573,6 +574,9 @@ The earth sciences folder contain subfolders for different data formats encounte
       - test{,2}.genome.vcf.idx: Index feature file based on `test{,2}.genome.vcf` file
     - interop_bcl2fastqstats:
       - test_flowcell_stats.tar.gz: Minimal flowcell with Interop files and bcl2fastq statistics files (no bcl files)
+    - mitosalt:
+      - test_mitosalt.breakpoint: Mitochondrial deletion breakpoint file created by mitosalt
+      - test_mitosalt.cluster: Mitochondrial deletion cluster file created by mitosalt
     - mpileup:
       - test.mpileup.gz: Pileup file correspongind to `test_paired_end_recalibrated_sorted_bam` (normal) generate with `samtools mpileup`
       - test2.mpileup.gz: Pileup file correspongind to `test2_paired_end_recalibrated_sorted_bam` (tumor) generate with `samtools mpileup`
