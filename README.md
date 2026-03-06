@@ -405,6 +405,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - genomeGRCh38_chr21_22.fa.gz.gzi: index file for 'genomeGRCh38_chr21_22.fa.gz'
     - genome_motifs.txt: TF motifs used for cellranger-atac
     - genome.NC_012920_1.gb: Contains mtDNA reference genome in Genbank format
+    - human_mt_rCRS.fasta: Reference fasta for mitochondrial genome based on Cambridge Reference Sequence
     - transcriptome.fasta: Reference transcriptome based on `genome.fasta`
     - gff3: Encode GFF3 file downsampled based on reference position
     - gtf: Encode GTF file downsampled based on reference position, `genome_minimal.gtf` is a minimal version containing only the standard fields
