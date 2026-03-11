@@ -893,7 +893,10 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'seatoxin-ref.fa': fasta file with toxine sequences (very short protein sequences, useful for testing)
     - 'seatoxin-ref.aln': multiple sequence alignment of toxine sequences. Generated with magus/align
     - 'seatoxin-ref.dnd': guide tree of toxine sequences. Generated with famsa/guidetree
-
+  - limulus_polyphemus
+    - radseq
+      - bwa_output/msp_[0..9].bam : bam files from bwa-mem2 (v2.2.1) alignments of [nf-core/radseq test data](https://github.com/nf-core/test-datasets/tree/radseq). Simulated rad-seq fastqs were aligned to chr 26 of _Limulus polyphemus_ (atlantic horseshoe crab).   
+      - popmap.tsv : manually created popmap of the bwa aligments with arbitrary two population definition (V1 and V2)
 
 
 ### imaging
