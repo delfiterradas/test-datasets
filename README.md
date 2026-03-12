@@ -690,6 +690,8 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 1000GP.chr*.sites.vcf.gz: Variants informations present in 1000GP.chr*.vcf.gz obtain with `bcftools view -G -m 2 -M 2`
     - 1000GP.chr*.posfile: Variants position in tabulated format without header: chr, position, ref, alt
     - 1000GP.chr*.chunks.txt: chunks of the chromosome obtain with GLIMPSE_chunk
+    - AFR.gwas: Study locus file. From [SuShiE](https://github.com/mancusolab/sushie).
+    - AFR.ld: LD matrix file. From [SuShiE](https://github.com/mancusolab/sushie).
   - svsig:
 
     - NA03697B2_new.pbmm2.repeats.svsig.gz: structural variant file for NA03697B2_new.pbmm2.repeats.bam, created with PBSV discover version (2.9.0 default settings)
