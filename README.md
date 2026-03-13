@@ -1020,7 +1020,8 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'rrna_reads_1.fastq.gz': Synthetic 5.8S rRNA paired-end reads (R1), 10 reads from rfam-5.8s-database-id98 for testing rRNA removal tools
   - 'rrna_reads_2.fastq.gz': Synthetic 5.8S rRNA paired-end reads (R2), matching R1 file
 - models
-  - clair3_hifi.tar.gz: gzipped tar folder containing models needed to run clair3 on Hifi data
+  - clair3_hifi.tar.gz: gzipped tar folder containing TensorFlow models needed to run clair3 on Hifi data
+  - clair3_v2.hifi.tar.gz: gzipped tar folder containing PyTorch models needed to run clair3 V2 on Hifi data
 - notebooks
   - jupyter
     - 'ipython_notebook.ipynb': exemplary jupyter notebook
