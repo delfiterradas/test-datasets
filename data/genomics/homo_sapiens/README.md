@@ -652,6 +652,10 @@ Then the target range is extracted:
 zcat gnomad_hg38.0.05.txt.gz | awk '$1 == 20 && ($2 >= 90000 && $2 <= 100000)' | gzip > gnomad_hg38_chr20_90000_to_100000.0.05.txt.gz
 ```
 
+### cooler test dataset
+
+TCR data was downloaded from [vdjdb](https://vdjdb.com/) on March 12th 2026. 
+
 ### Missing files
 
 1. Single-end reads
