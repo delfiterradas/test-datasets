@@ -692,6 +692,14 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 1000GP.chr*.chunks.txt: chunks of the chromosome obtain with GLIMPSE_chunk
     - AFR.gwas: Study locus file. From [SuShiE](https://github.com/mancusolab/sushie).
     - AFR.ld: LD matrix file. From [SuShiE](https://github.com/mancusolab/sushie).
+    - hdl/reference/chr1.1_toy.bim: toy HDL LD reference BIM sidecar for chunk 1.1
+    - hdl/reference/chr1.1_toy.rda: toy HDL LD reference payload for chunk 1.1
+    - hdl/reference/chr1.2_toy.bim: toy HDL LD reference BIM sidecar for chunk 1.2
+    - hdl/reference/chr1.2_toy.rda: toy HDL LD reference payload for chunk 1.2
+    - hdl/reference/toy_snp_counter.RData: toy HDL SNP count metadata
+    - hdl/reference/toy_snp_list.RData: toy HDL SNP list metadata
+    - hdl/sumstats/trait1_canonical.tsv: canonical HDL summary statistics for trait 1
+    - hdl/sumstats/trait2_canonical.tsv: canonical HDL summary statistics for trait 2
   - svsig:
 
     - NA03697B2_new.pbmm2.repeats.svsig.gz: structural variant file for NA03697B2_new.pbmm2.repeats.bam, created with PBSV discover version (2.9.0 default settings)
