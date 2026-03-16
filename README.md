@@ -680,11 +680,16 @@ The earth sciences folder contain subfolders for different data formats encounte
     - plink_simulated.bed: case-control simulated variants dataset in PLINK binary format
     - plink_simulated.fam: case-control simulated variants dataset in PLINK binary format
     - plink_simulated.bim: case-control simulated variants dataset in PLINK binary format
+    - plink_simulated.phe: case-control phenotype file for plink_simulated in 1/2 coding
     - plink_simulated.vcf.gz: case-control simulated variants dataset in compressed VCF format
     - plink_simulated.bcf.gz: case-control simulated variants dataset in compressed BCF format
     - plink_simulated.pgen: case-control simulated variants dataset in PLINK 2 binary format
     - plink_simulated.psam: case-control simulated variants dataset in PLINK 2 binary format
     - plink_simulated.pvar: case-control simulated variants dataset in PLINK 2 binary format
+    - plink_simulated_phenoname.phe: case-control phenotype file for plink_simulated with named Phenotype column in 1/2 coding
+    - plink_simulated_quantitative_phenoname.phe: quantitative phenotype file for plink_simulated
+    - plink_simulated_binary_phenoname.phe: binary phenotype file for plink_simulated in 1/0 coding
+    - plink_simulated_covariates.txt: covariates file for plink_simulated
     - 1000GP.chr*.vcf.gz: Reference panel phased VCF of the 1000 Genome Project in various format to be used for imputation for chr21 and 22 between position 16570000-16610000 with index.
     - 1000GP.chr*.hap/legend/samples.gz: Same as 1000GP.chr*.vcf.gz but converted to hap/legend/samples format with bcftools
     - 1000GP.chr*.sites.vcf.gz: Variants informations present in 1000GP.chr*.vcf.gz obtain with `bcftools view -G -m 2 -M 2`
