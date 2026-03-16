@@ -41,13 +41,18 @@ And to convert them to PLINK 2 binary the following command has been used
 plink2 --bfile plink_simulated --make-pgen --out plink_simulated
 ```
 
-## Phenotype sidecars
+## Phenotype files
 
-The `plink_simulated_phenoname.phe`, `plink_simulated_quantitative_phenoname.phe`,
-`plink_simulated_binary_phenoname.phe` and `plink_simulated_covariates.txt` files have been
-generated from `plink_simulated.fam` with the following commands
+The `plink_simulated.phe`, `plink_simulated_phenoname.phe`,
+`plink_simulated_quantitative_phenoname.phe`, `plink_simulated_binary_phenoname.phe` and
+`plink_simulated_covariates.txt` files can be generated from `plink_simulated.fam` with the
+following commands. The `*_phenoname.phe` files use named phenotype columns: `Phenotype`,
+`QuantitativeTrait` and `BinaryTrait`.
 
 ```bash
+awk '{ print $1,$2,$6 }' \
+    plink_simulated.fam > plink_simulated.phe
+
 awk 'BEGIN { print "FID IID IID_father IID_mother Sex Phenotype" } { print $1,$2,$3,$4,$5,$6 }' \
     plink_simulated.fam > plink_simulated_phenoname.phe
 
