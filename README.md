@@ -840,6 +840,9 @@ The earth sciences folder contain subfolders for different data formats encounte
             - names.dmp: Taxonomy names
             - nodes.dmp: Taxonomy nodes with associated information
             - readme.txt: Description of included files and table fields
+  - plasmids
+    - pUTI89
+      - `pUTI89.fna.gz`: Escherichia coli UTI89 plasmid pUTI89 sequence from NCBI accession `NC_007941.1` (downloaded via NCBI E-utilities efetch).
   - streptococcus_agalactiae
     - genome
       - emu
