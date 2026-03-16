@@ -48,16 +48,16 @@ The `plink_simulated_phenoname.phe`, `plink_simulated_quantitative_phenoname.phe
 generated from `plink_simulated.fam` with the following commands
 
 ```bash
-awk 'BEGIN { OFS="\t"; print "FID","IID","IID_father","IID_mother","Sex","Phenotype" } { print $1,$2,$3,$4,$5,$6 }' \
+awk 'BEGIN { print "FID IID IID_father IID_mother Sex Phenotype" } { print $1,$2,$3,$4,$5,$6 }' \
     plink_simulated.fam > plink_simulated_phenoname.phe
 
-awk 'BEGIN { OFS="\t"; print "FID","IID","QuantitativeTrait" } { i=NR-1; qt=(10*((i%23)-11) + 7*((i%5)-2)) / 27.0; printf "%s\t%s\t%.6f\n", $1,$2,qt }' \
+awk 'BEGIN { print "FID IID QuantitativeTrait" } { i=NR-1; qt=(10*((i%23)-11) + 7*((i%5)-2)) / 27.0; printf "%s %s %.6f\n", $1,$2,qt }' \
     plink_simulated.fam > plink_simulated_quantitative_phenoname.phe
 
-awk 'BEGIN { OFS="\t"; print "FID","IID","BinaryTrait" } { i=NR-1; y=(i%7==0 || i%7==1 || i%7==3) ? 1 : 0; print $1,$2,y }' \
+awk 'BEGIN { print "FID IID BinaryTrait" } { i=NR-1; y=(i%7==0 || i%7==1 || i%7==3) ? 1 : 0; printf "%s %s %d\n", $1,$2,y }' \
     plink_simulated.fam > plink_simulated_binary_phenoname.phe
 
-awk 'BEGIN { OFS="\t"; print "FID","IID","Sex","Age","PC1","PC2" } { i=NR-1; sex=(i%2)+1; age=40+(i%35); pc1=((i%17)-8)/3.0; pc2=(((7*i)%19)-9)/4.0; printf "%s\t%s\t%d\t%d\t%.6f\t%.6f\n", $1,$2,sex,age,pc1,pc2 }' \
+awk 'BEGIN { print "FID IID Sex Age PC1 PC2" } { i=NR-1; sex=(i%2)+1; age=40+(i%35); pc1=((i%17)-8)/3.0; pc2=(((7*i)%19)-9)/4.0; printf "%s %s %d %d %.6f %.6f\n", $1,$2,sex,age,pc1,pc2 }' \
     plink_simulated.fam > plink_simulated_covariates.txt
 ```
 
