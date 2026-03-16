@@ -900,6 +900,9 @@ The earth sciences folder contain subfolders for different data formats encounte
       - bwa_output/msp_[0..9].bam : bam files from bwa-mem2 (v2.2.1) alignments of [nf-core/radseq test data](https://github.com/nf-core/test-datasets/tree/radseq). Simulated rad-seq fastqs were aligned to chr 26 of _Limulus polyphemus_ (atlantic horseshoe crab).   
       - popmap.tsv : manually created popmap of the bwa aligments with arbitrary two population definition (V1 and V2)
 
+  - limulus_polyphemus
+    - macse
+      - Raphidioptera_BOLD_COI_final_align_NT.aln : aln files from Raphidioptera alignments of [macse](https://www.agap-ge2pop.org/wp-content/uploads/macse/data/Ref_ali_files/Raphidioptera_BOLD_COI_final_align_NT.aln). 
 
 ### imaging
 - staging
