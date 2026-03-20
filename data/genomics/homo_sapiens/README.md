@@ -190,11 +190,11 @@ wget --no-check-certificate https://bochet.gcc.biostat.washington.edu/beagle/gen
 for chr in 21 22; do
    # Eagle / hapmap format
    zcat ${MAP_GRCH38}.eagle.map.gz \
-   | awk -v CHR="$chr" 'BEGIN {OFS="\t"} NR==1 {print; next} $1 == CHR {print $1,$2,$3,$4}' \
+   | awk -v CHR="$chr" 'BEGIN {OFS=" "} NR==1 {print; next} $1 == CHR {print $1,$2,$3,$4}' \
    > ${MAP_GRCH38}.${chr}.eagle.map
 
    # Stitch or quilt format
-   wget https://ftp.ncbi.nlm.nih.gov/hapmap/recombination/latest/rates/genetic_map_chr21_b36.txt -O ${MAP_GRCH38}.chr${chr}.stitch.map
+   wget https://ftp.ncbi.nlm.nih.gov/hapmap/recombination/latest/rates/genetic_map_chr${chr}_b36.txt -O ${MAP_GRCH38}.chr${chr}.stitch.map
 
    # Plink / bealge5 format
    unzip -p ${MAP_GRCH38}.plink.map.zip chr_in_chrom_field/plink.chrchr${chr}.GRCh38.map > ${MAP_GRCH38}.chr${chr}.plink.map
