@@ -10,7 +10,7 @@ if (length(script_path) != 1 || script_path == "") {
 
 script_dir <- dirname(normalizePath(script_path))
 reference_dir <- file.path(script_dir, "reference")
-sumstats_dir <- file.path(script_dir, "sumstats")
+sumstats_dir <- file.path(script_dir, "..", "sumstats")
 
 dir.create(reference_dir, recursive = TRUE, showWarnings = FALSE)
 dir.create(sumstats_dir, recursive = TRUE, showWarnings = FALSE)

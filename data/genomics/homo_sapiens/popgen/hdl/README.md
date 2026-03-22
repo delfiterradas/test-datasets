@@ -8,7 +8,7 @@ scientific LD reference panel or redistributed upstream reference bundle.
 ## Layout
 
 - `reference/`: toy HDL LD reference chunks and metadata sidecars
-- `sumstats/`: canonical toy summary-statistics tables aligned to the toy SNPs
+- `../sumstats/`: canonical toy summary-statistics tables aligned to the toy SNPs
 
 ## Regeneration
 
@@ -37,5 +37,5 @@ synthetic constants in this directory.
   counts.
 - `reference/toy_snp_list.RData` contains `snps.list.imputed.vector`, the four
   synthetic SNP IDs shared by the toy fixtures.
-- `sumstats/trait1_canonical.tsv` and `sumstats/trait2_canonical.tsv` are tiny
-  canonical summary-statistics tables keyed to those synthetic SNP IDs.
+- `../sumstats/trait1_canonical.tsv` and `../sumstats/trait2_canonical.tsv` are
+  tiny canonical summary-statistics tables keyed to those synthetic SNP IDs.
