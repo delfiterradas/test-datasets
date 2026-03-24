@@ -631,6 +631,9 @@ The earth sciences folder contain subfolders for different data formats encounte
       - test2.sorted.bam.bai: Index for test2.sorted.bam
       - test.sorted.phased.bam: Haplotagged version of test.sorted.bam
       - test.sorted.phased.bam.bai: Index for test.sorted.phased.bam
+      - HG002_ont_telomere
+        - HG002_ont_tel_sub.bam: 17 ONT telomeric reads from [GIAB HG002 2025.01 release](https://ont-open-data.s3.amazonaws.com/giab_2025.01/basecalling/sup/HG002/PAW70337/calls.sorted.bam) (SUP basecalling, R10.4.1). Regions: last 10 kb of chr1 and chr2, downsampled with `samtools view -s 42.12`.
+        - HG002_ont_tel_sub.bam.bai: Index for HG002_ont_tel_sub.bam
   - pacbio:
 
     - bam:
