@@ -32,6 +32,7 @@ The genomics folder contains subfolders for all organisms for which test data is
 - sarscov2
 - saccharomyces_cerevisiae
 - streptococcus_agalactiae
+- influenza_a_virus
 
 Additionally there is a special subfolder for metagenome related files
 
@@ -916,6 +917,11 @@ The earth sciences folder contain subfolders for different data formats encounte
   - limulus_polyphemus
     - macse
       - Raphidioptera_BOLD_COI_final_align_NT.aln : aln files from Raphidioptera alignments of [macse](https://www.agap-ge2pop.org/wp-content/uploads/macse/data/Ref_ali_files/Raphidioptera_BOLD_COI_final_align_NT.aln). 
+
+- virus
+  - influenza
+    - fasta
+      - 'test-genome-A1.fasta': Complete HPAI H5N1 clade 2.3.4.4b genome with all eight segments (PB2, PB1, PA, HA, NP, NA, MP, NS). Expected GenoFLU genotype: A1 (fully Eurasian). Source: https://github.com/USDA-VS/GenoFLU/tree/main/test 
 
 ### imaging
 - staging
