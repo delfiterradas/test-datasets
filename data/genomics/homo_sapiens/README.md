@@ -656,6 +656,10 @@ zcat gnomad_hg38.0.05.txt.gz | awk '$1 == 20 && ($2 >= 90000 && $2 <= 100000)' |
 
 TCR data was downloaded from [vdjdb](https://vdjdb.com/) on March 12th 2026. 
 
+### anarcii test dataset
+
+Stitchr was run on a subsample of the stitchr test dataset. The results were transformed into a fasta file with one entry per chain. 
+
 ### Missing files
 
 1. Single-end reads
