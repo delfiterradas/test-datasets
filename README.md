@@ -961,6 +961,7 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'yeast_UPS.fasta': FASTA database for Yeast organism.
   - 'yeast_UPS_mini.fasta': Minimal subset (10 sequences) of yeast UPS database for efficient DIA-NN testing.
   - 'UP000005640_9606.fasta': Human proteome (Swissprot)
+  - 'protein_mini_with_cazymes.faa': Small FASTA dataset (16 sequences) with mixed CAZyme and non-CAZyme proteins for general testing.
 - diann
   - 'RD139_Narrow_UPS1_0_1fmol_inj1.mzML.tar.gz': Compressed mzML file containing DIA mass spectrometry data (66 MB). Subset of scans 0-1453 from original PRIDE dataset, covering E. coli proteins spiked with UPS1 standard.
   - 'REF_EColi_K12_UPS1_combined_subset_100.fasta': E. coli K-12 proteome subset (100 proteins, 55 KB) for DIA-NN testing.

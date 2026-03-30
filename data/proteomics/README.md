@@ -29,8 +29,10 @@ The macromolecular Crystallographic Information File (mmCIF) format is a standar
 mmCIF files typically contain atomic coordinates, chain and residue information, experimental metadata (e.g. method, resolution) and, structure annotations and cross-references.
 
 ## database
-'UP000005640_9606.fasta' is the reviewed human proteome of the [SWISS-PROT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC102476/) and was downloaded from UniProt.
-'yeast_UPS_mini.fasta' is a minimal subset of the yeast UPS (Universal Proteomics Standard) dataset containing 10 protein sequences, created for efficient testing of DIA-NN spectral library generation.
+- 'UP000005640_9606.fasta' is the reviewed human proteome of the [SWISS-PROT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC102476/) and was downloaded from UniProt.
+- 'yeast_UPS_mini.fasta' is a minimal subset of the yeast UPS (Universal Proteomics Standard) dataset containing 10 protein sequences, created for efficient testing of DIA-NN spectral library generation.
+- 'protein_mini_with_cazymes.faa' is a small FASTA dataset containing 16 protein sequences, including a mix of carbohydrate-active enzymes (CAZymes) and non-CAZyme proteins. 
+The sequences were derived from the [CAALM](https://github.com/lczong/CAALM) (Carbohydrate Activity Annotation with protein Language Models) example dataset.
 
 ## diann
 'diann_config.cfg' is a minimal DIA-NN configuration file containing basic parameters for in silico spectral library generation, including trypsin cleavage rules, peptide length constraints, and mass range settings.
@@ -79,8 +81,8 @@ write.table(out_df, file = 'proteus.raw_MaxQuant_proteingroups_tab.tsv', row.nam
 '''
 
 ## msspectra
-'PXD012083_e005640_II.raw' is a Thermo Fisher RAW file downloaded from [PRIDE](https://www.ebi.ac.uk/pride/) using the project ID PXD012083.
-'peakpicker_tutorial_1.mzML' is a mass spectrum file in the open mzML format. The file got retrieved from the [OpenMS](https://github.com/OpenMS/OpenMS) test data on GitHub
+- 'PXD012083_e005640_II.raw' is a Thermo Fisher RAW file downloaded from [PRIDE](https://www.ebi.ac.uk/pride/) using the project ID PXD012083.
+- 'peakpicker_tutorial_1.mzML' is a mass spectrum file in the open mzML format. The file got retrieved from the [OpenMS](https://github.com/OpenMS/OpenMS) test data on GitHub
 
 ## parameter
 
