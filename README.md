@@ -356,6 +356,7 @@ The earth sciences folder contain subfolders for different data formats encounte
         - .cnn: copy number reference file for chr_21
         - .snp: Eigenstrat snp file of 1240k snps on chr 21
         - dbsnp_138.hg38.first_10_biallelic_sites.tsv: first 10 biallelic snp positions and alleles for use with the stitch module.
+        - GRCh38_GENCODE_rmsk_TE_chr21.gtf - repeatmasker annotation for human chr21 with additional transposable element information
       - germlineresources: directory containing several germline resource vcfs and tbis, including:
         - 1000G_omni2.5
         - 1000G_phase1.snps
