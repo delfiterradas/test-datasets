@@ -1002,8 +1002,8 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'HepG2_rep1_small.idXML': Identification file in idXML format
   - 'HepG2_rep2_small.idXML': Identification file in idXML format
 - parameter
-  - 'comet.params': Default Comet params file (high-high setting, parameters will be adjusted accordingly during call of Comet module)
   - 'mqpar.xml': MaxQuant parameter file
+  - 'OVEMB150205.comet.params': Comet params file for the OVEMB150205.* raw and mzML files (database and CPUs will be set accordingly during call of Comet module)
   - 'sage_base_config.json': Sage parameter file
 - pdb
   - 1tim.pdb: Triose phosphate isomerase, through X-ray diffraction (Chicken muscle - Engineered)
