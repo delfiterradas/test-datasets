@@ -994,7 +994,7 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'proteus.raw_MaxQuant_proteingroups_tab.tsv': Abundance matrix produced from this dataset with the Proteus R package.
 - msspectra
   - 'OVEMB150205_12.raw': Thermo RAW mass spectra file.
-  - 'OVEMB150205_12.mzML': mzML conversion of Thermo RAW file.
+  - 'OVEMB150205_12.mzML': mzML conversion of Thermo RAW file using Thermorawfileparser (peak-picked and compressed, for identification testings).
   - 'OVEMB150205_14.raw': Thermo RAW mass spectra file.
   - 'PXD012083_e005640_II.raw': Thermo RAW mass spectra file from PXD012083 study
   - 'peakpicker_tutorial_1.mzML': Profile mass spectra file
@@ -1002,7 +1002,7 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'HepG2_rep1_small.idXML': Identification file in idXML format
   - 'HepG2_rep2_small.idXML': Identification file in idXML format
 - parameter
-  - 'comet.params': Comet params file (high-high setting)
+  - 'comet.params': Default Comet params file (high-high setting, parameters will be adjusted accordingly during call of Comet module)
   - 'mqpar.xml': MaxQuant parameter file
   - 'sage_base_config.json': Sage parameter file
 - pdb
