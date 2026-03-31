@@ -993,9 +993,9 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'MaxQuant_samplesheet.tsv': Samplesheet for the MaxQuant test dataset.
   - 'proteus.raw_MaxQuant_proteingroups_tab.tsv': Abundance matrix produced from this dataset with the Proteus R package.
 - msspectra
-  - 'OVEMB150205_12.raw': Thermo RAW mass spectra file.
+  - 'OVEMB150205_12.raw': Thermo RAW mass spectra file (4 minute gradient of 5 fmol UPS1 5 measured on anLTQ Orbitrap Velos, originally from Proline test datasets).
   - 'OVEMB150205_12.mzML': mzML conversion of Thermo RAW file using Thermorawfileparser (peak-picked and compressed, for identification testings).
-  - 'OVEMB150205_14.raw': Thermo RAW mass spectra file.
+  - 'OVEMB150205_14.raw': Thermo RAW mass spectra file (4 minute gradient of 5 fmol UPS1 5 measured on anLTQ Orbitrap Velos, originally from Proline test datasets).
   - 'PXD012083_e005640_II.raw': Thermo RAW mass spectra file from PXD012083 study
   - 'peakpicker_tutorial_1.mzML': Profile mass spectra file
 - openms
