@@ -134,6 +134,8 @@ The folder is structured in the following way: Any nonspecific-pangenome file is
     - bcl
       - '200624_A00834_0183_BHMTFYDRXX.tar.gz': NovaSeq 6000 flowcell. Only the first tile of the first lane has been kept to reduce the size of the dataset
       - 'SampleSheet.csv': The corresponding samplesheet.
+    - bed
+      - 'test.bed'
     - bedgraph
       - 'test.bedgraph'
     - bigwig
