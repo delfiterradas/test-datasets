@@ -190,6 +190,8 @@ The earth sciences folder contain subfolders for different data formats encounte
     - bcl
       - '200624_A00834_0183_BHMTFYDRXX.tar.gz': NovaSeq 6000 flowcell. Only the first tile of the first lane has been kept to reduce the size of the dataset
       - 'SampleSheet.csv': The corresponding samplesheet.
+    - bed
+      - 'test.bed': bed file containing 2 regions on MT chr
     - bedgraph
       - 'test.bedgraph'
     - bigwig
