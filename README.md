@@ -640,6 +640,10 @@ The earth sciences folder contain subfolders for different data formats encounte
       - HG002_ont_telomere
         - HG002_ont_tel_sub.bam: 17 ONT telomeric reads from [GIAB HG002 2025.01 release](https://ont-open-data.s3.amazonaws.com/giab_2025.01/basecalling/sup/HG002/PAW70337/calls.sorted.bam) (SUP basecalling, R10.4.1). Regions: last 10 kb of chr1 and chr2, downsampled with `samtools view -s 42.12`.
         - HG002_ont_tel_sub.bam.bai: Index for HG002_ont_tel_sub.bam
+        - HG002_ont_tel_sub.cram: CRAM version of the above BAM with coordinates adjusted to a mini reference (see below)
+        - HG002_ont_tel_sub.cram.crai: Index for HG002_ont_tel_sub.cram
+        - HG002_ont_tel_sub_ref.fa: Mini reference FASTA containing the last ~56 kb of chr1 and ~94 kb of chr2 from GRCh38 (telomeric regions where the reads align)
+        - HG002_ont_tel_sub_ref.fa.fai: Index for HG002_ont_tel_sub_ref.fa
   - pacbio:
 
     - bam:
