@@ -411,6 +411,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - genome.NC_012920_1.gb: Contains mtDNA reference genome in Genbank format
     - human_mt_rCRS.fasta: Reference fasta for mitochondrial genome based on Cambridge Reference Sequence
     - transcriptome.fasta: Reference transcriptome based on `genome.fasta`
+    - genome.bed12: BED12 gene model file derived from `genome.gtf` via GTF-to-BED12 conversion. Used for RSeQC and other tools requiring BED12 format gene models for chr22.
     - gff3: Encode GFF3 file downsampled based on reference position
     - gtf: Encode GTF file downsampled based on reference position, `genome_minimal.gtf` is a minimal version containing only the standard fields
     - sizes
@@ -907,6 +908,15 @@ The earth sciences folder contain subfolders for different data formats encounte
     - salmon_results.tar.gz: archive of the salmon results folder taken from a run of nf-core/rnaseq (a53a004) with the test profile and '--pseudo_aligner salmon' set,
     - rsem_results.tar.gz: archive of RSEM quantification results (3 samples: WT_REP2, RAP1_UNINDUCED_REP1, RAP1_IAA_30M_REP1) generated from GSE110004 S. cerevisiae FASTQ data using RSEM with STAR aligner. Each sample subdirectory contains .genes.results and .isoforms.results files.
     - genome_gfp.gtf: merged gtf file taken from a run of nf-core/rnaseq (a53a004) with the test profile and '--pseudo_aligner kallisto' set
+    - genome_gfp.bed12: BED12 gene model derived from genome_gfp.gtf (124 transcripts)
+    - genome
+      - genome.fa: S. cerevisiae reference genome (sourced from the rnaseq branch)
+      - genome.fa.fai: FASTA index generated with samtools faidx
+    - illumina/bam
+      - test.paired_end.sorted.bam: paired-end RNA-seq BAM (~1.9K reads, 85KB), downsampled from GSE110004 WT_REP2
+      - test.paired_end.sorted.bam.bai: BAM index
+      - test.single_end.sorted.bam: single-end RNA-seq BAM (~2K reads, 88KB), downsampled from GSE110004 RAP1_UNINDUCED_REP1
+      - test.single_end.sorted.bam.bai: BAM index
   - actinidia_chinensis
     - genome
       - chr1
