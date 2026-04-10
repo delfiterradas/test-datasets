@@ -422,6 +422,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - ploidy_priors.tsv: Contains contig ploidy priors for gatk4's DetermineGermlineContigPloidy
     - preprocessed_intervals.counts.tsv: Contains the intervals of the genome excluding problematic regions and the respective read counts
     - preprocessed_intervals.interval_list: Contains the intervals of the genome excluding problematic regions
+    - cytoBand_hg38.txt: Cytogenetic banding file for GRCh38/hg38 from UCSC, used by TelomereHunter (telomerehunter -b flag)
     - index
       - salmon: salmon index created with `transcriptome.fasta`
       - igblast: igblast index created with imgt BCR and TCR human reference data.
