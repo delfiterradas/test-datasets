@@ -1076,6 +1076,10 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'ipython_notebook.md': exemplary markdown notebook
   - rmarkdown
     - 'rmarkdown_notebook.Rmd': exemplary R notebook
+- gene_ontology
+  - 'ontology.obo': a mock gene ontology with 5 terms.
+  - 'ontology_slim.obo': a mock GO slim with 2 terms.
+  - 'go_annotation.gaf': a mock GO annotation in GAF format, containing annotations for 8 genes.	
 - tsv
   - 'test.tsv': exemplary tab-separated file obtained from [here](https://bioinf.shenwei.me/csvtk/usage/#split)
   - 'ani.tsv': exemplary tab-seperated file describing pairwise similarities from [here](https://github.com/refresh-bio/clusty).
@@ -1083,6 +1087,8 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'hello.txt': one-line txt file
   - 'taxonomy_ids.txt': contains species names, to be used as input for [goat-cli taxon search tool](https://github.com/genomehubs/goat-cli).
   - 'ani_ids.txt': list of ids associated with 'tsv/ani.tsv' used as an input for [clusty](https://github.com/refresh-bio/clusty).
+  - 'sample_genes.txt': a list of 3 sample genes for GO enrichment analysis.
+  - 'population_genes.txt': a list of 9 population genes for GO enrichment analysis.
 - tar
   - 'hello.tar.gz': gzipped tar archive containing a single file without a directory
 
