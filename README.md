@@ -1081,8 +1081,11 @@ The earth sciences folder contain subfolders for different data formats encounte
   - 'ontology_slim.obo': a mock GO slim with 2 terms.
   - 'go_annotation.gaf': a mock GO annotation in GAF format, containing annotations for 8 genes.	
 - tsv
-  - 'test.tsv': exemplary tab-separated file obtained from [here](https://bioinf.shenwei.me/csvtk/usage/#split)
   - 'ani.tsv': exemplary tab-seperated file describing pairwise similarities from [here](https://github.com/refresh-bio/clusty).
+  - 'expression.tsv': numeric sample-by-feature matrix in TSV format, commonly used for gene abundance, expression, intensity, or other per-sample quantitative measurements
+  - 'media_db.tsv': CarveMe-compatible [media](https://github.com/cdanielmachado/carveme/blob/master/carveme/data/input/media_db.tsv) database, with LB and M9 media definitions using BiGG metabolite IDs in the required four-column TSV format (medium, description, compound, name).
+  - 'network.tsv': edge list in TSV format describing weighted directed relationships from source nodes to target nodes
+  - 'test.tsv': exemplary tab-separated file obtained from [here](https://bioinf.shenwei.me/csvtk/usage/#split)
 - txt
   - 'hello.txt': one-line txt file
   - 'taxonomy_ids.txt': contains species names, to be used as input for [goat-cli taxon search tool](https://github.com/genomehubs/goat-cli).
