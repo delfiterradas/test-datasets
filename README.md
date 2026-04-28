@@ -171,8 +171,8 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'test.paired_end.methylated.sorted.bam.csi': csi index for the sorted bam file
       - 'test.paired_end.name.sorted.bam': Paired-end bam file sorted by name
       - 'test.paired_end.sorted.bam': Paired-end bam file
-      - 'test.paired_end.sorted.bam.bai': bam index for the sorted bam file 
-      - 'test.paired_end.sorted.bam.csi': csi index for the sorted bam file 
+      - 'test.paired_end.sorted.bam.bai': bam index for the sorted bam file
+      - 'test.paired_end.sorted.bam.csi': csi index for the sorted bam file
       - 'test.paired_end.sorted.invalid.sam': Paired-end sam file, invalid per format definition since alignments miss corresponding target in header
       - 'test.paired_end.umi.sorted.bam': Position sorted alignment of 'test.umi_extract\_{1,2}.fastq.gz'
       - 'test.paired_end.umi.sorted.bam.bai': bam index for the sorted bam file
@@ -570,6 +570,8 @@ The earth sciences folder contain subfolders for different data formats encounte
         - test2_allele_specific.tranches: vqsr allele specific recalibration tranches file, based on test2_haplotc.ann.vcf.gz
       - test_pon_genomicsdb: Output workspace (directory) from GenomicsdbImport, generated from vcf files in the pon_mutect2_calls subdirectory, used to test CreateSomaticPanelofNormals and GenomicsdbImport, directory has been tar archived to make downloading for tests easier, please remember to untar the directory before using it for testing.
       - test_genomicsdb: Output workspace (directory) from GenomicsdbImport, generated from test.genome.vcf in the gvcf subdirectory, used to test GenotypeGVCFs, directory has been tar archived to make downloading for tests easier.
+    - genmod:
+      - 'genmod_reduced_penetrance.tsv': reduced penetrance file for genmod models
     - gvcf:
       - test.genome.vcf: Genome vcf corresponding to `test{,.umi}_{1,2}` (normal) reads
       - test.genome.g.vcf: copy of `test.genome.vcf` with filename adhering to parabricks naming convention
