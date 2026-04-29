@@ -656,6 +656,24 @@ zcat gnomad_hg38.0.05.txt.gz | awk '$1 == 20 && ($2 >= 90000 && $2 <= 100000)' |
 
 TCR data was downloaded from [vdjdb](https://vdjdb.com/) on March 12th 2026. 
 
+### anarcii test dataset
+
+Stitchr/thimble was run on the first five entries of the stitchr test dataset. The results were transformed into a fasta file with one entry per chain using a short python script:
+    
+    ```
+    import pandas as pd
+    thimbleOut = pd.read_csv(<output file from stitchr/thimble>, sep="\t", dtype=str)
+    # Write amino acid sequecnes to FASTA, one entry per chain
+    with open(args.out_fasta, "w") as fh:
+        for _, row in thimbleOut.iterrows():
+            tcr_name = row["TCR_name"]
+            tra = row["TRA_aa"]
+            trb = row["TRB_aa"]
+
+            fh.write(f">{tcr_name}|TRA\n{tra}\n")
+            fh.write(f">{tcr_name}|TRB\n{trb}\n")
+   ```
+
 ### Missing files
 
 1. Single-end reads
