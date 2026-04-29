@@ -344,7 +344,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - genome.fasta.gz
       - genome.gtf
     - chr21: directory for reference files using chr21 rather than 22, used for most gatk4 testing
-      - sequence: directory containing fasta, fai, dict and several other indexes for chr21 including:
+      - sequence: directory containing fasta (with and without 'chr' prefix), fai, dict and several other indexes for chr21 including:
         - 'genome_sdf.tar.gz': The SDF (RTG Sequence Data File) folder of the reference genome
         - .{1-4,rev.1-2}.bt2
         - .amb
@@ -484,6 +484,9 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'test.rna.paired_end.sorted.chr6.bam': STAR-aligned, sorted, paired-end sampled RNAseq bam file of chromosome 6 of sample GM12878 (SRA accession: SRX2900878)
       - 'test.rna.paired_end.sorted.chr6.bam.bai': STAR-aligned, sorted, paired-end sampled RNAseq bam index file of chromosome 6 of sample GM12878 (SRA accession: SRX2900878)
       - 'rsem.transcript.bam': RSEM-aligned transcriptome BAM file based on test_rnaseq_x.fastq.gz from the fastq directory
+      - hugelymodelbat_sorted_md.{bam,bai}: Proband of 'justhusky' trio. BWA-MEM2 markdup sorted, chr21 only (mirror from 'raredisease' branch)
+      - slowlycivilbuck_sorted_md.{bam,bai}: Mother of hugelymodelbat. BWA-MEM2 markdup sorted, chr21 only (mirror from 'raredisease' branch)
+      - earlycasualcaiman_sorted_md.{bam,bai}: Father of hugelymodelbat. BWA-MEM2 markdup sorted, chr21 only (mirror from 'raredisease' branch)
       - umi:
         - test.paired*end.umi*\*: Files base on `test.umi_{1,2}` (normal)
         - test2.paired*end.umi*\*: Files base on `test2.umi_{1,2}` (tumor)
