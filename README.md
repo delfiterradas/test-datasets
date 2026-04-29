@@ -572,6 +572,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - test_genomicsdb: Output workspace (directory) from GenomicsdbImport, generated from test.genome.vcf in the gvcf subdirectory, used to test GenotypeGVCFs, directory has been tar archived to make downloading for tests easier.
     - genmod:
       - 'genmod_reduced_penetrance.tsv': reduced penetrance file for genmod models
+      - 'svrank_model_-v1.8-.ini': score config for genmod score
     - gvcf:
       - test.genome.vcf: Genome vcf corresponding to `test{,.umi}_{1,2}` (normal) reads
       - test.genome.g.vcf: copy of `test.genome.vcf` with filename adhering to parabricks naming convention
@@ -935,17 +936,17 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'seatoxin-ref.dnd': guide tree of toxine sequences. Generated with famsa/guidetree
   - limulus_polyphemus
     - radseq
-      - bwa_output/msp_[0..9].bam : bam files from bwa-mem2 (v2.2.1) alignments of [nf-core/radseq test data](https://github.com/nf-core/test-datasets/tree/radseq). Simulated rad-seq fastqs were aligned to chr 26 of _Limulus polyphemus_ (atlantic horseshoe crab).   
+      - bwa_output/msp_[0..9].bam : bam files from bwa-mem2 (v2.2.1) alignments of [nf-core/radseq test data](https://github.com/nf-core/test-datasets/tree/radseq). Simulated rad-seq fastqs were aligned to chr 26 of _Limulus polyphemus_ (atlantic horseshoe crab).
       - popmap.tsv : manually created popmap of the bwa aligments with arbitrary two population definition (V1 and V2)
 
   - limulus_polyphemus
     - macse
-      - Raphidioptera_BOLD_COI_final_align_NT.aln : aln files from Raphidioptera alignments of [macse](https://www.agap-ge2pop.org/wp-content/uploads/macse/data/Ref_ali_files/Raphidioptera_BOLD_COI_final_align_NT.aln). 
+      - Raphidioptera_BOLD_COI_final_align_NT.aln : aln files from Raphidioptera alignments of [macse](https://www.agap-ge2pop.org/wp-content/uploads/macse/data/Ref_ali_files/Raphidioptera_BOLD_COI_final_align_NT.aln).
 
 - virus
   - influenza
     - fasta
-      - 'test-genome-A1.fasta': Complete HPAI H5N1 clade 2.3.4.4b genome with all eight segments (PB2, PB1, PA, HA, NP, NA, MP, NS). Expected GenoFLU genotype: A1 (fully Eurasian). Source: https://github.com/USDA-VS/GenoFLU/tree/main/test 
+      - 'test-genome-A1.fasta': Complete HPAI H5N1 clade 2.3.4.4b genome with all eight segments (PB2, PB1, PA, HA, NP, NA, MP, NS). Expected GenoFLU genotype: A1 (fully Eurasian). Source: https://github.com/USDA-VS/GenoFLU/tree/main/test
 
 ### imaging
 - staging
@@ -1081,7 +1082,7 @@ The earth sciences folder contain subfolders for different data formats encounte
 - gene_ontology
   - 'ontology.obo': a mock gene ontology with 5 terms.
   - 'ontology_slim.obo': a mock GO slim with 2 terms.
-  - 'go_annotation.gaf': a mock GO annotation in GAF format, containing annotations for 8 genes.	
+  - 'go_annotation.gaf': a mock GO annotation in GAF format, containing annotations for 8 genes.
 - tsv
   - 'ani.tsv': exemplary tab-seperated file describing pairwise similarities from [here](https://github.com/refresh-bio/clusty).
   - 'expression.tsv': numeric sample-by-feature matrix in TSV format, commonly used for gene abundance, expression, intensity, or other per-sample quantitative measurements
