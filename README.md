@@ -37,6 +37,7 @@ The genomics folder contains subfolders for all organisms for which test data is
 Additionally there is a special subfolder for metagenome related files
 
 - metagenome
+  - biobakery
   - fasta
   - rgi
   - taxonomy
