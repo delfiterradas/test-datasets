@@ -500,6 +500,8 @@ The earth sciences folder contain subfolders for different data formats encounte
     - bcl:
       - flowcell.tar.gz: bcl data generated on a MiSeq sequencer. Contains only data for the first tile.
       - flowcell_samplesheet.csv: SampleSheet for data on flowcell
+      - flowcell_samplesheet.v1.csv: Illumina SampleSheet in IEM V1 (bcl2fastq) format — dual-index, 5 samples across 2 projects and 2 lanes. For samplesheet validation/parsing tests only; not intended to be run against `flowcell.tar.gz`.
+      - flowcell_samplesheet.v2.csv: Illumina SampleSheet in BCLConvert V2 format — dual-index, 5 samples across 2 projects and 2 lanes. For samplesheet validation/parsing tests only; not intended to be run against `flowcell.tar.gz`.
     - cram:
       - test.paired*end.sorted: Mapped, and sorted reads based on `test*{1,2}` (normal)
       - test.paired*end.markduplicates.sorted: Mapped, sorted, and duplicate marked reads based on `test*{1,2}` (normal)
