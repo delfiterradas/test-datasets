@@ -118,6 +118,16 @@ Then the actual 2bit file was generated:
 
 ```bash
 faToTwoBit genome.fasta genome.2bit
+```
+
+### Genome coordinates divided in 10kbp bins
+
+The binned version of 'genome.bed' from this repository was used to generate a BED of the interval divided into
+10kbp bins:
+
+```bash
+bedtools makewindows -b genome.bed -w 10000 > genome.bins_10kb.bed
+```
 
 ### SDF
 
