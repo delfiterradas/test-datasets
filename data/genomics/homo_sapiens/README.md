@@ -104,6 +104,20 @@ samtools faidx ${REF_PATH}.fa.bgz chr21 chr22 | bgzip > ${REF_PATH}_chr21_22.fa.
 samtools faidx ${REF_PATH}_chr21_22.fa.gz
 rm ${REF_PATH}.fa.bgz*
 ```
+### Two bit compressed genome files (.2bit)
+
+The two bit compressed genome file was generated directly from `genome.fasta` in this repository.
+
+UCSC's `faToTwoBit` was downloaded:
+
+```bash
+wget https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/faToTwoBit
+```
+
+Then the actual 2bit file was generated:
+
+```bash
+faToTwoBit genome.fasta genome.2bit
 
 ### SDF
 

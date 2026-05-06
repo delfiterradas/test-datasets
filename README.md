@@ -142,6 +142,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'genome.paf': genome PAF for MT192765.1 genome
     - 'genome.sizes': genome size for the MT192765.1 genome
     - 'genome-ena.fasta': ENA associated fasta sequence
+    - 'genome.2bit': Two bit compressed version of 'genome.fasta'
     - 'transcriptome.fasta': coding sequencing from MT192765.1 genome (transcripts)
     - 'transcriptome.paf': transcriptome PAF file for MT192765.1 genome
     - 'proteome.fasta': 12 proteins from the ASM985889v3 assembly of the MN908947.3 reference genome
