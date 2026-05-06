@@ -93,8 +93,25 @@ gatk BedToIntervalList -I genome.bed -SD genome.dict -O genome.interval_list
 
 A StrTableFile zip folder was created using GATK4:
 
-````bash
+```bash
 gatk ComposeSTRTableFile --reference genome.fasta --output genome_strtablefile.zip
+```
+
+### Two bit compressed genome files (.2bit)
+
+The two bit compressed genome file was generated directly from `genome.fasta` in this repository.
+
+UCSC's `faToTwoBit` was downloaded:
+
+```bash
+wget https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/faToTwoBit
+```
+
+Then the actual 2bit file was generated:
+
+```bash
+faToTwoBit genome.fasta genome.2bit
+```
 
 ### SDF
 
@@ -103,7 +120,7 @@ An SDF folder of the reference FASTA of chromosome 21 was created using:
 ```bash
 rtg format -o genome_sdf genome.fasta
 tar -czf genome_sdf.tar.gz genome_sdf/
-````
+```
 
 ### GTF/GFF
 
