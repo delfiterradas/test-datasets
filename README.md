@@ -946,6 +946,8 @@ The earth sciences folder contain subfolders for different data formats encounte
     - radseq
       - bwa_output/msp_[0..9].bam : bam files from bwa-mem2 (v2.2.1) alignments of [nf-core/radseq test data](https://github.com/nf-core/test-datasets/tree/radseq). Simulated rad-seq fastqs were aligned to chr 26 of _Limulus polyphemus_ (atlantic horseshoe crab).
       - popmap.tsv : manually created popmap of the bwa aligments with arbitrary two population definition (V1 and V2)
+  - gallus_gallus
+    - 'pacbio_metagenome.fastq.gz': Subset of 10 PacBio HiFi reads from chicken gut metagenome sample SRR19726169, including 1 adapter-containing read for testing HiFi adapter filtering tools.
 
   - limulus_polyphemus
     - macse
