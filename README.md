@@ -487,9 +487,9 @@ The earth sciences folder contain subfolders for different data formats encounte
       - 'test.rna.paired_end.sorted.chr6.bam': STAR-aligned, sorted, paired-end sampled RNAseq bam file of chromosome 6 of sample GM12878 (SRA accession: SRX2900878)
       - 'test.rna.paired_end.sorted.chr6.bam.bai': STAR-aligned, sorted, paired-end sampled RNAseq bam index file of chromosome 6 of sample GM12878 (SRA accession: SRX2900878)
       - 'rsem.transcript.bam': RSEM-aligned transcriptome BAM file based on test_rnaseq_x.fastq.gz from the fastq directory
-      - hugelymodelbat_sorted_md.{bam,bai}: Proband of 'justhusky' trio. BWA-MEM2 markdup sorted, chr21 only (mirror from 'raredisease' branch)
-      - slowlycivilbuck_sorted_md.{bam,bai}: Mother of hugelymodelbat. BWA-MEM2 markdup sorted, chr21 only (mirror from 'raredisease' branch)
-      - earlycasualcaiman_sorted_md.{bam,bai}: Father of hugelymodelbat. BWA-MEM2 markdup sorted, chr21 only (mirror from 'raredisease' branch)
+      - hugelymodelbat_sorted_md.{bam,bai}: Proband of 'justhusky' trio. BWA-MEM2 markdup sorted (mirror from 'raredisease' branch but with only reads overlapping variant from 'justhusky_minimal.vcf.gz' at position '21:10745490')
+      - slowlycivilbuck_sorted_md.{bam,bai}: Mother of hugelymodelbat. BWA-MEM2 markdup sorted (mirror from 'raredisease' branch but with only reads overlapping variant from 'justhusky_minimal.vcf.gz' at position '21:10745490')
+      - earlycasualcaiman_sorted_md.{bam,bai}: Father of hugelymodelbat. BWA-MEM2 markdup sorted (mirror from 'raredisease' branch but with only reads overlapping variant from 'justhusky_minimal.vcf.gz' at position '21:10745490')
       - umi:
         - test.paired*end.umi*\*: Files base on `test.umi_{1,2}` (normal)
         - test2.paired*end.umi*\*: Files base on `test2.umi_{1,2}` (tumor)
