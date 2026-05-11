@@ -1,0 +1,1025 @@
+##fileformat=VCFv4.2
+##fileDate=2026-05-11|04:17:14PM|
+##source=OctopuSV##OctopuSV_WARNING=This is SVCF format. Use 'octopusv svcf2vcf' to change back to standard VCF format before bcftools/vcftools
+##contig=<ID=chr1,length=248956422>
+##contig=<ID=chr10,length=133797422>
+##contig=<ID=chr11,length=135086622>
+##contig=<ID=chr11_KI270721v1_random,length=100316>
+##contig=<ID=chr12,length=133275309>
+##contig=<ID=chr13,length=114364328>
+##contig=<ID=chr14,length=107043718>
+##contig=<ID=chr14_GL000009v2_random,length=201709>
+##contig=<ID=chr14_GL000225v1_random,length=211173>
+##contig=<ID=chr14_KI270722v1_random,length=194050>
+##contig=<ID=chr14_GL000194v1_random,length=191469>
+##contig=<ID=chr14_KI270723v1_random,length=38115>
+##contig=<ID=chr14_KI270724v1_random,length=39555>
+##contig=<ID=chr14_KI270725v1_random,length=172810>
+##contig=<ID=chr14_KI270726v1_random,length=43739>
+##contig=<ID=chr15,length=101991189>
+##contig=<ID=chr15_KI270727v1_random,length=448248>
+##contig=<ID=chr16,length=90338345>
+##contig=<ID=chr16_KI270728v1_random,length=1872759>
+##contig=<ID=chr17,length=83257441>
+##contig=<ID=chr17_GL000205v2_random,length=185591>
+##contig=<ID=chr17_KI270729v1_random,length=280839>
+##contig=<ID=chr17_KI270730v1_random,length=112551>
+##contig=<ID=chr18,length=80373285>
+##contig=<ID=chr19,length=58617616>
+##contig=<ID=chr1_KI270706v1_random,length=175055>
+##contig=<ID=chr1_KI270707v1_random,length=32032>
+##contig=<ID=chr1_KI270708v1_random,length=127682>
+##contig=<ID=chr1_KI270709v1_random,length=66860>
+##contig=<ID=chr1_KI270710v1_random,length=40176>
+##contig=<ID=chr1_KI270711v1_random,length=42210>
+##contig=<ID=chr1_KI270712v1_random,length=176043>
+##contig=<ID=chr1_KI270713v1_random,length=40745>
+##contig=<ID=chr1_KI270714v1_random,length=41717>
+##contig=<ID=chr2,length=242193529>
+##contig=<ID=chr20,length=64444167>
+##contig=<ID=chr21,length=46709983>
+##contig=<ID=chr22,length=50818468>
+##contig=<ID=chr22_KI270731v1_random,length=150754>
+##contig=<ID=chr22_KI270732v1_random,length=41543>
+##contig=<ID=chr22_KI270733v1_random,length=179772>
+##contig=<ID=chr22_KI270734v1_random,length=165050>
+##contig=<ID=chr22_KI270735v1_random,length=42811>
+##contig=<ID=chr22_KI270736v1_random,length=181920>
+##contig=<ID=chr22_KI270737v1_random,length=103838>
+##contig=<ID=chr22_KI270738v1_random,length=99375>
+##contig=<ID=chr22_KI270739v1_random,length=73985>
+##contig=<ID=chr2_KI270715v1_random,length=161471>
+##contig=<ID=chr2_KI270716v1_random,length=153799>
+##contig=<ID=chr3,length=198295559>
+##contig=<ID=chr3_GL000221v1_random,length=155397>
+##contig=<ID=chr4,length=190214555>
+##contig=<ID=chr4_GL000008v2_random,length=209709>
+##contig=<ID=chr5,length=181538259>
+##contig=<ID=chr5_GL000208v1_random,length=92689>
+##contig=<ID=chr6,length=170805979>
+##contig=<ID=chr7,length=159345973>
+##contig=<ID=chr8,length=145138636>
+##contig=<ID=chr9,length=138394717>
+##contig=<ID=chr9_KI270717v1_random,length=40062>
+##contig=<ID=chr9_KI270718v1_random,length=38054>
+##contig=<ID=chr9_KI270719v1_random,length=176845>
+##contig=<ID=chr9_KI270720v1_random,length=39050>
+##contig=<ID=chr1_KI270762v1_alt,length=354444>
+##contig=<ID=chr1_KI270766v1_alt,length=256271>
+##contig=<ID=chr1_KI270760v1_alt,length=109528>
+##contig=<ID=chr1_KI270765v1_alt,length=185285>
+##contig=<ID=chr1_GL383518v1_alt,length=182439>
+##contig=<ID=chr1_GL383519v1_alt,length=110268>
+##contig=<ID=chr1_GL383520v2_alt,length=366580>
+##contig=<ID=chr1_KI270764v1_alt,length=50258>
+##contig=<ID=chr1_KI270763v1_alt,length=911658>
+##contig=<ID=chr1_KI270759v1_alt,length=425601>
+##contig=<ID=chr1_KI270761v1_alt,length=165834>
+##contig=<ID=chr2_KI270770v1_alt,length=136240>
+##contig=<ID=chr2_KI270773v1_alt,length=70887>
+##contig=<ID=chr2_KI270774v1_alt,length=223625>
+##contig=<ID=chr2_KI270769v1_alt,length=120616>
+##contig=<ID=chr2_GL383521v1_alt,length=143390>
+##contig=<ID=chr2_KI270772v1_alt,length=133041>
+##contig=<ID=chr2_KI270775v1_alt,length=138019>
+##contig=<ID=chr2_KI270771v1_alt,length=110395>
+##contig=<ID=chr2_KI270768v1_alt,length=110099>
+##contig=<ID=chr2_GL582966v2_alt,length=96131>
+##contig=<ID=chr2_GL383522v1_alt,length=123821>
+##contig=<ID=chr2_KI270776v1_alt,length=174166>
+##contig=<ID=chr2_KI270767v1_alt,length=161578>
+##contig=<ID=chr3_JH636055v2_alt,length=173151>
+##contig=<ID=chr3_KI270783v1_alt,length=109187>
+##contig=<ID=chr3_KI270780v1_alt,length=224108>
+##contig=<ID=chr3_GL383526v1_alt,length=180671>
+##contig=<ID=chr3_KI270777v1_alt,length=173649>
+##contig=<ID=chr3_KI270778v1_alt,length=248252>
+##contig=<ID=chr3_KI270781v1_alt,length=113034>
+##contig=<ID=chr3_KI270779v1_alt,length=205312>
+##contig=<ID=chr3_KI270782v1_alt,length=162429>
+##contig=<ID=chr3_KI270784v1_alt,length=184404>
+##contig=<ID=chr4_KI270790v1_alt,length=220246>
+##contig=<ID=chr4_GL383528v1_alt,length=376187>
+##contig=<ID=chr4_KI270787v1_alt,length=111943>
+##contig=<ID=chr4_GL000257v2_alt,length=586476>
+##contig=<ID=chr4_KI270788v1_alt,length=158965>
+##contig=<ID=chr4_GL383527v1_alt,length=164536>
+##contig=<ID=chr4_KI270785v1_alt,length=119912>
+##contig=<ID=chr4_KI270789v1_alt,length=205944>
+##contig=<ID=chr4_KI270786v1_alt,length=244096>
+##contig=<ID=chr5_KI270793v1_alt,length=126136>
+##contig=<ID=chr5_KI270792v1_alt,length=179043>
+##contig=<ID=chr5_KI270791v1_alt,length=195710>
+##contig=<ID=chr5_GL383532v1_alt,length=82728>
+##contig=<ID=chr5_GL949742v1_alt,length=226852>
+##contig=<ID=chr5_KI270794v1_alt,length=164558>
+##contig=<ID=chr5_GL339449v2_alt,length=1612928>
+##contig=<ID=chr5_GL383530v1_alt,length=101241>
+##contig=<ID=chr5_KI270796v1_alt,length=172708>
+##contig=<ID=chr5_GL383531v1_alt,length=173459>
+##contig=<ID=chr5_KI270795v1_alt,length=131892>
+##contig=<ID=chr6_GL000250v2_alt,length=4672374>
+##contig=<ID=chr6_KI270800v1_alt,length=175808>
+##contig=<ID=chr6_KI270799v1_alt,length=152148>
+##contig=<ID=chr6_GL383533v1_alt,length=124736>
+##contig=<ID=chr6_KI270801v1_alt,length=870480>
+##contig=<ID=chr6_KI270802v1_alt,length=75005>
+##contig=<ID=chr6_KB021644v2_alt,length=185823>
+##contig=<ID=chr6_KI270797v1_alt,length=197536>
+##contig=<ID=chr6_KI270798v1_alt,length=271782>
+##contig=<ID=chr7_KI270804v1_alt,length=157952>
+##contig=<ID=chr7_KI270809v1_alt,length=209586>
+##contig=<ID=chr7_KI270806v1_alt,length=158166>
+##contig=<ID=chr7_GL383534v2_alt,length=119183>
+##contig=<ID=chr7_KI270803v1_alt,length=1111570>
+##contig=<ID=chr7_KI270808v1_alt,length=271455>
+##contig=<ID=chr7_KI270807v1_alt,length=126434>
+##contig=<ID=chr7_KI270805v1_alt,length=209988>
+##contig=<ID=chr8_KI270818v1_alt,length=145606>
+##contig=<ID=chr8_KI270812v1_alt,length=282736>
+##contig=<ID=chr8_KI270811v1_alt,length=292436>
+##contig=<ID=chr8_KI270821v1_alt,length=985506>
+##contig=<ID=chr8_KI270813v1_alt,length=300230>
+##contig=<ID=chr8_KI270822v1_alt,length=624492>
+##contig=<ID=chr8_KI270814v1_alt,length=141812>
+##contig=<ID=chr8_KI270810v1_alt,length=374415>
+##contig=<ID=chr8_KI270819v1_alt,length=133535>
+##contig=<ID=chr8_KI270820v1_alt,length=36640>
+##contig=<ID=chr8_KI270817v1_alt,length=158983>
+##contig=<ID=chr8_KI270816v1_alt,length=305841>
+##contig=<ID=chr8_KI270815v1_alt,length=132244>
+##contig=<ID=chr9_GL383539v1_alt,length=162988>
+##contig=<ID=chr9_GL383540v1_alt,length=71551>
+##contig=<ID=chr9_GL383541v1_alt,length=171286>
+##contig=<ID=chr9_GL383542v1_alt,length=60032>
+##contig=<ID=chr9_KI270823v1_alt,length=439082>
+##contig=<ID=chr10_GL383545v1_alt,length=179254>
+##contig=<ID=chr10_KI270824v1_alt,length=181496>
+##contig=<ID=chr10_GL383546v1_alt,length=309802>
+##contig=<ID=chr10_KI270825v1_alt,length=188315>
+##contig=<ID=chr11_KI270832v1_alt,length=210133>
+##contig=<ID=chr11_KI270830v1_alt,length=177092>
+##contig=<ID=chr11_KI270831v1_alt,length=296895>
+##contig=<ID=chr11_KI270829v1_alt,length=204059>
+##contig=<ID=chr11_GL383547v1_alt,length=154407>
+##contig=<ID=chr11_JH159136v1_alt,length=200998>
+##contig=<ID=chr11_JH159137v1_alt,length=191409>
+##contig=<ID=chr11_KI270827v1_alt,length=67707>
+##contig=<ID=chr11_KI270826v1_alt,length=186169>
+##contig=<ID=chr12_GL877875v1_alt,length=167313>
+##contig=<ID=chr12_GL877876v1_alt,length=408271>
+##contig=<ID=chr12_KI270837v1_alt,length=40090>
+##contig=<ID=chr12_GL383549v1_alt,length=120804>
+##contig=<ID=chr12_KI270835v1_alt,length=238139>
+##contig=<ID=chr12_GL383550v2_alt,length=169178>
+##contig=<ID=chr12_GL383552v1_alt,length=138655>
+##contig=<ID=chr12_GL383553v2_alt,length=152874>
+##contig=<ID=chr12_KI270834v1_alt,length=119498>
+##contig=<ID=chr12_GL383551v1_alt,length=184319>
+##contig=<ID=chr12_KI270833v1_alt,length=76061>
+##contig=<ID=chr12_KI270836v1_alt,length=56134>
+##contig=<ID=chr13_KI270840v1_alt,length=191684>
+##contig=<ID=chr13_KI270839v1_alt,length=180306>
+##contig=<ID=chr13_KI270843v1_alt,length=103832>
+##contig=<ID=chr13_KI270841v1_alt,length=169134>
+##contig=<ID=chr13_KI270838v1_alt,length=306913>
+##contig=<ID=chr13_KI270842v1_alt,length=37287>
+##contig=<ID=chr14_KI270844v1_alt,length=322166>
+##contig=<ID=chr14_KI270847v1_alt,length=1511111>
+##contig=<ID=chr14_KI270845v1_alt,length=180703>
+##contig=<ID=chr14_KI270846v1_alt,length=1351393>
+##contig=<ID=chr15_KI270852v1_alt,length=478999>
+##contig=<ID=chr15_KI270851v1_alt,length=263054>
+##contig=<ID=chr15_KI270848v1_alt,length=327382>
+##contig=<ID=chr15_GL383554v1_alt,length=296527>
+##contig=<ID=chr15_KI270849v1_alt,length=244917>
+##contig=<ID=chr15_GL383555v2_alt,length=388773>
+##contig=<ID=chr15_KI270850v1_alt,length=430880>
+##contig=<ID=chr16_KI270854v1_alt,length=134193>
+##contig=<ID=chr16_KI270856v1_alt,length=63982>
+##contig=<ID=chr16_KI270855v1_alt,length=232857>
+##contig=<ID=chr16_KI270853v1_alt,length=2659700>
+##contig=<ID=chr16_GL383556v1_alt,length=192462>
+##contig=<ID=chr16_GL383557v1_alt,length=89672>
+##contig=<ID=chr17_GL383563v3_alt,length=375691>
+##contig=<ID=chr17_KI270862v1_alt,length=391357>
+##contig=<ID=chr17_KI270861v1_alt,length=196688>
+##contig=<ID=chr17_KI270857v1_alt,length=2877074>
+##contig=<ID=chr17_JH159146v1_alt,length=278131>
+##contig=<ID=chr17_JH159147v1_alt,length=70345>
+##contig=<ID=chr17_GL383564v2_alt,length=133151>
+##contig=<ID=chr17_GL000258v2_alt,length=1821992>
+##contig=<ID=chr17_GL383565v1_alt,length=223995>
+##contig=<ID=chr17_KI270858v1_alt,length=235827>
+##contig=<ID=chr17_KI270859v1_alt,length=108763>
+##contig=<ID=chr17_GL383566v1_alt,length=90219>
+##contig=<ID=chr17_KI270860v1_alt,length=178921>
+##contig=<ID=chr18_KI270864v1_alt,length=111737>
+##contig=<ID=chr18_GL383567v1_alt,length=289831>
+##contig=<ID=chr18_GL383570v1_alt,length=164789>
+##contig=<ID=chr18_GL383571v1_alt,length=198278>
+##contig=<ID=chr18_GL383568v1_alt,length=104552>
+##contig=<ID=chr18_GL383569v1_alt,length=167950>
+##contig=<ID=chr18_GL383572v1_alt,length=159547>
+##contig=<ID=chr18_KI270863v1_alt,length=167999>
+##contig=<ID=chr19_KI270868v1_alt,length=61734>
+##contig=<ID=chr19_KI270865v1_alt,length=52969>
+##contig=<ID=chr19_GL383573v1_alt,length=385657>
+##contig=<ID=chr19_GL383575v2_alt,length=170222>
+##contig=<ID=chr19_GL383576v1_alt,length=188024>
+##contig=<ID=chr19_GL383574v1_alt,length=155864>
+##contig=<ID=chr19_KI270866v1_alt,length=43156>
+##contig=<ID=chr19_KI270867v1_alt,length=233762>
+##contig=<ID=chr19_GL949746v1_alt,length=987716>
+##contig=<ID=chr20_GL383577v2_alt,length=128386>
+##contig=<ID=chr20_KI270869v1_alt,length=118774>
+##contig=<ID=chr20_KI270871v1_alt,length=58661>
+##contig=<ID=chr20_KI270870v1_alt,length=183433>
+##contig=<ID=chr21_GL383578v2_alt,length=63917>
+##contig=<ID=chr21_KI270874v1_alt,length=166743>
+##contig=<ID=chr21_KI270873v1_alt,length=143900>
+##contig=<ID=chr21_GL383579v2_alt,length=201197>
+##contig=<ID=chr21_GL383580v2_alt,length=74653>
+##contig=<ID=chr21_GL383581v2_alt,length=116689>
+##contig=<ID=chr21_KI270872v1_alt,length=82692>
+##contig=<ID=chr22_KI270875v1_alt,length=259914>
+##contig=<ID=chr22_KI270878v1_alt,length=186262>
+##contig=<ID=chr22_KI270879v1_alt,length=304135>
+##contig=<ID=chr22_KI270876v1_alt,length=263666>
+##contig=<ID=chr22_KI270877v1_alt,length=101331>
+##contig=<ID=chr22_GL383583v2_alt,length=96924>
+##contig=<ID=chr22_GL383582v2_alt,length=162811>
+##contig=<ID=chrX_KI270880v1_alt,length=284869>
+##contig=<ID=chrX_KI270881v1_alt,length=144206>
+##contig=<ID=chr19_KI270882v1_alt,length=248807>
+##contig=<ID=chr19_KI270883v1_alt,length=170399>
+##contig=<ID=chr19_KI270884v1_alt,length=157053>
+##contig=<ID=chr19_KI270885v1_alt,length=171027>
+##contig=<ID=chr19_KI270886v1_alt,length=204239>
+##contig=<ID=chr19_KI270887v1_alt,length=209512>
+##contig=<ID=chr19_KI270888v1_alt,length=155532>
+##contig=<ID=chr19_KI270889v1_alt,length=170698>
+##contig=<ID=chr19_KI270890v1_alt,length=184499>
+##contig=<ID=chr19_KI270891v1_alt,length=170680>
+##contig=<ID=chr1_KI270892v1_alt,length=162212>
+##contig=<ID=chr2_KI270894v1_alt,length=214158>
+##contig=<ID=chr2_KI270893v1_alt,length=161218>
+##contig=<ID=chr3_KI270895v1_alt,length=162896>
+##contig=<ID=chr4_KI270896v1_alt,length=378547>
+##contig=<ID=chr5_KI270897v1_alt,length=1144418>
+##contig=<ID=chr5_KI270898v1_alt,length=130957>
+##contig=<ID=chr6_GL000251v2_alt,length=4795265>
+##contig=<ID=chr7_KI270899v1_alt,length=190869>
+##contig=<ID=chr8_KI270901v1_alt,length=136959>
+##contig=<ID=chr8_KI270900v1_alt,length=318687>
+##contig=<ID=chr11_KI270902v1_alt,length=106711>
+##contig=<ID=chr11_KI270903v1_alt,length=214625>
+##contig=<ID=chr12_KI270904v1_alt,length=572349>
+##contig=<ID=chr15_KI270906v1_alt,length=196384>
+##contig=<ID=chr15_KI270905v1_alt,length=5161414>
+##contig=<ID=chr17_KI270907v1_alt,length=137721>
+##contig=<ID=chr17_KI270910v1_alt,length=157099>
+##contig=<ID=chr17_KI270909v1_alt,length=325800>
+##contig=<ID=chr17_JH159148v1_alt,length=88070>
+##contig=<ID=chr17_KI270908v1_alt,length=1423190>
+##contig=<ID=chr18_KI270912v1_alt,length=174061>
+##contig=<ID=chr18_KI270911v1_alt,length=157710>
+##contig=<ID=chr19_GL949747v2_alt,length=729520>
+##contig=<ID=chr22_KB663609v1_alt,length=74013>
+##contig=<ID=chrX_KI270913v1_alt,length=274009>
+##contig=<ID=chr19_KI270914v1_alt,length=205194>
+##contig=<ID=chr19_KI270915v1_alt,length=170665>
+##contig=<ID=chr19_KI270916v1_alt,length=184516>
+##contig=<ID=chr19_KI270917v1_alt,length=190932>
+##contig=<ID=chr19_KI270918v1_alt,length=123111>
+##contig=<ID=chr19_KI270919v1_alt,length=170701>
+##contig=<ID=chr19_KI270920v1_alt,length=198005>
+##contig=<ID=chr19_KI270921v1_alt,length=282224>
+##contig=<ID=chr19_KI270922v1_alt,length=187935>
+##contig=<ID=chr19_KI270923v1_alt,length=189352>
+##contig=<ID=chr3_KI270924v1_alt,length=166540>
+##contig=<ID=chr4_KI270925v1_alt,length=555799>
+##contig=<ID=chr6_GL000252v2_alt,length=4604811>
+##contig=<ID=chr8_KI270926v1_alt,length=229282>
+##contig=<ID=chr11_KI270927v1_alt,length=218612>
+##contig=<ID=chr19_GL949748v2_alt,length=1064304>
+##contig=<ID=chr22_KI270928v1_alt,length=176103>
+##contig=<ID=chr19_KI270929v1_alt,length=186203>
+##contig=<ID=chr19_KI270930v1_alt,length=200773>
+##contig=<ID=chr19_KI270931v1_alt,length=170148>
+##contig=<ID=chr19_KI270932v1_alt,length=215732>
+##contig=<ID=chr19_KI270933v1_alt,length=170537>
+##contig=<ID=chr19_GL000209v2_alt,length=177381>
+##contig=<ID=chr3_KI270934v1_alt,length=163458>
+##contig=<ID=chr6_GL000253v2_alt,length=4677643>
+##contig=<ID=chr19_GL949749v2_alt,length=1091841>
+##contig=<ID=chr3_KI270935v1_alt,length=197351>
+##contig=<ID=chr6_GL000254v2_alt,length=4827813>
+##contig=<ID=chr19_GL949750v2_alt,length=1066390>
+##contig=<ID=chr3_KI270936v1_alt,length=164170>
+##contig=<ID=chr6_GL000255v2_alt,length=4606388>
+##contig=<ID=chr19_GL949751v2_alt,length=1002683>
+##contig=<ID=chr3_KI270937v1_alt,length=165607>
+##contig=<ID=chr6_GL000256v2_alt,length=4929269>
+##contig=<ID=chr19_GL949752v1_alt,length=987100>
+##contig=<ID=chr6_KI270758v1_alt,length=76752>
+##contig=<ID=chr19_GL949753v2_alt,length=796479>
+##contig=<ID=chr19_KI270938v1_alt,length=1066800>
+##contig=<ID=chrM,length=16569>
+##contig=<ID=chrUn_KI270302v1,length=2274>
+##contig=<ID=chrUn_KI270304v1,length=2165>
+##contig=<ID=chrUn_KI270303v1,length=1942>
+##contig=<ID=chrUn_KI270305v1,length=1472>
+##contig=<ID=chrUn_KI270322v1,length=21476>
+##contig=<ID=chrUn_KI270320v1,length=4416>
+##contig=<ID=chrUn_KI270310v1,length=1201>
+##contig=<ID=chrUn_KI270316v1,length=1444>
+##contig=<ID=chrUn_KI270315v1,length=2276>
+##contig=<ID=chrUn_KI270312v1,length=998>
+##contig=<ID=chrUn_KI270311v1,length=12399>
+##contig=<ID=chrUn_KI270317v1,length=37690>
+##contig=<ID=chrUn_KI270412v1,length=1179>
+##contig=<ID=chrUn_KI270411v1,length=2646>
+##contig=<ID=chrUn_KI270414v1,length=2489>
+##contig=<ID=chrUn_KI270419v1,length=1029>
+##contig=<ID=chrUn_KI270418v1,length=2145>
+##contig=<ID=chrUn_KI270420v1,length=2321>
+##contig=<ID=chrUn_KI270424v1,length=2140>
+##contig=<ID=chrUn_KI270417v1,length=2043>
+##contig=<ID=chrUn_KI270422v1,length=1445>
+##contig=<ID=chrUn_KI270423v1,length=981>
+##contig=<ID=chrUn_KI270425v1,length=1884>
+##contig=<ID=chrUn_KI270429v1,length=1361>
+##contig=<ID=chrUn_KI270442v1,length=392061>
+##contig=<ID=chrUn_KI270466v1,length=1233>
+##contig=<ID=chrUn_KI270465v1,length=1774>
+##contig=<ID=chrUn_KI270467v1,length=3920>
+##contig=<ID=chrUn_KI270435v1,length=92983>
+##contig=<ID=chrUn_KI270438v1,length=112505>
+##contig=<ID=chrUn_KI270468v1,length=4055>
+##contig=<ID=chrUn_KI270510v1,length=2415>
+##contig=<ID=chrUn_KI270509v1,length=2318>
+##contig=<ID=chrUn_KI270518v1,length=2186>
+##contig=<ID=chrUn_KI270508v1,length=1951>
+##contig=<ID=chrUn_KI270516v1,length=1300>
+##contig=<ID=chrUn_KI270512v1,length=22689>
+##contig=<ID=chrUn_KI270519v1,length=138126>
+##contig=<ID=chrUn_KI270522v1,length=5674>
+##contig=<ID=chrUn_KI270511v1,length=8127>
+##contig=<ID=chrUn_KI270515v1,length=6361>
+##contig=<ID=chrUn_KI270507v1,length=5353>
+##contig=<ID=chrUn_KI270517v1,length=3253>
+##contig=<ID=chrUn_KI270529v1,length=1899>
+##contig=<ID=chrUn_KI270528v1,length=2983>
+##contig=<ID=chrUn_KI270530v1,length=2168>
+##contig=<ID=chrUn_KI270539v1,length=993>
+##contig=<ID=chrUn_KI270538v1,length=91309>
+##contig=<ID=chrUn_KI270544v1,length=1202>
+##contig=<ID=chrUn_KI270548v1,length=1599>
+##contig=<ID=chrUn_KI270583v1,length=1400>
+##contig=<ID=chrUn_KI270587v1,length=2969>
+##contig=<ID=chrUn_KI270580v1,length=1553>
+##contig=<ID=chrUn_KI270581v1,length=7046>
+##contig=<ID=chrUn_KI270579v1,length=31033>
+##contig=<ID=chrUn_KI270589v1,length=44474>
+##contig=<ID=chrUn_KI270590v1,length=4685>
+##contig=<ID=chrUn_KI270584v1,length=4513>
+##contig=<ID=chrUn_KI270582v1,length=6504>
+##contig=<ID=chrUn_KI270588v1,length=6158>
+##contig=<ID=chrUn_KI270593v1,length=3041>
+##contig=<ID=chrUn_KI270591v1,length=5796>
+##contig=<ID=chrUn_KI270330v1,length=1652>
+##contig=<ID=chrUn_KI270329v1,length=1040>
+##contig=<ID=chrUn_KI270334v1,length=1368>
+##contig=<ID=chrUn_KI270333v1,length=2699>
+##contig=<ID=chrUn_KI270335v1,length=1048>
+##contig=<ID=chrUn_KI270338v1,length=1428>
+##contig=<ID=chrUn_KI270340v1,length=1428>
+##contig=<ID=chrUn_KI270336v1,length=1026>
+##contig=<ID=chrUn_KI270337v1,length=1121>
+##contig=<ID=chrUn_KI270363v1,length=1803>
+##contig=<ID=chrUn_KI270364v1,length=2855>
+##contig=<ID=chrUn_KI270362v1,length=3530>
+##contig=<ID=chrUn_KI270366v1,length=8320>
+##contig=<ID=chrUn_KI270378v1,length=1048>
+##contig=<ID=chrUn_KI270379v1,length=1045>
+##contig=<ID=chrUn_KI270389v1,length=1298>
+##contig=<ID=chrUn_KI270390v1,length=2387>
+##contig=<ID=chrUn_KI270387v1,length=1537>
+##contig=<ID=chrUn_KI270395v1,length=1143>
+##contig=<ID=chrUn_KI270396v1,length=1880>
+##contig=<ID=chrUn_KI270388v1,length=1216>
+##contig=<ID=chrUn_KI270394v1,length=970>
+##contig=<ID=chrUn_KI270386v1,length=1788>
+##contig=<ID=chrUn_KI270391v1,length=1484>
+##contig=<ID=chrUn_KI270383v1,length=1750>
+##contig=<ID=chrUn_KI270393v1,length=1308>
+##contig=<ID=chrUn_KI270384v1,length=1658>
+##contig=<ID=chrUn_KI270392v1,length=971>
+##contig=<ID=chrUn_KI270381v1,length=1930>
+##contig=<ID=chrUn_KI270385v1,length=990>
+##contig=<ID=chrUn_KI270382v1,length=4215>
+##contig=<ID=chrUn_KI270376v1,length=1136>
+##contig=<ID=chrUn_KI270374v1,length=2656>
+##contig=<ID=chrUn_KI270372v1,length=1650>
+##contig=<ID=chrUn_KI270373v1,length=1451>
+##contig=<ID=chrUn_KI270375v1,length=2378>
+##contig=<ID=chrUn_KI270371v1,length=2805>
+##contig=<ID=chrUn_KI270448v1,length=7992>
+##contig=<ID=chrUn_KI270521v1,length=7642>
+##contig=<ID=chrUn_GL000195v1,length=182896>
+##contig=<ID=chrUn_GL000219v1,length=179198>
+##contig=<ID=chrUn_GL000220v1,length=161802>
+##contig=<ID=chrUn_GL000224v1,length=179693>
+##contig=<ID=chrUn_KI270741v1,length=157432>
+##contig=<ID=chrUn_GL000226v1,length=15008>
+##contig=<ID=chrUn_GL000213v1,length=164239>
+##contig=<ID=chrUn_KI270743v1,length=210658>
+##contig=<ID=chrUn_KI270744v1,length=168472>
+##contig=<ID=chrUn_KI270745v1,length=41891>
+##contig=<ID=chrUn_KI270746v1,length=66486>
+##contig=<ID=chrUn_KI270747v1,length=198735>
+##contig=<ID=chrUn_KI270748v1,length=93321>
+##contig=<ID=chrUn_KI270749v1,length=158759>
+##contig=<ID=chrUn_KI270750v1,length=148850>
+##contig=<ID=chrUn_KI270751v1,length=150742>
+##contig=<ID=chrUn_KI270752v1,length=27745>
+##contig=<ID=chrUn_KI270753v1,length=62944>
+##contig=<ID=chrUn_KI270754v1,length=40191>
+##contig=<ID=chrUn_KI270755v1,length=36723>
+##contig=<ID=chrUn_KI270756v1,length=79590>
+##contig=<ID=chrUn_KI270757v1,length=71251>
+##contig=<ID=chrUn_GL000214v1,length=137718>
+##contig=<ID=chrUn_KI270742v1,length=186739>
+##contig=<ID=chrUn_GL000216v2,length=176608>
+##contig=<ID=chrUn_GL000218v1,length=161147>
+##contig=<ID=chrX,length=156040895>
+##contig=<ID=chrY,length=57227415>
+##contig=<ID=chrY_KI270740v1_random,length=37240>
+##contig=<ID=chr1_KQ031383v1_fix,length=467143>
+##contig=<ID=chr1_KQ983255v1_alt,length=278659>
+##contig=<ID=chr1_KN538361v1_fix,length=305542>
+##contig=<ID=chr1_KQ458383v1_alt,length=349938>
+##contig=<ID=chr1_KN196473v1_fix,length=166200>
+##contig=<ID=chr1_KZ208904v1_alt,length=166136>
+##contig=<ID=chr1_KN196472v1_fix,length=186494>
+##contig=<ID=chr1_KZ208905v1_alt,length=140355>
+##contig=<ID=chr1_KQ458382v1_alt,length=141019>
+##contig=<ID=chr1_KV880763v1_alt,length=551020>
+##contig=<ID=chr1_KN196474v1_fix,length=122022>
+##contig=<ID=chr1_KN538360v1_fix,length=460100>
+##contig=<ID=chr1_KZ208906v1_fix,length=330031>
+##contig=<ID=chr1_KQ458384v1_alt,length=212205>
+##contig=<ID=chr2_KQ031384v1_fix,length=481245>
+##contig=<ID=chr2_KZ208907v1_alt,length=181658>
+##contig=<ID=chr2_KQ983256v1_alt,length=535088>
+##contig=<ID=chr2_KZ208908v1_alt,length=140361>
+##contig=<ID=chr2_KN538363v1_fix,length=365499>
+##contig=<ID=chr2_KN538362v1_fix,length=208149>
+##contig=<ID=chr3_KV766192v1_fix,length=411654>
+##contig=<ID=chr3_KN196475v1_fix,length=451168>
+##contig=<ID=chr3_KQ031385v1_fix,length=373699>
+##contig=<ID=chr3_KN538364v1_fix,length=415308>
+##contig=<ID=chr3_KZ208909v1_alt,length=175849>
+##contig=<ID=chr3_KQ031386v1_fix,length=165718>
+##contig=<ID=chr3_KN196476v1_fix,length=305979>
+##contig=<ID=chr4_KQ090013v1_alt,length=90922>
+##contig=<ID=chr4_KQ090014v1_alt,length=163749>
+##contig=<ID=chr4_KQ090015v1_alt,length=236512>
+##contig=<ID=chr4_KV766193v1_alt,length=420675>
+##contig=<ID=chr4_KQ983257v1_fix,length=230434>
+##contig=<ID=chr4_KQ983258v1_alt,length=205407>
+##contig=<ID=chr5_KZ208910v1_alt,length=135987>
+##contig=<ID=chr5_KN196477v1_alt,length=139087>
+##contig=<ID=chr5_KV575243v1_alt,length=362221>
+##contig=<ID=chr5_KV575244v1_fix,length=673059>
+##contig=<ID=chr6_KZ208911v1_fix,length=242796>
+##contig=<ID=chr6_KQ090017v1_alt,length=82315>
+##contig=<ID=chr6_KQ031387v1_fix,length=320750>
+##contig=<ID=chr6_KN196478v1_fix,length=268330>
+##contig=<ID=chr6_KQ090016v1_fix,length=245716>
+##contig=<ID=chr6_KV766194v1_fix,length=139427>
+##contig=<ID=chr7_KV880764v1_fix,length=142129>
+##contig=<ID=chr7_KV880765v1_fix,length=468267>
+##contig=<ID=chr7_KZ208912v1_fix,length=589656>
+##contig=<ID=chr7_KZ208913v1_alt,length=680662>
+##contig=<ID=chr7_KQ031388v1_fix,length=179932>
+##contig=<ID=chr8_KZ208915v1_fix,length=6367528>
+##contig=<ID=chr8_KV880767v1_fix,length=265876>
+##contig=<ID=chr8_KV880766v1_fix,length=156998>
+##contig=<ID=chr8_KZ208914v1_fix,length=165120>
+##contig=<ID=chr9_KQ090018v1_alt,length=163882>
+##contig=<ID=chr9_KQ090019v1_alt,length=134099>
+##contig=<ID=chr9_KN196479v1_fix,length=330164>
+##contig=<ID=chr10_KN538367v1_fix,length=420164>
+##contig=<ID=chr10_KQ090020v1_alt,length=185507>
+##contig=<ID=chr10_KN196480v1_fix,length=277797>
+##contig=<ID=chr10_KQ090021v1_fix,length=264545>
+##contig=<ID=chr10_KN538366v1_fix,length=85284>
+##contig=<ID=chr10_KN538365v1_fix,length=14347>
+##contig=<ID=chr11_KQ759759v1_fix,length=196940>
+##contig=<ID=chr11_KN538368v1_alt,length=203552>
+##contig=<ID=chr11_KV766195v1_fix,length=140877>
+##contig=<ID=chr11_KQ090022v1_fix,length=181958>
+##contig=<ID=chr11_KN196481v1_fix,length=108875>
+##contig=<ID=chr12_KQ090023v1_alt,length=109323>
+##contig=<ID=chr12_KZ208916v1_fix,length=1046838>
+##contig=<ID=chr12_KN538369v1_fix,length=541038>
+##contig=<ID=chr12_KN196482v1_fix,length=211377>
+##contig=<ID=chr12_KZ208918v1_alt,length=174808>
+##contig=<ID=chr12_KQ759760v1_fix,length=315610>
+##contig=<ID=chr12_KZ208917v1_fix,length=64689>
+##contig=<ID=chr12_KN538370v1_fix,length=86533>
+##contig=<ID=chr13_KN538372v1_fix,length=356766>
+##contig=<ID=chr13_KQ090024v1_alt,length=168146>
+##contig=<ID=chr13_KN196483v1_fix,length=35455>
+##contig=<ID=chr13_KN538373v1_fix,length=148762>
+##contig=<ID=chr13_KQ090025v1_alt,length=123480>
+##contig=<ID=chr13_KN538371v1_fix,length=206320>
+##contig=<ID=chr14_KZ208920v1_fix,length=690932>
+##contig=<ID=chr14_KZ208919v1_alt,length=171798>
+##contig=<ID=chr15_KN538374v1_fix,length=4998962>
+##contig=<ID=chr15_KQ031389v1_alt,length=2365364>
+##contig=<ID=chr16_KQ090026v1_alt,length=59016>
+##contig=<ID=chr16_KV880768v1_fix,length=1927115>
+##contig=<ID=chr16_KQ090027v1_alt,length=267463>
+##contig=<ID=chr16_KZ208921v1_alt,length=78609>
+##contig=<ID=chr16_KQ031390v1_alt,length=169136>
+##contig=<ID=chr17_KV766196v1_fix,length=281919>
+##contig=<ID=chr17_KV575245v1_fix,length=154723>
+##contig=<ID=chr17_KV766198v1_alt,length=276292>
+##contig=<ID=chr17_KV766197v1_alt,length=246895>
+##contig=<ID=chr18_KQ458385v1_alt,length=205101>
+##contig=<ID=chr18_KQ090028v1_fix,length=407387>
+##contig=<ID=chr18_KZ208922v1_fix,length=93070>
+##contig=<ID=chr19_KQ458386v1_fix,length=405389>
+##contig=<ID=chr19_KN196484v1_fix,length=370917>
+##contig=<ID=chr19_KV575246v1_alt,length=163926>
+##contig=<ID=chr19_KV575247v1_alt,length=170206>
+##contig=<ID=chr19_KV575248v1_alt,length=168131>
+##contig=<ID=chr19_KV575249v1_alt,length=293522>
+##contig=<ID=chr19_KV575250v1_alt,length=241058>
+##contig=<ID=chr19_KV575251v1_alt,length=159285>
+##contig=<ID=chr19_KV575252v1_alt,length=178197>
+##contig=<ID=chr19_KV575253v1_alt,length=166713>
+##contig=<ID=chr19_KV575254v1_alt,length=99845>
+##contig=<ID=chr19_KV575255v1_alt,length=161095>
+##contig=<ID=chr19_KV575256v1_alt,length=223118>
+##contig=<ID=chr19_KV575257v1_alt,length=100553>
+##contig=<ID=chr19_KV575259v1_alt,length=171263>
+##contig=<ID=chr19_KV575260v1_alt,length=145691>
+##contig=<ID=chr19_KV575258v1_alt,length=156965>
+##contig=<ID=chr22_KN196485v1_alt,length=156562>
+##contig=<ID=chr22_KQ458387v1_alt,length=155930>
+##contig=<ID=chr22_KQ458388v1_alt,length=174749>
+##contig=<ID=chr22_KN196486v1_alt,length=153027>
+##contig=<ID=chr22_KQ759761v1_alt,length=145162>
+##contig=<ID=chr22_KQ759762v1_fix,length=101037>
+##contig=<ID=chrX_KV766199v1_alt,length=188004>
+##contig=<ID=chrY_KZ208923v1_fix,length=48370>
+##contig=<ID=chrY_KZ208924v1_fix,length=209722>
+##contig=<ID=chrY_KN196487v1_fix,length=101150>
+##contig=<ID=chr1_KZ559100v1_fix,length=44955>
+##contig=<ID=chr3_KZ559104v1_fix,length=105527>
+##contig=<ID=chr3_KZ559105v1_alt,length=195063>
+##contig=<ID=chr3_KZ559103v1_alt,length=302885>
+##contig=<ID=chr3_KZ559102v1_alt,length=197752>
+##contig=<ID=chr3_KZ559101v1_alt,length=164041>
+##contig=<ID=chr7_KZ559106v1_alt,length=172555>
+##contig=<ID=chr8_KZ559107v1_alt,length=103072>
+##contig=<ID=chr11_KZ559109v1_fix,length=279644>
+##contig=<ID=chr11_KZ559108v1_fix,length=305244>
+##contig=<ID=chr11_KZ559111v1_alt,length=181167>
+##contig=<ID=chr11_KZ559110v1_alt,length=301637>
+##contig=<ID=chr12_KZ559112v1_alt,length=154139>
+##contig=<ID=chr16_KZ559113v1_fix,length=480415>
+##contig=<ID=chr17_KZ559114v1_alt,length=116753>
+##contig=<ID=chr18_KZ559116v1_alt,length=163186>
+##contig=<ID=chr18_KZ559115v1_fix,length=230843>
+##contig=<ID=chr2_ML143342v1_fix,length=84043>
+##contig=<ID=chr2_ML143341v1_fix,length=145975>
+##contig=<ID=chr3_ML143343v1_alt,length=215443>
+##contig=<ID=chr4_ML143344v1_fix,length=235734>
+##contig=<ID=chr4_ML143347v1_fix,length=176674>
+##contig=<ID=chr4_ML143346v1_fix,length=53476>
+##contig=<ID=chr4_ML143348v1_fix,length=125549>
+##contig=<ID=chr4_ML143345v1_fix,length=341066>
+##contig=<ID=chr4_ML143349v1_fix,length=276109>
+##contig=<ID=chr5_ML143350v1_fix,length=89956>
+##contig=<ID=chr6_ML143351v1_fix,length=73265>
+##contig=<ID=chr7_ML143352v1_fix,length=254759>
+##contig=<ID=chr9_ML143353v1_fix,length=25408>
+##contig=<ID=chr10_ML143354v1_fix,length=454963>
+##contig=<ID=chr10_ML143355v1_fix,length=292944>
+##contig=<ID=chr11_ML143358v1_fix,length=270122>
+##contig=<ID=chr11_ML143360v1_fix,length=170928>
+##contig=<ID=chr11_ML143359v1_fix,length=217075>
+##contig=<ID=chr11_ML143357v1_fix,length=165419>
+##contig=<ID=chr11_ML143356v1_fix,length=45257>
+##contig=<ID=chr12_ML143362v1_fix,length=192531>
+##contig=<ID=chr12_ML143361v1_fix,length=297568>
+##contig=<ID=chr13_ML143366v1_fix,length=409912>
+##contig=<ID=chr13_ML143363v1_fix,length=7309>
+##contig=<ID=chr13_ML143364v1_fix,length=158944>
+##contig=<ID=chr13_ML143365v1_fix,length=65394>
+##contig=<ID=chr14_ML143367v1_fix,length=399183>
+##contig=<ID=chr14_ML143368v1_alt,length=264228>
+##contig=<ID=chr15_ML143372v1_fix,length=396515>
+##contig=<ID=chr15_ML143371v1_fix,length=5500449>
+##contig=<ID=chr15_ML143370v1_fix,length=369264>
+##contig=<ID=chr15_ML143369v1_fix,length=97763>
+##contig=<ID=chr16_ML143373v1_fix,length=270967>
+##contig=<ID=chr17_ML143374v1_fix,length=137908>
+##contig=<ID=chr17_ML143375v1_fix,length=56695>
+##contig=<ID=chr19_ML143376v1_fix,length=493165>
+##contig=<ID=chr21_ML143377v1_fix,length=519485>
+##contig=<ID=chr22_ML143380v1_fix,length=412368>
+##contig=<ID=chr22_ML143378v1_fix,length=461303>
+##contig=<ID=chr22_ML143379v1_fix,length=12295>
+##contig=<ID=chrX_ML143385v1_fix,length=17435>
+##contig=<ID=chrX_ML143382v1_fix,length=28824>
+##contig=<ID=chrX_ML143383v1_fix,length=68192>
+##contig=<ID=chrX_ML143381v1_fix,length=403128>
+##contig=<ID=chrX_ML143384v1_fix,length=14678>
+##contig=<ID=chr1_MU273333v1_fix,length=1572686>
+##contig=<ID=chr1_MU273330v1_alt,length=516764>
+##contig=<ID=chr1_MU273335v1_fix,length=211934>
+##contig=<ID=chr1_MU273336v1_fix,length=250447>
+##contig=<ID=chr1_MU273331v1_alt,length=847441>
+##contig=<ID=chr1_MU273334v1_fix,length=210426>
+##contig=<ID=chr1_MU273332v1_alt,length=335159>
+##contig=<ID=chr2_MU273344v1_fix,length=244725>
+##contig=<ID=chr2_MU273345v1_fix,length=174385>
+##contig=<ID=chr2_MU273343v1_fix,length=489404>
+##contig=<ID=chr2_MU273340v1_alt,length=284971>
+##contig=<ID=chr2_MU273337v1_alt,length=431782>
+##contig=<ID=chr2_MU273342v1_fix,length=955087>
+##contig=<ID=chr2_MU273339v1_alt,length=500581>
+##contig=<ID=chr2_MU273338v1_alt,length=535251>
+##contig=<ID=chr2_MU273341v1_fix,length=120381>
+##contig=<ID=chr3_MU273347v1_fix,length=301310>
+##contig=<ID=chr3_MU273348v1_fix,length=475876>
+##contig=<ID=chr3_MU273346v1_fix,length=469342>
+##contig=<ID=chr4_MU273351v1_fix,length=205691>
+##contig=<ID=chr4_MU273349v1_alt,length=308682>
+##contig=<ID=chr4_MU273350v1_fix,length=113364>
+##contig=<ID=chr5_MU273354v1_fix,length=2101585>
+##contig=<ID=chr5_MU273353v1_fix,length=208405>
+##contig=<ID=chr5_MU273356v1_alt,length=302485>
+##contig=<ID=chr5_MU273355v1_fix,length=508332>
+##contig=<ID=chr5_MU273352v1_fix,length=34400>
+##contig=<ID=chr6_MU273357v1_alt,length=383128>
+##contig=<ID=chr7_MU273358v1_alt,length=464417>
+##contig=<ID=chr8_MU273362v1_fix,length=429744>
+##contig=<ID=chr8_MU273359v1_fix,length=150302>
+##contig=<ID=chr8_MU273361v1_fix,length=106905>
+##contig=<ID=chr8_MU273363v1_fix,length=207371>
+##contig=<ID=chr8_MU273360v1_fix,length=39290>
+##contig=<ID=chr9_MU273366v1_fix,length=569668>
+##contig=<ID=chr9_MU273364v1_fix,length=340717>
+##contig=<ID=chr9_MU273365v1_fix,length=482250>
+##contig=<ID=chr10_MU273367v1_fix,length=196262>
+##contig=<ID=chr11_KQ759759v2_fix,length=204999>
+##contig=<ID=chr11_MU273369v1_fix,length=434831>
+##contig=<ID=chr11_MU273371v1_fix,length=122722>
+##contig=<ID=chr11_MU273370v1_fix,length=344606>
+##contig=<ID=chr11_MU273368v1_alt,length=261194>
+##contig=<ID=chr12_MU273372v1_fix,length=104537>
+##contig=<ID=chr14_MU273373v1_fix,length=722645>
+##contig=<ID=chr15_MU273375v1_alt,length=204007>
+##contig=<ID=chr15_MU273374v1_fix,length=1154574>
+##contig=<ID=chr16_MU273376v1_fix,length=87715>
+##contig=<ID=chr16_MU273377v1_fix,length=334997>
+##contig=<ID=chr17_MU273380v1_fix,length=538541>
+##contig=<ID=chr17_MU273378v1_alt,length=372839>
+##contig=<ID=chr17_MU273383v1_fix,length=172609>
+##contig=<ID=chr17_MU273379v1_fix,length=234878>
+##contig=<ID=chr17_MU273382v1_fix,length=187626>
+##contig=<ID=chr17_MU273381v1_fix,length=144689>
+##contig=<ID=chr19_MU273386v1_fix,length=226166>
+##contig=<ID=chr19_MU273387v1_alt,length=89211>
+##contig=<ID=chr19_MU273384v1_fix,length=333754>
+##contig=<ID=chr19_MU273385v1_fix,length=137818>
+##contig=<ID=chr20_MU273388v1_fix,length=273725>
+##contig=<ID=chr20_MU273389v1_fix,length=355731>
+##contig=<ID=chr21_MU273390v1_fix,length=336752>
+##contig=<ID=chr21_MU273391v1_fix,length=1020778>
+##contig=<ID=chr21_MU273392v1_fix,length=189707>
+##contig=<ID=chr22_KQ759762v2_fix,length=101040>
+##contig=<ID=chrX_MU273397v1_alt,length=330493>
+##contig=<ID=chrX_MU273393v1_fix,length=68810>
+##contig=<ID=chrX_MU273394v1_fix,length=140567>
+##contig=<ID=chrX_MU273396v1_alt,length=294119>
+##contig=<ID=chrX_MU273395v1_alt,length=619716>
+##contig=<ID=chrY_MU273398v1_fix,length=865743>
+##ALT=<ID=DEL,Description="Deletion">
+##ALT=<ID=INS,Description="Insertion">
+##ALT=<ID=DUP,Description="Duplication">
+##ALT=<ID=INV,Description="Reciprocal Inversion">
+##ALT=<ID=BND,Description="Breakend">
+##ALT=<ID=TRA,Description="Translocation">
+##INFO=<ID=PRECISE,Number=0,Type=Flag,Description="SV with precise breakpoints coordinates and length">
+##INFO=<ID=IMPRECISE,Number=0,Type=Flag,Description="SV with imprecise breakpoints coordinates and length">
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant">
+##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length of the SV">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of the SV">
+##INFO=<ID=STRANDS,Number=1,Type=String,Description="Breakpoint strandedness">
+##INFO=<ID=DETAILED_TYPE,Number=1,Type=String,Description="Detailed type of the SV">
+##INFO=<ID=INSLEN,Number=1,Type=Integer,Description="Length of the unmapped sequence between breakpoint">
+##INFO=<ID=MAPQ,Number=1,Type=Integer,Description="Median mapping quality of supporting reads">
+##INFO=<ID=PHASESETID,Number=1,Type=String,Description="Matching phaseset ID for phased SVs">
+##INFO=<ID=HP,Number=1,Type=Integer,Description="Matching haplotype ID for phased SVs">
+##INFO=<ID=CLUSTERID,Number=1,Type=String,Description="Cluster ID in breakpoint_graph">
+##INFO=<ID=INSSEQ,Number=1,Type=String,Description="Insertion sequence between breakpoints">
+##INFO=<ID=MATE_ID,Number=1,Type=String,Description="MATE ID for breakends">
+##INFO=<ID=INSIDE_VNTR,Number=1,Type=String,Description="True if an indel is inside a VNTR">
+##INFO=<ID=ALIGNED_POS,Number=1,Type=String,Description="Position in the reference">
+##INFO=<ID=LOW_COV_IN,Number=1,Type=String,Description="Samples that has low coverage in that region">
+##INFO=<ID=CHR2,Number=1,Type=String,Description="Chromosome for end">
+##INFO=<ID=SUPPORT,Number=1,Type=Integer,Description="Number of pieces of evidence supporting the variant">
+##INFO=<ID=SVMETHOD,Number=1,Type=String,Description="The software used to identify the SV">
+##INFO=<ID=RTID,Number=1,Type=String,Description="Associated ID for reciprocal translocations if available">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=STRAND,Number=1,Type=String,Description="Strand orientation of the SV">
+##INFO=<ID=RNAMES,Number=.,Type=String,Description="Supporting read names">
+##INFO=<ID=SOURCE_IDS,Number=.,Type=String,Description="Original IDs of merged SVs from different callers">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=FAIL_LOWSUPP,Description="Less number of support, but ok in other samples">
+##FILTER=<ID=FAIL_MAP_CONS,Description="Majority of variant reads have unreliable mappability">
+##FILTER=<ID=FAIL_CONN_CONS,Description="Majority of variant reads have unreliable connections">
+##FILTER=<ID=FAIL_LOWCOV_OTHER,Description="Low variant coverage in other samples">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DR,Number=1,Type=Integer,Description="Number of reference reads">
+##FORMAT=<ID=DV,Number=1,Type=Integer,Description="Number of variant reads">
+##FORMAT=<ID=VAF,Number=1,Type=Float,Description="Variant allele frequency">
+##FORMAT=<ID=hVAF,Number=3,Type=Float,Description="Haplotype specific variant Allele frequency (H0,H1,H2)">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=LN,Number=1,Type=Integer,Description="Length of SV">
+##FORMAT=<ID=ST,Number=1,Type=String,Description="Strand orientation of SV (e.g., +, -, -+, ++)">
+##FORMAT=<ID=QV,Number=1,Type=Integer,Description="Quality value">
+##FORMAT=<ID=TY,Number=1,Type=String,Description="Type of SV (e.g., TRA, DEL, INS)">
+##FORMAT=<ID=ID,Number=1,Type=String,Description="Unique identifier for the SV">
+##FORMAT=<ID=SC,Number=1,Type=String,Description="Source from which SV was identified">
+##FORMAT=<ID=REF,Number=1,Type=String,Description="Reference allele sequence">
+##FORMAT=<ID=ALT,Number=1,Type=String,Description="Alternate allele sequence">
+##FORMAT=<ID=CO,Number=1,Type=String,Description="Coordinate information of the SV">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample
+chr6_GL000251v2_alt	4572704	severus_BND6478_1	N	<INV>	60.0	PASS	SVTYPE=INV;END=4572762;SVLEN=58;CHR2=chr6_GL000251v2_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,9:58:.:60.0:INV:severus_BND6478_1:Severus_v1.5:N:N]chr6_GL000251v2_alt:4572762]:chr6_GL000251v2_alt_4572704-chr6_GL000251v2_alt_4572762
+chr7_KZ208912v1_fix	221167	severus_BND7006_1	N	<INV>	60.0	PASS	SVTYPE=INV;END=221264;SVLEN=97;CHR2=chr7_KZ208912v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,12:97:.:60.0:INV:severus_BND7006_1:Severus_v1.5:N:N]chr7_KZ208912v1_fix:221264]:chr7_KZ208912v1_fix_221167-chr7_KZ208912v1_fix_221264
+chr11_ML143358v1_fix	143136	severus_BND1188_1	N	<INV>	60.0	PASS	SVTYPE=INV;END=143254;SVLEN=118;CHR2=chr11_ML143358v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,16:118:.:60.0:INV:severus_BND1188_1:Severus_v1.5:N:N]chr11_ML143358v1_fix:143254]:chr11_ML143358v1_fix_143136-chr11_ML143358v1_fix_143254
+chr1_MU273332v1_alt	318388	severus_BND3408_1	N	<INV>	60.0	PASS	SVTYPE=INV;END=318507;SVLEN=119;CHR2=chr1_MU273332v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,16:119:.:60.0:INV:severus_BND3408_1:Severus_v1.5:N:N]chr1_MU273332v1_alt:318507]:chr1_MU273332v1_alt_318388-chr1_MU273332v1_alt_318507
+chr11	75448467	severus_BND1208_2	N	N]chr12:3156966]	60.0	PASS	SVTYPE=TRA;END=3156966;SVLEN=.;CHR2=chr12;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:31,9:.:.:60.0:TRA:severus_BND1208_2:Severus_v1.5:N:N]chr12:3156966]:chr11_75448467-chr12_3156966
+chr12	3156966	severus_BND1208_1	N	N]chr11:75448467]	60.0	PASS	SVTYPE=TRA;END=75448467;SVLEN=.;CHR2=chr11;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:31,9:.:.:60.0:TRA:severus_BND1208_1:Severus_v1.5:N:N]chr11:75448467]:chr12_3156966-chr11_75448467
+chr1	145512726	severus_BND1928_2	N	[chr14:37011809[N	60.0	PASS	SVTYPE=TRA;END=37011809;SVLEN=.;CHR2=chr14;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:21,5:.:.:60.0:TRA:severus_BND1928_2:Severus_v1.5:N:[chr14:37011809[N:chr1_145512726-chr14_37011809
+chr14	37011809	severus_BND1928_1	N	[chr1:145512726[N	60.0	PASS	SVTYPE=TRA;END=145512726;SVLEN=.;CHR2=chr1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:21,5:.:.:60.0:TRA:severus_BND1928_1:Severus_v1.5:N:[chr1:145512726[N:chr14_37011809-chr1_145512726
+chr12	111606074	severus_BND2540_2	N	N[chr16:83394156[	60.0	PASS	SVTYPE=TRA;END=83394156;SVLEN=.;CHR2=chr16;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:22,11:.:.:60.0:TRA:severus_BND2540_2:Severus_v1.5:N:N[chr16:83394156[:chr12_111606074-chr16_83394156
+chr11	71724330	severus_BND2693_2	N	]chr17:32288261]N	60.0	PASS	SVTYPE=TRA;END=32288261;SVLEN=.;CHR2=chr17;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:19,13:.:.:60.0:TRA:severus_BND2693_2:Severus_v1.5:N:]chr17:32288261]N:chr11_71724330-chr17_32288261
+chr16	57313664	severus_BND2489_1	N	]chr17:59838799]N	60.0	PASS	SVTYPE=TRA;END=59838799;SVLEN=.;CHR2=chr17;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:42,6:.:.:60.0:TRA:severus_BND2489_1:Severus_v1.5:N:]chr17:59838799]N:chr16_57313664-chr17_59838799
+chr17	42831758	severus_BND2707_1	N	[chr3:60625435[N	60.0	PASS	SVTYPE=TRA;END=60625435;SVLEN=.;CHR2=chr3;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,6:.:.:60.0:TRA:severus_BND2707_1:Severus_v1.5:N:[chr3:60625435[N:chr17_42831758-chr3_60625435
+chr3	60625435	severus_BND2707_2	N	[chr17:42831758[N	60.0	PASS	SVTYPE=TRA;END=42831758;SVLEN=.;CHR2=chr17;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,6:.:.:60.0:TRA:severus_BND2707_2:Severus_v1.5:N:[chr17:42831758[N:chr3_60625435-chr17_42831758
+chr11	73100059	severus_BND1106_1	N	[chr3:142294390[N	60.0	PASS	SVTYPE=TRA;END=142294390;SVLEN=.;CHR2=chr3;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,5:.:.:60.0:TRA:severus_BND1106_1:Severus_v1.5:N:[chr3:142294390[N:chr11_73100059-chr3_142294390
+chr3	142294390	severus_BND1106_2	N	[chr11:73100059[N	60.0	PASS	SVTYPE=TRA;END=73100059;SVLEN=.;CHR2=chr11;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,5:.:.:60.0:TRA:severus_BND1106_2:Severus_v1.5:N:[chr11:73100059[N:chr3_142294390-chr11_73100059
+chr1	180872843	severus_BND5862_2	N	N]chr5:90154964]	60.0	PASS	SVTYPE=TRA;END=90154964;SVLEN=.;CHR2=chr5;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:27,6:.:.:60.0:TRA:severus_BND5862_2:Severus_v1.5:N:N]chr5:90154964]:chr1_180872843-chr5_90154964
+chr5	90154964	severus_BND5862_1	N	N]chr1:180872843]	60.0	PASS	SVTYPE=TRA;END=180872843;SVLEN=.;CHR2=chr1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:27,6:.:.:60.0:TRA:severus_BND5862_1:Severus_v1.5:N:N]chr1:180872843]:chr5_90154964-chr1_180872843
+chr16_KI270728v1_random	1474516	severus_BND6081_2	N	N]chr6:382445]	60.0	PASS	SVTYPE=TRA;END=382445;SVLEN=.;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:41,37:.:.:60.0:TRA:severus_BND6081_2:Severus_v1.5:N:N]chr6:382445]:chr16_KI270728v1_random_1474516-chr6_382445
+chr6	382445	severus_BND6081_1	N	N]chr16_KI270728v1_random:1474516]	60.0	PASS	SVTYPE=TRA;END=1474516;SVLEN=.;CHR2=chr16_KI270728v1_random;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:41,37:.:.:60.0:TRA:severus_BND6081_1:Severus_v1.5:N:N]chr16_KI270728v1_random:1474516]:chr6_382445-chr16_KI270728v1_random_1474516
+chr21	43340600	severus_BND4384_1	N	N]chr6:57764005]	60.0	PASS	SVTYPE=TRA;END=57764005;SVLEN=.;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,5:.:.:60.0:TRA:severus_BND4384_1:Severus_v1.5:N:N]chr6:57764005]:chr21_43340600-chr6_57764005
+chr6	57764005	severus_BND4384_2	N	N]chr21:43340600]	60.0	PASS	SVTYPE=TRA;END=43340600;SVLEN=.;CHR2=chr21;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,5:.:.:60.0:TRA:severus_BND4384_2:Severus_v1.5:N:N]chr21:43340600]:chr6_57764005-chr21_43340600
+chr4	102899306	severus_BND5302_1	N	N[chr6:108640773[	60.0	PASS	SVTYPE=TRA;END=108640773;SVLEN=.;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:30,11:.:.:60.0:TRA:severus_BND5302_1:Severus_v1.5:N:N[chr6:108640773[:chr4_102899306-chr6_108640773
+chr4	102899306	severus_BND5303_1	N	N[chr6:108641198[	60.0	PASS	SVTYPE=TRA;END=108641198;SVLEN=.;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:26,5:.:.:60.0:TRA:severus_BND5303_1:Severus_v1.5:N:N[chr6:108641198[:chr4_102899306-chr6_108641198
+chr16	57300279	severus_BND2487_1	N	[chr7:63004713[N	60.0	PASS	SVTYPE=TRA;END=63004713;SVLEN=.;CHR2=chr7;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:80,12:.:.:60.0:TRA:severus_BND2487_1:Severus_v1.5:N:[chr7:63004713[N:chr16_57300279-chr7_63004713
+chr7	63004713	severus_BND2487_2	N	[chr16:57300279[N	60.0	PASS	SVTYPE=TRA;END=57300279;SVLEN=.;CHR2=chr16;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:80,12:.:.:60.0:TRA:severus_BND2487_2:Severus_v1.5:N:[chr16:57300279[N:chr7_63004713-chr16_57300279
+chr8	116862292	severus_BND7390_2	N	[chr9:23799834[N	60.0	PASS	SVTYPE=TRA;END=23799834;SVLEN=.;CHR2=chr9;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,9:.:.:60.0:TRA:severus_BND7390_2:Severus_v1.5:N:[chr9:23799834[N:chr8_116862292-chr9_23799834
+chr9	23799834	severus_BND7390_1	N	[chr8:116862292[N	60.0	PASS	SVTYPE=TRA;END=116862292;SVLEN=.;CHR2=chr8;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,9:.:.:60.0:TRA:severus_BND7390_1:Severus_v1.5:N:[chr8:116862292[N:chr9_23799834-chr8_116862292
+chr3	143402916	severus_BND7532_2	N	[chr9:95697587[N	60.0	PASS	SVTYPE=TRA;END=95697587;SVLEN=.;CHR2=chr9;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:22,6:.:.:60.0:TRA:severus_BND7532_2:Severus_v1.5:N:[chr9:95697587[N:chr3_143402916-chr9_95697587
+chr9	95697587	severus_BND7532_1	N	[chr3:143402916[N	60.0	PASS	SVTYPE=TRA;END=143402916;SVLEN=.;CHR2=chr3;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:22,6:.:.:60.0:TRA:severus_BND7532_1:Severus_v1.5:N:[chr3:143402916[N:chr9_95697587-chr3_143402916
+chr7	158464159	severus_BND7002_2	N	N]chr7_KI270805v1_alt:12850]	60.0	PASS	SVTYPE=TRA;END=12850;SVLEN=.;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,8:.:.:60.0:TRA:severus_BND7002_2:Severus_v1.5:N:N]chr7_KI270805v1_alt:12850]:chr7_158464159-chr7_KI270805v1_alt_12850
+chr7_KI270805v1_alt	12850	severus_BND7002_1	N	N]chr7:158464159]	60.0	PASS	SVTYPE=TRA;END=158464159;SVLEN=.;CHR2=chr7;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,8:.:.:60.0:TRA:severus_BND7002_1:Severus_v1.5:N:N]chr7:158464159]:chr7_KI270805v1_alt_12850-chr7_158464159
+chr17	360726	severus_BND2860_2	N	N]chr17_KI270907v1_alt:41570]	60.0	PASS	SVTYPE=TRA;END=41570;SVLEN=.;CHR2=chr17_KI270907v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:2,5:.:.:60.0:TRA:severus_BND2860_2:Severus_v1.5:N:N]chr17_KI270907v1_alt:41570]:chr17_360726-chr17_KI270907v1_alt_41570
+chr17_KI270907v1_alt	41570	severus_BND2860_1	N	N]chr17:360726]	60.0	PASS	SVTYPE=TRA;END=360726;SVLEN=.;CHR2=chr17;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:2,5:.:.:60.0:TRA:severus_BND2860_1:Severus_v1.5:N:N]chr17:360726]:chr17_KI270907v1_alt_41570-chr17_360726
+chr1	124977944	severus_DEL273	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=124978103;SVLEN=159;CHR2=chr1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,15:159:.:60.0:DEL:severus_DEL273:Severus_v1.5:N:<DEL>:chr1_124977944-chr1_124978103
+chr1	125025271	severus_DEL275	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=125025384;SVLEN=113;CHR2=chr1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:2,20:113:.:60.0:DEL:severus_DEL275:Severus_v1.5:N:<DEL>:chr1_125025271-chr1_125025384
+chr1	212468678	severus_DEL407	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=212468763;SVLEN=85;CHR2=chr1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,27:85:.:60.0:DEL:severus_DEL407:Severus_v1.5:N:<DEL>:chr1_212468678-chr1_212468763
+chr1	248938465	severus_DEL539	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=248938558;SVLEN=93;CHR2=chr1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:34,48:93:.:60.0:DEL:severus_DEL539:Severus_v1.5:N:<DEL>:chr1_248938465-chr1_248938558
+chr1	248944944	severus_INS8740	N	TCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCC	60.0	PASS	SVTYPE=INS;END=248945118;SVLEN=174;CHR2=chr1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,140:174:.:60.0:INS:severus_INS8740:Severus_v1.5:N:TCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCTCC:chr1_248944944-chr1_248945118
+chr10	1235943	severus_DEL573	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=1236046;SVLEN=114;CHR2=chr10;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,6:114:.:60.0:DEL:severus_DEL573:Severus_v1.5:N:<DEL>:chr10_1235943-chr10_1236046
+chr10	73659961	severus_INV760	N	<INV>	60.0	PASS	SVTYPE=INV;END=73660146;SVLEN=185;CHR2=chr10;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,10:185:.:60.0:INV:severus_INV760:Severus_v1.5:N:<INV>:chr10_73659961-chr10_73660146
+chr12	86053618	severus_DEL1394	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=86053800;SVLEN=182;CHR2=chr12;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,8:182:.:60.0:DEL:severus_DEL1394:Severus_v1.5:N:<DEL>:chr12_86053618-chr12_86053800
+chr12	133194919	severus_DEL1565	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=133195071;SVLEN=152;CHR2=chr12;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,18:152:.:60.0:DEL:severus_DEL1565:Severus_v1.5:N:<DEL>:chr12_133194919-chr12_133195071
+chr13	78020672	severus_INS10436	N	TGGTAAAACACATTGAGAAATATGACTGCACGTCCTGTCTCTCCTAAGTCCTATATAACTCCATTCTTAATTTTTTTTCAAATAAAATAGATTAGTAACAGTAAACAGCATCTGCAGAGAACT	60.0	PASS	SVTYPE=INS;END=78020795;SVLEN=123;CHR2=chr13;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,11:123:.:60.0:INS:severus_INS10436:Severus_v1.5:N:TGGTAAAACACATTGAGAAATATGACTGCACGTCCTGTCTCTCCTAAGTCCTATATAACTCCATTCTTAATTTTTTTTCAAATAAAATAGATTAGTAACAGTAAACAGCATCTGCAGAGAACT:chr13_78020672-chr13_78020795
+chr14	105477854	severus_DEL2096	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=105477908;SVLEN=54;CHR2=chr14;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,34:54:.:60.0:DEL:severus_DEL2096:Severus_v1.5:N:<DEL>:chr14_105477854-chr14_105477908
+chr15	45240114	severus_INS11011	N	ATAGGCAGCCTTGCCTGCTGAATTCGTGCTTCCAAATCCTCCTGTTCTTTTTTCTGAGCTTTCTCCT	60.0	PASS	SVTYPE=INS;END=45240181;SVLEN=67;CHR2=chr15;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:6,8:67:.:60.0:INS:severus_INS11011:Severus_v1.5:N:ATAGGCAGCCTTGCCTGCTGAATTCGTGCTTCCAAATCCTCCTGTTCTTTTTTCTGAGCTTTCTCCT:chr15_45240114-chr15_45240181
+chr15	74078495	severus_DEL2237	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=74078662;SVLEN=167;CHR2=chr15;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:53,7:167:.:60.0:DEL:severus_DEL2237:Severus_v1.5:N:<DEL>:chr15_74078495-chr15_74078662
+chr16	57301619	severus_DEL2488	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=57301689;SVLEN=70;CHR2=chr16;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:49,11:70:.:60.0:DEL:severus_DEL2488:Severus_v1.5:N:<DEL>:chr16_57301619-chr16_57301689
+chr16	69820424	severus_INS11438	N	GTAGTTGGGATTACAGGCATGCACAACCATGCCTGACTAATTTTTGTATTTTTG	60.0	PASS	SVTYPE=INS;END=69820478;SVLEN=54;CHR2=chr16;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,26:54:.:60.0:INS:severus_INS11438:Severus_v1.5:N:GTAGTTGGGATTACAGGCATGCACAACCATGCCTGACTAATTTTTGTATTTTTG:chr16_69820424-chr16_69820478
+chr17	26643468	severus_INS11651	N	TAAAAACTAGACAGAAGAATTCACAGGAAACTTCATTGTGATGTGTGCATTGAACTCACATAGTTGAACCTTTCTTTTGATAGAGCAGTT	60.0	PASS	SVTYPE=INS;END=26643557;SVLEN=89;CHR2=chr17;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,8:89:.:60.0:INS:severus_INS11651:Severus_v1.5:N:TAAAAACTAGACAGAAGAATTCACAGGAAACTTCATTGTGATGTGTGCATTGAACTCACATAGTTGAACCTTTCTTTTGATAGAGCAGTT:chr17_26643468-chr17_26643557
+chr17	40379840	severus_INS11677	N	GGTGGTTTTATTTTTTTTTTTTTTATTTTTTTTTTTTTGAGACGGAGTC	60.0	PASS	SVTYPE=INS;END=40379890;SVLEN=50;CHR2=chr17;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,8:50:.:60.0:INS:severus_INS11677:Severus_v1.5:N:GGTGGTTTTATTTTTTTTTTTTTTATTTTTTTTTTTTTGAGACGGAGTC:chr17_40379840-chr17_40379890
+chr17	43322143	severus_DEL2718	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=43322194;SVLEN=51;CHR2=chr17;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:36,10:51:.:60.0:DEL:severus_DEL2718:Severus_v1.5:N:<DEL>:chr17_43322143-chr17_43322194
+chr19	27382148	severus_DEL3259	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=27382289;SVLEN=141;CHR2=chr19;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:22,15:141:.:60.0:DEL:severus_DEL3259:Severus_v1.5:N:<DEL>:chr19_27382148-chr19_27382289
+chr19	55670423	severus_DUP3364	N	<DUP>	60.0	PASS	SVTYPE=DUP;END=55670522;SVLEN=99;CHR2=chr19;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,33:99:.:60.0:DUP:severus_DUP3364:Severus_v1.5:N:<DUP>:chr19_55670423-chr19_55670522
+chr19	58585098	severus_DEL3390	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=58585253;SVLEN=155;CHR2=chr19;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,17:155:.:60.0:DEL:severus_DEL3390:Severus_v1.5:N:<DEL>:chr19_58585098-chr19_58585253
+chr19	58607162	severus_INS12598	N	GCGCCTGTCTGCGCCTGCGCCGGCGCGCCGCGCCGCGCCTGTCTGCGCCTGCGCCGGCGCGCCGCGCCGCGCCTCTCTGCGCCTCCGCCGGCGCGCCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCGCG	60.0	PASS	SVTYPE=INS;END=58607240;SVLEN=78;CHR2=chr19;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:48,26:78:.:60.0:INS:severus_INS12598:Severus_v1.5:N:GCGCCTGTCTGCGCCTGCGCCGGCGCGCCGCGCCGCGCCTGTCTGCGCCTGCGCCGGCGCGCCGCGCCGCGCCTCTCTGCGCCTCCGCCGGCGCGCCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCGCGCCTCTCTGCGCCTGCGCCGGCGCGCCGCGCCGCG:chr19_58607162-chr19_58607240
+chr1_KI270706v1_random	53097	severus_INS12602	N	GCCCAAAGTCTCTTCTGAGACAAGGCTGCCATATGTTCTACCCCTGAGCCTCTGAAATACCAAGCAAGTACTTCCAAAGTACAATGATTTTACATGCATTGGATAAGTATTCCCAGCCAAAAGGAACAAATTTGCCAGAAAGAAGCACAAAATATATTTGG	60.0	PASS	SVTYPE=INS;END=53258;SVLEN=161;CHR2=chr1_KI270706v1_random;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:113,8:161:.:60.0:INS:severus_INS12602:Severus_v1.5:N:GCCCAAAGTCTCTTCTGAGACAAGGCTGCCATATGTTCTACCCCTGAGCCTCTGAAATACCAAGCAAGTACTTCCAAAGTACAATGATTTTACATGCATTGGATAAGTATTCCCAGCCAAAAGGAACAAATTTGCCAGAAAGAAGCACAAAATATATTTGG:chr1_KI270706v1_random_53097-chr1_KI270706v1_random_53258
+chr2	29484381	severus_DEL3540	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=29484433;SVLEN=52;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,5:52:.:60.0:DEL:severus_DEL3540:Severus_v1.5:N:<DEL>:chr2_29484381-chr2_29484433
+chr2	53316885	severus_INS12849	N	AAAAAAAAAGAGAGGAATACATTAATCTACCTGAAACAAGAGTATGCTTTGATTTGGTTTGGTTTTTGTTTCTTAAAATACTGACCCATTGTTTGCATGCCTCCATTCTAGTCGATTGGCTCAGTAGGAAAAATGTCTATGACAAAATTCACATTGAAGA	60.0	PASS	SVTYPE=INS;END=53317045;SVLEN=160;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:9,14:160:.:60.0:INS:severus_INS12849:Severus_v1.5:N:AAAAAAAAAGAGAGGAATACATTAATCTACCTGAAACAAGAGTATGCTTTGATTTGGTTTGGTTTTTGTTTCTTAAAATACTGACCCATTGTTTGCATGCCTCCATTCTAGTCGATTGGCTCAGTAGGAAAAATGTCTATGACAAAATTCACATTGAAGA:chr2_53316885-chr2_53317045
+chr2	62475658	severus_INS12870	N	AAAAGAAATAATAAAAAAAAAAAATTAAAAAAAAAAAATAAAAATAAATAAAAATGAAAAAAAAAAAAAAAAAAAAAA	60.0	PASS	SVTYPE=INS;END=62475733;SVLEN=75;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:13,10:75:.:60.0:INS:severus_INS12870:Severus_v1.5:N:AAAAGAAATAATAAAAAAAAAAAATTAAAAAAAAAAAATAAAAATAAATAAAAATGAAAAAAAAAAAAAAAAAAAAAA:chr2_62475658-chr2_62475733
+chr2	119925480	severus_DEL3712	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=119925556;SVLEN=76;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,9:76:.:60.0:DEL:severus_DEL3712:Severus_v1.5:N:<DEL>:chr2_119925480-chr2_119925556
+chr2	130778503	severus_DEL3744	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=130778634;SVLEN=131;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:24,12:131:.:60.0:DEL:severus_DEL3744:Severus_v1.5:N:<DEL>:chr2_130778503-chr2_130778634
+chr2	172441460	severus_INS13145	N	TCACGAGGTCAGGAGATCGAGGCCATCCCGGCTAAAACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAAATTAGCCGGGCGTAGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGCGGCTG	60.0	PASS	SVTYPE=INS;END=172441582;SVLEN=122;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,9:122:.:60.0:INS:severus_INS13145:Severus_v1.5:N:TCACGAGGTCAGGAGATCGAGGCCATCCCGGCTAAAACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAAATTAGCCGGGCGTAGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGCGGCTG:chr2_172441460-chr2_172441582
+chr2	180174287	severus_DEL3836	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=180174385;SVLEN=98;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,16:98:.:60.0:DEL:severus_DEL3836:Severus_v1.5:N:<DEL>:chr2_180174287-chr2_180174385
+chr2	192091206	severus_INS13189	N	CTCCCCTGCCCCTAACTCCCCTTAATGCTTTGATGGTTGTTTAATGGCTCCTCTCAAACACCTATTCGTGAATGACAGGGTTATAAATCCCAGCATAAGCGAAAGTCACACAGTAGCAGAAACATCAGGGAAATCACAGAGATGATCAGGACATTAGATCAGTTACCTGAACAGTTATGCTCAATACCCTCT	60.0	PASS	SVTYPE=INS;END=192091397;SVLEN=191;CHR2=chr2;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,12:191:.:60.0:INS:severus_INS13189:Severus_v1.5:N:CTCCCCTGCCCCTAACTCCCCTTAATGCTTTGATGGTTGTTTAATGGCTCCTCTCAAACACCTATTCGTGAATGACAGGGTTATAAATCCCAGCATAAGCGAAAGTCACACAGTAGCAGAAACATCAGGGAAATCACAGAGATGATCAGGACATTAGATCAGTTACCTGAACAGTTATGCTCAATACCCTCT:chr2_192091206-chr2_192091397
+chr20	1602897	severus_INS13403	N	ATTCTTATTTCCTGGAGCCTCAGGGAAGAAAGAATAGAAGATTGGGCCCCAGCCATCATTAGAAGAGTAGCAGAATCACAAAGGATGTTGAATGTCAGCTTTAATGGCTTCTATGCTGGGGTTGGGCCCTGATGGGGAAGTTGTGGGACCCTGAGATGTGGGAGGATGTATTCGGGTCAAAGCA	60.0	PASS	SVTYPE=INS;END=1603081;SVLEN=184;CHR2=chr20;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,7:184:.:60.0:INS:severus_INS13403:Severus_v1.5:N:ATTCTTATTTCCTGGAGCCTCAGGGAAGAAAGAATAGAAGATTGGGCCCCAGCCATCATTAGAAGAGTAGCAGAATCACAAAGGATGTTGAATGTCAGCTTTAATGGCTTCTATGCTGGGGTTGGGCCCTGATGGGGAAGTTGTGGGACCCTGAGATGTGGGAGGATGTATTCGGGTCAAAGCA:chr20_1602897-chr20_1603081
+chr20	1603639	severus_INS13404	N	TGCATCAGACTTGACGCACAGTTTCTCCTGGTAGATGGGGCTTAAGGGTGTCTACAAATGGCCAATTGT	60.0	PASS	SVTYPE=INS;END=1603708;SVLEN=69;CHR2=chr20;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,7:69:.:60.0:INS:severus_INS13404:Severus_v1.5:N:TGCATCAGACTTGACGCACAGTTTCTCCTGGTAGATGGGGCTTAAGGGTGTCTACAAATGGCCAATTGT:chr20_1603639-chr20_1603708
+chr20	28644753	severus_INS13503	N	GTTTTTATATGAGGATATTTCCTTTTTCACCTTAGGCCTCAAAGCGCTCCAAATGCCCATTTCCAGATACTACCAAAAGAGTGTTTCAAAACTGCTTTATGAAAGGGAATGTTCAACTCTGTGAGTTGAATGCAAACATCACAAAAAAACTTCCTGAGAATGCTTCTGTCTAG	60.0	PASS	SVTYPE=INS;END=28644926;SVLEN=173;CHR2=chr20;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:28,10:173:.:60.0:INS:severus_INS13503:Severus_v1.5:N:GTTTTTATATGAGGATATTTCCTTTTTCACCTTAGGCCTCAAAGCGCTCCAAATGCCCATTTCCAGATACTACCAAAAGAGTGTTTCAAAACTGCTTTATGAAAGGGAATGTTCAACTCTGTGAGTTGAATGCAAACATCACAAAAAAACTTCCTGAGAATGCTTCTGTCTAG:chr20_28644753-chr20_28644926
+chr20	29315342	severus_DEL4086	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=29315517;SVLEN=175;CHR2=chr20;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:25,23:175:.:60.0:DEL:severus_DEL4086:Severus_v1.5:N:<DEL>:chr20_29315342-chr20_29315517
+chr20	29562970	severus_DEL4091	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=29563144;SVLEN=174;CHR2=chr20;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,18:174:.:60.0:DEL:severus_DEL4091:Severus_v1.5:N:<DEL>:chr20_29562970-chr20_29563144
+chr21	5114310	severus_INS13753	N	AGCTGGGAGTGGTGGGGGAGCTGGGGGCTGAGTGTGGAGGAGTTGGGAGTGGTGGGGGAGCTGGGGGTTGAGTGTGGGAGCAGCTGGGAGTGGTGGGGGAGCTGGGGGTTGAGTGTGGGAGC	60.0	PASS	SVTYPE=INS;END=5114430;SVLEN=120;CHR2=chr21;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,13:120:.:60.0:INS:severus_INS13753:Severus_v1.5:N:AGCTGGGAGTGGTGGGGGAGCTGGGGGCTGAGTGTGGAGGAGTTGGGAGTGGTGGGGGAGCTGGGGGTTGAGTGTGGGAGCAGCTGGGAGTGGTGGGGGAGCTGGGGGTTGAGTGTGGGAGC:chr21_5114310-chr21_5114430
+chr21	5290633	severus_INS13757	N	ATCCTATATGGTTTTTATTTGAAGATATTTCCTTCTCCACCATAGGTCTTAAGGTGCTCAAAATGTACTCTTGTAGATTCTTCAAAAAGAGTGTTTCAAAACTGGTCCTTCAAAATAAAGGTTAAACTATGAGAGGTGAATGCACACATCAAAAATAATTTTCTCAGAATG	60.0	PASS	SVTYPE=INS;END=5290804;SVLEN=171;CHR2=chr21;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:25,12:171:.:60.0:INS:severus_INS13757:Severus_v1.5:N:ATCCTATATGGTTTTTATTTGAAGATATTTCCTTCTCCACCATAGGTCTTAAGGTGCTCAAAATGTACTCTTGTAGATTCTTCAAAAAGAGTGTTTCAAAACTGGTCCTTCAAAATAAAGGTTAAACTATGAGAGGTGAATGCACACATCAAAAATAATTTTCTCAGAATG:chr21_5290633-chr21_5290804
+chr21	11093935	severus_DEL4288	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=11094105;SVLEN=170;CHR2=chr21;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:115,5:170:.:60.0:DEL:severus_DEL4288:Severus_v1.5:N:<DEL>:chr21_11093935-chr21_11094105
+chr21	46068645	severus_INS13985	N	GTGTGTGCACGTGTGTGTGCATGTGCCTGGGGGAGTGTGTCTGTGTGCATGTGTGTGTATGCACGTGTGCCTGGGTGTGTGCACGTGCATGTGTGTGCATGTGTGCCTGGGTGTGTGCACGTCCATGTGTGTGCAC	60.0	PASS	SVTYPE=INS;END=46068779;SVLEN=134;CHR2=chr21;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:9,8:134:.:60.0:INS:severus_INS13985:Severus_v1.5:N:GTGTGTGCACGTGTGTGTGCATGTGCCTGGGGGAGTGTGTCTGTGTGCATGTGTGTGTATGCACGTGTGCCTGGGTGTGTGCACGTGCATGTGTGTGCATGTGTGCCTGGGTGTGTGCACGTCCATGTGTGTGCAC:chr21_46068645-chr21_46068779
+chr22	11232407	severus_DEL4444	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=11232564;SVLEN=157;CHR2=chr22;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,10:157:.:60.0:DEL:severus_DEL4444:Severus_v1.5:N:<DEL>:chr22_11232407-chr22_11232564
+chr22	11460305	severus_DEL4446	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=11460400;SVLEN=95;CHR2=chr22;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,7:95:.:60.0:DEL:severus_DEL4446:Severus_v1.5:N:<DEL>:chr22_11460305-chr22_11460400
+chr22	12337186	severus_INS14017	N	TATGTGACGATATTTTGTTTTCCACAATGGGCCGCAAAGCACTCTTTGAGATGAATGCACCCGTCAAAAGACATTTCTGAGAATGCTTCTAGGTAGTT	60.0	PASS	SVTYPE=INS;END=12337284;SVLEN=98;CHR2=chr22;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:42,12:98:.:60.0:INS:severus_INS14017:Severus_v1.5:N:TATGTGACGATATTTTGTTTTCCACAATGGGCCGCAAAGCACTCTTTGAGATGAATGCACCCGTCAAAAGACATTTCTGAGAATGCTTCTAGGTAGTT:chr22_12337186-chr22_12337284
+chr22_KI270737v1_random	73363	severus_INS14210	N	TAATGGAATCATCATCAAATGAAATTGAATGGGATCATCATCAAATGTAATTGAATGGTATCATTATCAAAGGAAATCCAGCGGAATCACCAAATGGACTCGACTGTAATGATTAAATGGACTCGAATGGAATCATCAAATGGAATC	60.0	PASS	SVTYPE=INS;END=73510;SVLEN=147;CHR2=chr22_KI270737v1_random;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,42:147:.:60.0:INS:severus_INS14210:Severus_v1.5:N:TAATGGAATCATCATCAAATGAAATTGAATGGGATCATCATCAAATGTAATTGAATGGTATCATTATCAAAGGAAATCCAGCGGAATCACCAAATGGACTCGACTGTAATGATTAAATGGACTCGAATGGAATCATCAAATGGAATC:chr22_KI270737v1_random_73363-chr22_KI270737v1_random_73510
+chr3	75661960	severus_DEL4713	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=75662061;SVLEN=101;CHR2=chr3;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:27,11:101:.:60.0:DEL:severus_DEL4713:Severus_v1.5:N:<DEL>:chr3_75661960-chr3_75662061
+chr3	84797055	severus_DEL4743	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=84797146;SVLEN=91;CHR2=chr3;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,5:91:.:60.0:DEL:severus_DEL4743:Severus_v1.5:N:<DEL>:chr3_84797055-chr3_84797146
+chr3	126488035	severus_DEL4804	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=126488114;SVLEN=79;CHR2=chr3;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:20,6:79:.:60.0:DEL:severus_DEL4804:Severus_v1.5:N:<DEL>:chr3_126488035-chr3_126488114
+chr3	195474619	severus_DUP4962	N	<DUP>	60.0	PASS	SVTYPE=DUP;END=195474703;SVLEN=84;CHR2=chr3;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:36,6:84:.:60.0:DUP:severus_DUP4962:Severus_v1.5:N:<DUP>:chr3_195474619-chr3_195474703
+chr4	12238039	severus_INS14860	N	GTGTGTGTGTAGATATATATATATATATATAAATATATATATATATAAATATAT	60.0	PASS	SVTYPE=INS;END=12238091;SVLEN=52;CHR2=chr4;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,30:52:.:60.0:INS:severus_INS14860:Severus_v1.5:N:GTGTGTGTGTAGATATATATATATATATATAAATATATATATATATAAATATAT:chr4_12238039-chr4_12238091
+chr4	14633704	severus_DEL5102	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=14633810;SVLEN=106;CHR2=chr4;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,5:106:.:60.0:DEL:severus_DEL5102:Severus_v1.5:N:<DEL>:chr4_14633704-chr4_14633810
+chr4	71065392	severus_INS15015	N	AAATATATATATATATTATATATATATATTCTTGTGAATATATATATAATTATATATATTCA	60.0	PASS	SVTYPE=INS;END=71065454;SVLEN=62;CHR2=chr4;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,21:62:.:60.0:INS:severus_INS15015:Severus_v1.5:N:AAATATATATATATATTATATATATATATTCTTGTGAATATATATATAATTATATATATTCA:chr4_71065392-chr4_71065454
+chr4	95023067	severus_INS15067	N	CCATTTCCAGTGTAAAGCCTATAAGGCTCAAAATGAATATAACCCAGCGTATTTCCCACTACCTTTATTTTCCTTTAATGGGAGAATATTT	60.0	PASS	SVTYPE=INS;END=95023158;SVLEN=91;CHR2=chr4;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:13,7:91:.:60.0:INS:severus_INS15067:Severus_v1.5:N:CCATTTCCAGTGTAAAGCCTATAAGGCTCAAAATGAATATAACCCAGCGTATTTCCCACTACCTTTATTTTCCTTTAATGGGAGAATATTT:chr4_95023067-chr4_95023158
+chr4	134529389	severus_INS15142	N	ACCAATTACGTTTGGTTAAAGGCTATTAAGACCAATTACGTTTGGCTATTAAGACCAAAAACGTA	60.0	PASS	SVTYPE=INS;END=134529453;SVLEN=64;CHR2=chr4;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,22:64:.:60.0:INS:severus_INS15142:Severus_v1.5:N:ACCAATTACGTTTGGTTAAAGGCTATTAAGACCAATTACGTTTGGCTATTAAGACCAAAAACGTA:chr4_134529389-chr4_134529453
+chr4	145694322	severus_INS15168	N	GACCCCATCTGGGAGGTGAGGAGCGTCTCTGCCCGGCCGCCCCGTC	60.0	PASS	SVTYPE=INS;END=145694386;SVLEN=64;CHR2=chr4;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,29:64:.:60.0:INS:severus_INS15168:Severus_v1.5:N:GACCCCATCTGGGAGGTGAGGAGCGTCTCTGCCCGGCCGCCCCGTC:chr4_145694322-chr4_145694386
+chr4	180627334	severus_INS15275	N	AGAAGAAATGAAAATATTTAAATATATAATGAAATATATATTTATATTTATATATTATATAAATATATATATATATATTTATATTTATATATTATATAATATATATATTAATATAAT	60.0	PASS	SVTYPE=INS;END=180627449;SVLEN=115;CHR2=chr4;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:27,24:115:.:60.0:INS:severus_INS15275:Severus_v1.5:N:AGAAGAAATGAAAATATTTAAATATATAATGAAATATATATTTATATTTATATATTATATAAATATATATATATATATTTATATTTATATATTATATAATATATATATTAATATAAT:chr4_180627334-chr4_180627449
+chr5	46625084	severus_INS15553	N	ATCTTCATAGAAACACTAGACAGAAGCATTCTCAGAAACTCCTTTGTGATGTTTGTGTTCAATTCCCCGAGCTGAACCTTTCCTTTGACAGAGCAGGTTTGAAGCACTGCTTTTGTGGAATCTGCTTCCAGATATTTAGAGCTCTCGGAGGAATTCGTTGTAAACGGGAC	60.0	PASS	SVTYPE=INS;END=46625254;SVLEN=170;CHR2=chr5;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,6:170:.:60.0:INS:severus_INS15553:Severus_v1.5:N:ATCTTCATAGAAACACTAGACAGAAGCATTCTCAGAAACTCCTTTGTGATGTTTGTGTTCAATTCCCCGAGCTGAACCTTTCCTTTGACAGAGCAGGTTTGAAGCACTGCTTTTGTGGAATCTGCTTCCAGATATTTAGAGCTCTCGGAGGAATTCGTTGTAAACGGGAC:chr5_46625084-chr5_46625254
+chr5	49611721	severus_DEL5778	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=49611776;SVLEN=55;CHR2=chr5;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:8,28:55:.:60.0:DEL:severus_DEL5778:Severus_v1.5:N:<DEL>:chr5_49611721-chr5_49611776
+chr5	60201072	severus_DEL5803	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=60201236;SVLEN=164;CHR2=chr5;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:16,6:164:.:60.0:DEL:severus_DEL5803:Severus_v1.5:N:<DEL>:chr5_60201072-chr5_60201236
+chr6	8110234	severus_DEL6127	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=8110303;SVLEN=69;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:24,7:69:.:60.0:DEL:severus_DEL6127:Severus_v1.5:N:<DEL>:chr6_8110234-chr6_8110303
+chr6	22935978	severus_DEL6162	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=22936140;SVLEN=162;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:13,14:162:.:60.0:DEL:severus_DEL6162:Severus_v1.5:N:<DEL>:chr6_22935978-chr6_22936140
+chr6	73563600	severus_DEL6267	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=73563693;SVLEN=93;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,13:93:.:60.0:DEL:severus_DEL6267:Severus_v1.5:N:<DEL>:chr6_73563600-chr6_73563693
+chr6	168329656	severus_DEL6434	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=168329737;SVLEN=81;CHR2=chr6;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,5:81:.:60.0:DEL:severus_DEL6434:Severus_v1.5:N:<DEL>:chr6_168329656-chr6_168329737
+chr7	5791449	severus_DEL6574	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=5791616;SVLEN=167;CHR2=chr7;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:30,6:167:.:60.0:DEL:severus_DEL6574:Severus_v1.5:N:<DEL>:chr7_5791449-chr7_5791616
+chr7	6065112	severus_DEL6577	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=6065230;SVLEN=118;CHR2=chr7;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:58,5:118:.:60.0:DEL:severus_DEL6577:Severus_v1.5:N:<DEL>:chr7_6065112-chr7_6065230
+chr7	100962765	severus_DEL6809	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=100962835;SVLEN=70;CHR2=chr7;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:48,10:70:.:60.0:DEL:severus_DEL6809:Severus_v1.5:N:<DEL>:chr7_100962765-chr7_100962835
+chr8	41422714	severus_DEL7103	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=41422768;SVLEN=54;CHR2=chr8;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,8:54:.:60.0:DEL:severus_DEL7103:Severus_v1.5:N:<DEL>:chr8_41422714-chr8_41422768
+chr8	123452411	severus_DEL7247	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=123452510;SVLEN=99;CHR2=chr8;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:13,25:99:.:60.0:DEL:severus_DEL7247:Severus_v1.5:N:<DEL>:chr8_123452411-chr8_123452510
+chr1_KI270762v1_alt	200931	severus_INS12613	N	TCTGACAGCCTGGAATGGCACTCTACACCCTCAGGTGAGCTTCTGACAGCCTGGAATGGCACTCTACACCCTCAGGTGAGCA	60.0	PASS	SVTYPE=INS;END=201013;SVLEN=82;CHR2=chr1_KI270762v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,12:82:.:60.0:INS:severus_INS12613:Severus_v1.5:N:TCTGACAGCCTGGAATGGCACTCTACACCCTCAGGTGAGCTTCTGACAGCCTGGAATGGCACTCTACACCCTCAGGTGAGCA:chr1_KI270762v1_alt_200931-chr1_KI270762v1_alt_201013
+chr1_KI270761v1_alt	31478	severus_INS12609	N	GTTTCCTAATGTTATTGTCATGGGTAAAGCACTGCACTAGCCTGAGTGTGCTCATCCTCTCCTGAAGTGTTTCCTAGTGTTATCATCATGGAGAAAGCACTGCACTAGCCTGAGTGTGCTCATCCTCTCCTGAA	60.0	PASS	SVTYPE=INS;END=31612;SVLEN=134;CHR2=chr1_KI270761v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,8:134:.:60.0:INS:severus_INS12609:Severus_v1.5:N:GTTTCCTAATGTTATTGTCATGGGTAAAGCACTGCACTAGCCTGAGTGTGCTCATCCTCTCCTGAAGTGTTTCCTAGTGTTATCATCATGGAGAAAGCACTGCACTAGCCTGAGTGTGCTCATCCTCTCCTGAA:chr1_KI270761v1_alt_31478-chr1_KI270761v1_alt_31612
+chr1_KI270761v1_alt	32469	severus_INS12610	N	AAAAAGCACTCCACTGGCCTGGGTGTGCTCATCCTCTCCTGAAATCTTCCCTAGTGTCCTCATCATGGAGAA	60.0	PASS	SVTYPE=INS;END=32537;SVLEN=68;CHR2=chr1_KI270761v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,13:68:.:60.0:INS:severus_INS12610:Severus_v1.5:N:AAAAAGCACTCCACTGGCCTGGGTGTGCTCATCCTCTCCTGAAATCTTCCCTAGTGTCCTCATCATGGAGAA:chr1_KI270761v1_alt_32469-chr1_KI270761v1_alt_32537
+chr2_KI270772v1_alt	10428	severus_DEL4606	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=10627;SVLEN=161;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:462,9:161:.:60.0:DEL:severus_DEL4606:Severus_v1.5:N:<DEL>:chr2_KI270772v1_alt_10428-chr2_KI270772v1_alt_10627
+chr2_KI270772v1_alt	10518	severus_DEL4607	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=10568;SVLEN=50;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:464,7:50:.:60.0:DEL:severus_DEL4607:Severus_v1.5:N:<DEL>:chr2_KI270772v1_alt_10518-chr2_KI270772v1_alt_10568
+chr2_KI270772v1_alt	12524	severus_DEL4608	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=12578;SVLEN=54;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:458,10:54:.:60.0:DEL:severus_DEL4608:Severus_v1.5:N:<DEL>:chr2_KI270772v1_alt_12524-chr2_KI270772v1_alt_12578
+chr2_KI270772v1_alt	13632	severus_DEL4610	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=13704;SVLEN=72;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:456,33:72:.:60.0:DEL:severus_DEL4610:Severus_v1.5:N:<DEL>:chr2_KI270772v1_alt_13632-chr2_KI270772v1_alt_13704
+chr2_KI270772v1_alt	15914	severus_DEL4611	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=16015;SVLEN=101;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:456,29:101:.:60.0:DEL:severus_DEL4611:Severus_v1.5:N:<DEL>:chr2_KI270772v1_alt_15914-chr2_KI270772v1_alt_16015
+chr2_KI270772v1_alt	22560	severus_INS14224	N	TTCCATTGCATTCCATTCCGTTCCGTTCCGTTCCATTCCATTCCATTCCATTCCAATAATGATTCCATTCGATTCCATTTGATGATGATTCCACTCGAGTCCATTCGATGATTCCATTCGATTCCATTCAGTGATTATTCCATTCAATTCCATTCG	60.0	PASS	SVTYPE=INS;END=22716;SVLEN=156;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:100,32:156:.:60.0:INS:severus_INS14224:Severus_v1.5:N:TTCCATTGCATTCCATTCCGTTCCGTTCCGTTCCATTCCATTCCATTCCATTCCAATAATGATTCCATTCGATTCCATTTGATGATGATTCCACTCGAGTCCATTCGATGATTCCATTCGATTCCATTCAGTGATTATTCCATTCAATTCCATTCG:chr2_KI270772v1_alt_22560-chr2_KI270772v1_alt_22716
+chr2_KI270772v1_alt	25427	severus_INS14225	N	ATAATATATATATAATATATATACATATATATTATATATATAATATATATATATATA	60.0	PASS	SVTYPE=INS;END=25482;SVLEN=55;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:61,37:55:.:60.0:INS:severus_INS14225:Severus_v1.5:N:ATAATATATATATAATATATATACATATATATTATATATATAATATATATATATATA:chr2_KI270772v1_alt_25427-chr2_KI270772v1_alt_25482
+chr2_KI270772v1_alt	116915	severus_INS14228	N	TATATTATATAGCATAGAATATATTATATATTATATAGCATAGAATACATTA	60.0	PASS	SVTYPE=INS;END=116967;SVLEN=52;CHR2=chr2_KI270772v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,11:52:.:60.0:INS:severus_INS14228:Severus_v1.5:N:TATATTATATAGCATAGAATATATTATATATTATATAGCATAGAATACATTA:chr2_KI270772v1_alt_116915-chr2_KI270772v1_alt_116967
+chr3_KI270779v1_alt	143059	severus_DEL4999	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=143178;SVLEN=119;CHR2=chr3_KI270779v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,12:119:.:60.0:DEL:severus_DEL4999:Severus_v1.5:N:<DEL>:chr3_KI270779v1_alt_143059-chr3_KI270779v1_alt_143178
+chr3_KI270779v1_alt	190265	severus_INS14741	N	CCCCAGACACGTGGCAGACCCCAGACACGTGGCAAGAACCTGAGTGCAGACACATGGCAGAGA	60.0	PASS	SVTYPE=INS;END=190325;SVLEN=60;CHR2=chr3_KI270779v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:17,14:60:.:60.0:INS:severus_INS14741:Severus_v1.5:N:CCCCAGACACGTGGCAGACCCCAGACACGTGGCAAGAACCTGAGTGCAGACACATGGCAGAGA:chr3_KI270779v1_alt_190265-chr3_KI270779v1_alt_190325
+chr4_KI270785v1_alt	41429	severus_DEL5562	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=41488;SVLEN=59;CHR2=chr4_KI270785v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,13:59:.:60.0:DEL:severus_DEL5562:Severus_v1.5:N:<DEL>:chr4_KI270785v1_alt_41429-chr4_KI270785v1_alt_41488
+chr4_KI270785v1_alt	41504	severus_INS15340	N	AAGAGGCAGGCGACATGCGAGTGCTGGAGAGGAACCCCGGACGCCACCATTTCACATGGAAGACGCAGGCGACATGCGAGTGCTGGAGAGGAACCCCGGGCGCCACCATTTCACAT	60.0	PASS	SVTYPE=INS;END=41620;SVLEN=116;CHR2=chr4_KI270785v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,10:116:.:60.0:INS:severus_INS15340:Severus_v1.5:N:AAGAGGCAGGCGACATGCGAGTGCTGGAGAGGAACCCCGGACGCCACCATTTCACATGGAAGACGCAGGCGACATGCGAGTGCTGGAGAGGAACCCCGGGCGCCACCATTTCACAT:chr4_KI270785v1_alt_41504-chr4_KI270785v1_alt_41620
+chr4_KI270789v1_alt	161904	severus_DEL5563	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=161964;SVLEN=60;CHR2=chr4_KI270789v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:18,18:60:.:60.0:DEL:severus_DEL5563:Severus_v1.5:N:<DEL>:chr4_KI270789v1_alt_161904-chr4_KI270789v1_alt_161964
+chr5_KI270792v1_alt	79597	severus_INS15873	N	CACCCGCCGTGCGGGATCCCTGAGTCTCACCCACCGCACCCGCCGTGCGGGACCCCTGCGTCTCACCCACCGGTCTCACCCACCGCACCCGCCGTGCGGGACCCCTGCGCCTCACCCGGAACATCCACAGTGTGGGACTGCTGCGTCTCACCCACTGCACCTGCCGTGCAGGATCCCTGA	60.0	PASS	SVTYPE=INS;END=79777;SVLEN=180;CHR2=chr5_KI270792v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,16:180:.:60.0:INS:severus_INS15873:Severus_v1.5:N:CACCCGCCGTGCGGGATCCCTGAGTCTCACCCACCGCACCCGCCGTGCGGGACCCCTGCGTCTCACCCACCGGTCTCACCCACCGCACCCGCCGTGCGGGACCCCTGCGCCTCACCCGGAACATCCACAGTGTGGGACTGCTGCGTCTCACCCACTGCACCTGCCGTGCAGGATCCCTGA:chr5_KI270792v1_alt_79597-chr5_KI270792v1_alt_79777
+chr6_GL383533v1_alt	86285	severus_INS16427	N	ACATATATGTATGTCATACATATATGTAGACATATATGTATGTCATACATATATGTAGACATATATGTATGTCATACATATATGTCA	60.0	PASS	SVTYPE=INS;END=86372;SVLEN=87;CHR2=chr6_GL383533v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,16:87:.:60.0:INS:severus_INS16427:Severus_v1.5:N:ACATATATGTATGTCATACATATATGTAGACATATATGTATGTCATACATATATGTAGACATATATGTATGTCATACATATATGTCA:chr6_GL383533v1_alt_86285-chr6_GL383533v1_alt_86372
+chr6_KB021644v2_alt	84233	severus_INS16430	N	AGAGGTGGCATGGGCCTTGTGGGCAGAGGTGGCACGGGCCTTGTGGGAAGAGGTGGCACGGGCCTTGTGGGC	60.0	PASS	SVTYPE=INS;END=84305;SVLEN=72;CHR2=chr6_KB021644v2_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,9:72:.:60.0:INS:severus_INS16430:Severus_v1.5:N:AGAGGTGGCATGGGCCTTGTGGGCAGAGGTGGCACGGGCCTTGTGGGAAGAGGTGGCACGGGCCTTGTGGGC:chr6_KB021644v2_alt_84233-chr6_KB021644v2_alt_84305
+chr7_KI270809v1_alt	28902	severus_INS17115	N	GTACAAGAGTGAGATTATCATGTACAAGAGTGAGATTATCACGTACAAGAGTGAGATTATCAC	60.0	PASS	SVTYPE=INS;END=28965;SVLEN=63;CHR2=chr7_KI270809v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:23,13:63:.:60.0:INS:severus_INS17115:Severus_v1.5:N:GTACAAGAGTGAGATTATCATGTACAAGAGTGAGATTATCACGTACAAGAGTGAGATTATCAC:chr7_KI270809v1_alt_28902-chr7_KI270809v1_alt_28965
+chr7_KI270807v1_alt	36118	severus_INS17114	N	CTTTTCCGTCCCACGCGCCCAGCACAGTTACCCTTTCCCGTCCCACGCGCCCAGCACAGTTACC	60.0	PASS	SVTYPE=INS;END=36182;SVLEN=64;CHR2=chr7_KI270807v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:22,14:64:.:60.0:INS:severus_INS17114:Severus_v1.5:N:CTTTTCCGTCCCACGCGCCCAGCACAGTTACCCTTTCCCGTCCCACGCGCCCAGCACAGTTACC:chr7_KI270807v1_alt_36118-chr7_KI270807v1_alt_36182
+chr7_KI270805v1_alt	12850	severus_DEL7001	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=12913;SVLEN=63;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,8:63:.:60.0:DEL:severus_DEL7001:Severus_v1.5:N:<DEL>:chr7_KI270805v1_alt_12850-chr7_KI270805v1_alt_12913
+chr7_KI270805v1_alt	15103	severus_INS17108	N	GGTCACGCGGGAGGAAGCACAGAGGGTCTGAAAGCATGGAAGAAGGAGAAGTACGAACCGAAGCACCCAGGCGGTTCTATGCAAGGACGGGAGGCGTTCACCCAAGCGCCGGCTCCTGCAGCACAGGGCGTGGGCGGGTCACGCGGGAG	60.0	PASS	SVTYPE=INS;END=15249;SVLEN=146;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,13:146:.:60.0:INS:severus_INS17108:Severus_v1.5:N:GGTCACGCGGGAGGAAGCACAGAGGGTCTGAAAGCATGGAAGAAGGAGAAGTACGAACCGAAGCACCCAGGCGGTTCTATGCAAGGACGGGAGGCGTTCACCCAAGCGCCGGCTCCTGCAGCACAGGGCGTGGGCGGGTCACGCGGGAG:chr7_KI270805v1_alt_15103-chr7_KI270805v1_alt_15249
+chr7_KI270805v1_alt	17231	severus_INS17109	N	TAGCAGGAACTTGTAGATAGAGTCCCATCCTGTAGCTGGATGACCCTCCTGTGCTCTCGGCACACAGACCCTC	60.0	PASS	SVTYPE=INS;END=17304;SVLEN=73;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,13:73:.:60.0:INS:severus_INS17109:Severus_v1.5:N:TAGCAGGAACTTGTAGATAGAGTCCCATCCTGTAGCTGGATGACCCTCCTGTGCTCTCGGCACACAGACCCTC:chr7_KI270805v1_alt_17231-chr7_KI270805v1_alt_17304
+chr7_KI270805v1_alt	23121	severus_INS17111	N	GTCTGTCCTCCATAGCAACCATCCCCAATCCTGACATCGGTGATTGTGTGCGTTGT	60.0	PASS	SVTYPE=INS;END=23182;SVLEN=61;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,14:61:.:60.0:INS:severus_INS17111:Severus_v1.5:N:GTCTGTCCTCCATAGCAACCATCCCCAATCCTGACATCGGTGATTGTGTGCGTTGT:chr7_KI270805v1_alt_23121-chr7_KI270805v1_alt_23182
+chr7_KI270805v1_alt	66246	severus_INS17112	N	CCCATGAGCACACTGTCCCGTGCACCCCTTCCCTGTGTCTCCGTGTCTGGGGTCACCTGGGTACTTGTCTGCACTGTCCCTCTGGGGCCTCCCAT	60.0	PASS	SVTYPE=INS;END=66340;SVLEN=94;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,10:94:.:60.0:INS:severus_INS17112:Severus_v1.5:N:CCCATGAGCACACTGTCCCGTGCACCCCTTCCCTGTGTCTCCGTGTCTGGGGTCACCTGGGTACTTGTCTGCACTGTCCCTCTGGGGCCTCCCAT:chr7_KI270805v1_alt_66246-chr7_KI270805v1_alt_66340
+chr7_KI270805v1_alt	165373	severus_DEL7003	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=165427;SVLEN=54;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,9:54:.:60.0:DEL:severus_DEL7003:Severus_v1.5:N:<DEL>:chr7_KI270805v1_alt_165373-chr7_KI270805v1_alt_165427
+chr7_KI270805v1_alt	173188	severus_DEL7004	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=173250;SVLEN=62;CHR2=chr7_KI270805v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,10:62:.:60.0:DEL:severus_DEL7004:Severus_v1.5:N:<DEL>:chr7_KI270805v1_alt_173188-chr7_KI270805v1_alt_173250
+chr8_KI270811v1_alt	94885	severus_DEL7343	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=94993;SVLEN=108;CHR2=chr8_KI270811v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,9:108:.:60.0:DEL:severus_DEL7343:Severus_v1.5:N:<DEL>:chr8_KI270811v1_alt_94885-chr8_KI270811v1_alt_94993
+chr8_KI270811v1_alt	95605	severus_INS17541	N	AGACCCTCAACCTGAGCCCGGTGGGATGTGTGGTCATCGGCGGATGGCGGGGACAGGGCTACCGAGACCCTCAACCTGAGCCCGGTGGGATGTGTGGTCATCGGCGGATGGCGGGGACAGGGCTACTG	60.0	PASS	SVTYPE=INS;END=95733;SVLEN=128;CHR2=chr8_KI270811v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,9:128:.:60.0:INS:severus_INS17541:Severus_v1.5:N:AGACCCTCAACCTGAGCCCGGTGGGATGTGTGGTCATCGGCGGATGGCGGGGACAGGGCTACCGAGACCCTCAACCTGAGCCCGGTGGGATGTGTGGTCATCGGCGGATGGCGGGGACAGGGCTACTG:chr8_KI270811v1_alt_95605-chr8_KI270811v1_alt_95733
+chr8_KI270816v1_alt	144074	severus_DEL7346	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=144124;SVLEN=50;CHR2=chr8_KI270816v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,23:50:.:60.0:DEL:severus_DEL7346:Severus_v1.5:N:<DEL>:chr8_KI270816v1_alt_144074-chr8_KI270816v1_alt_144124
+chr10_KI270824v1_alt	63472	severus_INS9268	N	GGAATCATCATCGAATGGACTCAAATGGAATTATCATCAAAAGGAATCATCATCAAATGGAATCGAATGGAGTCATCCTCGAATGGAATTGAAA	60.0	PASS	SVTYPE=INS;END=63534;SVLEN=62;CHR2=chr10_KI270824v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,18:62:.:60.0:INS:severus_INS9268:Severus_v1.5:N:GGAATCATCATCGAATGGACTCAAATGGAATTATCATCAAAAGGAATCATCATCAAATGGAATCGAATGGAGTCATCCTCGAATGGAATTGAAA:chr10_KI270824v1_alt_63472-chr10_KI270824v1_alt_63534
+chr12_GL877875v1_alt	46950	severus_DEL1567	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=47008;SVLEN=58;CHR2=chr12_GL877875v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:22,11:58:.:60.0:DEL:severus_DEL1567:Severus_v1.5:N:<DEL>:chr12_GL877875v1_alt_46950-chr12_GL877875v1_alt_47008
+chr12_KI270835v1_alt	10004	severus_DEL1568	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=10084;SVLEN=80;CHR2=chr12_KI270835v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:6,7:80:.:60.0:DEL:severus_DEL1568:Severus_v1.5:N:<DEL>:chr12_KI270835v1_alt_10004-chr12_KI270835v1_alt_10084
+chr13_KI270841v1_alt	73179	severus_INS10651	N	AAAATATAATATATATAAATATAATATATATAAATATATATATATATAATATAATATATATAAATATATATAAATATATAAATATATAAATATATATATATAAATATATAAATATATAAATATATAAATATATA	60.0	PASS	SVTYPE=INS;END=73313;SVLEN=134;CHR2=chr13_KI270841v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,9:134:.:60.0:INS:severus_INS10651:Severus_v1.5:N:AAAATATAATATATATAAATATAATATATATAAATATATATATATATAATATAATATATATAAATATATATAAATATATAAATATATAAATATATATATATAAATATATAAATATATAAATATATAAATATATA:chr13_KI270841v1_alt_73179-chr13_KI270841v1_alt_73313
+chr14_KI270846v1_alt	50961	severus_DEL2116	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=51021;SVLEN=60;CHR2=chr14_KI270846v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,23:60:.:60.0:DEL:severus_DEL2116:Severus_v1.5:N:<DEL>:chr14_KI270846v1_alt_50961-chr14_KI270846v1_alt_51021
+chr14_KI270846v1_alt	57615	severus_DEL2117	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=57755;SVLEN=140;CHR2=chr14_KI270846v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,10:140:.:60.0:DEL:severus_DEL2117:Severus_v1.5:N:<DEL>:chr14_KI270846v1_alt_57615-chr14_KI270846v1_alt_57755
+chr15_KI270850v1_alt	133956	severus_DEL2317	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=134082;SVLEN=126;CHR2=chr15_KI270850v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:68,13:126:.:60.0:DEL:severus_DEL2317:Severus_v1.5:N:<DEL>:chr15_KI270850v1_alt_133956-chr15_KI270850v1_alt_134082
+chr15_KI270850v1_alt	156328	severus_DEL2318	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=156396;SVLEN=68;CHR2=chr15_KI270850v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,6:68:.:60.0:DEL:severus_DEL2318:Severus_v1.5:N:<DEL>:chr15_KI270850v1_alt_156328-chr15_KI270850v1_alt_156396
+chr16_KI270853v1_alt	1826263	severus_DEL2599	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=1826349;SVLEN=86;CHR2=chr16_KI270853v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,13:86:.:60.0:DEL:severus_DEL2599:Severus_v1.5:N:<DEL>:chr16_KI270853v1_alt_1826263-chr16_KI270853v1_alt_1826349
+chr17_GL383563v3_alt	274549	severus_INS11883	N	CAGGGCGGGAGGGGGACAGGGCGGGAGGGGGACAGGGCGGGAGGGGGACAGGGCGAGAGGGGAACAGGGCGAGAGGGGGACAGGGCGAGAGGGGACAGGGCGAGAGGGGGA	60.0	PASS	SVTYPE=INS;END=274639;SVLEN=90;CHR2=chr17_GL383563v3_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:8,7:90:.:60.0:INS:severus_INS11883:Severus_v1.5:N:CAGGGCGGGAGGGGGACAGGGCGGGAGGGGGACAGGGCGGGAGGGGGACAGGGCGAGAGGGGAACAGGGCGAGAGGGGGACAGGGCGAGAGGGGACAGGGCGAGAGGGGGA:chr17_GL383563v3_alt_274549-chr17_GL383563v3_alt_274639
+chr17_KI270862v1_alt	165628	severus_INS11890	N	AGGCAGGGCTCTGAGCCCTGCTGTGGTCTGAGAGCTGCTCACAGTGGGATGGGAGCTGAGTCCCCCC	60.0	PASS	SVTYPE=INS;END=165694;SVLEN=66;CHR2=chr17_KI270862v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,14:66:.:60.0:INS:severus_INS11890:Severus_v1.5:N:AGGCAGGGCTCTGAGCCCTGCTGTGGTCTGAGAGCTGCTCACAGTGGGATGGGAGCTGAGTCCCCCC:chr17_KI270862v1_alt_165628-chr17_KI270862v1_alt_165694
+chr17_KI270857v1_alt	951054	severus_INS11888	N	TATATATATTTATATATATATTTATAAATATATATATTTATATATATATTTATAAATATATATATTTATATATATATTTATAAATATATATATTTATATATATTTATAAATATATATATTAATATATATATTTATAAATATATATAAG	60.0	PASS	SVTYPE=INS;END=951201;SVLEN=147;CHR2=chr17_KI270857v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,7:147:.:60.0:INS:severus_INS11888:Severus_v1.5:N:TATATATATTTATATATATATTTATAAATATATATATTTATATATATATTTATAAATATATATATTTATATATATATTTATAAATATATATATTTATATATATTTATAAATATATATATTAATATATATATTTATAAATATATATAAG:chr17_KI270857v1_alt_951054-chr17_KI270857v1_alt_951201
+chr20_KI270871v1_alt	37626	severus_INS13752	N	AGACCTGCTGTAGGGTGGGGGAAGACTGCTGGGGGGTGGGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTAGGGTGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTAGGGTGGGGGAAG	60.0	PASS	SVTYPE=INS;END=37804;SVLEN=178;CHR2=chr20_KI270871v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:19,24:178:.:60.0:INS:severus_INS13752:Severus_v1.5:N:AGACCTGCTGTAGGGTGGGGGAAGACTGCTGGGGGGTGGGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTAGGGTGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTGGGGTGGGGGAAGACCTGCTGTAGGGTGGGGGAAG:chr20_KI270871v1_alt_37626-chr20_KI270871v1_alt_37804
+chr20_KI270870v1_alt	40055	severus_DEL4217	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=40123;SVLEN=68;CHR2=chr20_KI270870v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,5:68:.:60.0:DEL:severus_DEL4217:Severus_v1.5:N:<DEL>:chr20_KI270870v1_alt_40055-chr20_KI270870v1_alt_40123
+chr2_KI270894v1_alt	111384	severus_DEL4619	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=111537;SVLEN=153;CHR2=chr2_KI270894v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:16,13:153:.:60.0:DEL:severus_DEL4619:Severus_v1.5:N:<DEL>:chr2_KI270894v1_alt_111384-chr2_KI270894v1_alt_111537
+chr2_KI270894v1_alt	193149	severus_DEL4620	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=193226;SVLEN=77;CHR2=chr2_KI270894v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:233,8:77:.:60.0:DEL:severus_DEL4620:Severus_v1.5:N:<DEL>:chr2_KI270894v1_alt_193149-chr2_KI270894v1_alt_193226
+chr2_KI270894v1_alt	200425	severus_DEL4621	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=200497;SVLEN=72;CHR2=chr2_KI270894v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:336,15:72:.:60.0:DEL:severus_DEL4621:Severus_v1.5:N:<DEL>:chr2_KI270894v1_alt_200425-chr2_KI270894v1_alt_200497
+chr6_GL000251v2_alt	4508363	severus_DEL6477	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=4508418;SVLEN=55;CHR2=chr6_GL000251v2_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,11:55:.:60.0:DEL:severus_DEL6477:Severus_v1.5:N:<DEL>:chr6_GL000251v2_alt_4508363-chr6_GL000251v2_alt_4508418
+chr8_KI270901v1_alt	96668	severus_DEL7353	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=96718;SVLEN=50;CHR2=chr8_KI270901v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,25:50:.:60.0:DEL:severus_DEL7353:Severus_v1.5:N:<DEL>:chr8_KI270901v1_alt_96668-chr8_KI270901v1_alt_96718
+chr12_KI270904v1_alt	363176	severus_DEL1571	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=363242;SVLEN=64;CHR2=chr12_KI270904v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,22:64:.:60.0:DEL:severus_DEL1571:Severus_v1.5:N:<DEL>:chr12_KI270904v1_alt_363176-chr12_KI270904v1_alt_363242
+chr15_KI270906v1_alt	35932	severus_DEL2320	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=36099;SVLEN=167;CHR2=chr15_KI270906v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,5:167:.:60.0:DEL:severus_DEL2320:Severus_v1.5:N:<DEL>:chr15_KI270906v1_alt_35932-chr15_KI270906v1_alt_36099
+chr17_KI270907v1_alt	40448	severus_INS11892	N	CCCCACCAGAGGAGCTAGATACAGAGTGTCGATTGGTGCATTCACAAACCTTGAGCTAAACACAGGGTGCTGATTGGTGTGTTTACAAACCTTGAGCTAGATACAGAGTGCTGATTGGTGTATTTACAATCCCTGAGCTAGACATAAAGGTTCTCCACAT	60.0	PASS	SVTYPE=INS;END=40608;SVLEN=160;CHR2=chr17_KI270907v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,6:160:.:60.0:INS:severus_INS11892:Severus_v1.5:N:CCCCACCAGAGGAGCTAGATACAGAGTGTCGATTGGTGCATTCACAAACCTTGAGCTAAACACAGGGTGCTGATTGGTGTGTTTACAAACCTTGAGCTAGATACAGAGTGCTGATTGGTGTATTTACAATCCCTGAGCTAGACATAAAGGTTCTCCACAT:chr17_KI270907v1_alt_40448-chr17_KI270907v1_alt_40608
+chr17_KI270907v1_alt	49096	severus_INS11894	N	GCTCCTTGGAACCCAGTTTGTTGGGTTATAATAACCGGCCTTGTTCCCAGCCCCTTGCTTCGCCTGTACAGTCCTGAAGAGGGGCTCCACACCCCTGGCTCCTTGGAACCCAGTTTGTTGGGCTGTAATAACCCCCTTGTTCCCAGCCCCCTGCTTCACCTGCACAGTCCTGAAGAGGGGCTCCACACCCCG	60.0	PASS	SVTYPE=INS;END=49288;SVLEN=192;CHR2=chr17_KI270907v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,6:192:.:60.0:INS:severus_INS11894:Severus_v1.5:N:GCTCCTTGGAACCCAGTTTGTTGGGTTATAATAACCGGCCTTGTTCCCAGCCCCTTGCTTCGCCTGTACAGTCCTGAAGAGGGGCTCCACACCCCTGGCTCCTTGGAACCCAGTTTGTTGGGCTGTAATAACCCCCTTGTTCCCAGCCCCCTGCTTCACCTGCACAGTCCTGAAGAGGGGCTCCACACCCCG:chr17_KI270907v1_alt_49096-chr17_KI270907v1_alt_49288
+chr3_KI270924v1_alt	18430	severus_INS14745	N	GTGGAAGGTATGGGTGTGGAAGGTATGGGTGTGGAAGGTATGGCC	60.0	PASS	SVTYPE=INS;END=18497;SVLEN=67;CHR2=chr3_KI270924v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:16,23:67:.:60.0:INS:severus_INS14745:Severus_v1.5:N:GTGGAAGGTATGGGTGTGGAAGGTATGGGTGTGGAAGGTATGGCC:chr3_KI270924v1_alt_18430-chr3_KI270924v1_alt_18497
+chr3_KI270924v1_alt	23988	severus_DEL5004	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=24047;SVLEN=59;CHR2=chr3_KI270924v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:20,23:59:.:60.0:DEL:severus_DEL5004:Severus_v1.5:N:<DEL>:chr3_KI270924v1_alt_23988-chr3_KI270924v1_alt_24047
+chr3_KI270924v1_alt	27377	severus_INS14746	N	TGGTGGTGATGGTGGTGGTGATGGTGGTGATGGTGGTGGTGTTGGGGGTGATGGTGGCGATGGTGGTGGTGGTGGTGATGGTGATGGTGATGATGGTGGTGGTGGTGATGG	60.0	PASS	SVTYPE=INS;END=27488;SVLEN=111;CHR2=chr3_KI270924v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:9,42:111:.:60.0:INS:severus_INS14746:Severus_v1.5:N:TGGTGGTGATGGTGGTGGTGATGGTGGTGATGGTGGTGGTGTTGGGGGTGATGGTGGCGATGGTGGTGGTGGTGGTGATGGTGATGGTGATGATGGTGGTGGTGGTGATGG:chr3_KI270924v1_alt_27377-chr3_KI270924v1_alt_27488
+chr3_KI270924v1_alt	34966	severus_DEL5005	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=35153;SVLEN=187;CHR2=chr3_KI270924v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:29,10:187:.:60.0:DEL:severus_DEL5005:Severus_v1.5:N:<DEL>:chr3_KI270924v1_alt_34966-chr3_KI270924v1_alt_35153
+chr4_KI270925v1_alt	279464	severus_DEL5564	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=279534;SVLEN=70;CHR2=chr4_KI270925v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:21,5:70:.:60.0:DEL:severus_DEL5564:Severus_v1.5:N:<DEL>:chr4_KI270925v1_alt_279464-chr4_KI270925v1_alt_279534
+chr8_KI270926v1_alt	56748	severus_DEL7356	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=56810;SVLEN=62;CHR2=chr8_KI270926v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,12:62:.:60.0:DEL:severus_DEL7356:Severus_v1.5:N:<DEL>:chr8_KI270926v1_alt_56748-chr8_KI270926v1_alt_56810
+chr11_KI270927v1_alt	24087	severus_DEL1176	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=24193;SVLEN=106;CHR2=chr11_KI270927v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,13:106:.:60.0:DEL:severus_DEL1176:Severus_v1.5:N:<DEL>:chr11_KI270927v1_alt_24087-chr11_KI270927v1_alt_24193
+chr11_KI270927v1_alt	31394	severus_DEL1179	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=31453;SVLEN=59;CHR2=chr11_KI270927v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,17:59:.:60.0:DEL:severus_DEL1179:Severus_v1.5:N:<DEL>:chr11_KI270927v1_alt_31394-chr11_KI270927v1_alt_31453
+chr11_KI270927v1_alt	32491	severus_DEL1180	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=32666;SVLEN=175;CHR2=chr11_KI270927v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:2,21:175:.:60.0:DEL:severus_DEL1180:Severus_v1.5:N:<DEL>:chr11_KI270927v1_alt_32491-chr11_KI270927v1_alt_32666
+chr11_KI270927v1_alt	33356	severus_DEL1181	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=33415;SVLEN=59;CHR2=chr11_KI270927v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,16:59:.:60.0:DEL:severus_DEL1181:Severus_v1.5:N:<DEL>:chr11_KI270927v1_alt_33356-chr11_KI270927v1_alt_33415
+chr6_GL000253v2_alt	4074447	severus_INS16422	N	CCCCTCTCCCCTCTCCCCTCTCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCCTCTCCCTCTCCCCCTCTCTCCCCTCTCCCTCTC	60.0	PASS	SVTYPE=INS;END=4074580;SVLEN=133;CHR2=chr6_GL000253v2_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,24:133:.:60.0:INS:severus_INS16422:Severus_v1.5:N:CCCCTCTCCCCTCTCCCCTCTCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCTCTCCCCCTCTCCCTCTCCCCCTCTCTCCCCTCTCCCTCTC:chr6_GL000253v2_alt_4074447-chr6_GL000253v2_alt_4074580
+chr6_GL000255v2_alt	3888327	severus_DEL6479	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=3888441;SVLEN=114;CHR2=chr6_GL000255v2_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:8,6:114:.:60.0:DEL:severus_DEL6479:Severus_v1.5:N:<DEL>:chr6_GL000255v2_alt_3888327-chr6_GL000255v2_alt_3888441
+chr6_GL000255v2_alt	3890753	severus_INS16424	N	AGGCATCTTATAGATTTAAATGGAATCCACCTGTCTTGATTCCAGATTCCTATGGGG	60.0	PASS	SVTYPE=INS;END=3890810;SVLEN=57;CHR2=chr6_GL000255v2_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,8:57:.:60.0:INS:severus_INS16424:Severus_v1.5:N:AGGCATCTTATAGATTTAAATGGAATCCACCTGTCTTGATTCCAGATTCCTATGGGG:chr6_GL000255v2_alt_3890753-chr6_GL000255v2_alt_3890810
+chr3_KI270937v1_alt	82765	severus_DEL5006	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=82900;SVLEN=135;CHR2=chr3_KI270937v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:49,8:135:.:60.0:DEL:severus_DEL5006:Severus_v1.5:N:<DEL>:chr3_KI270937v1_alt_82765-chr3_KI270937v1_alt_82900
+chr6_GL000256v2_alt	3929620	severus_INS16425	N	TGTATATATATATATACATATATATATGTGTATATATATATACATATATATATATATGTATATACATATATATATATATGTATATATATA	60.0	PASS	SVTYPE=INS;END=3929710;SVLEN=90;CHR2=chr6_GL000256v2_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:21,10:90:.:60.0:INS:severus_INS16425:Severus_v1.5:N:TGTATATATATATATACATATATATATGTGTATATATATATACATATATATATATATGTATATACATATATATATATATGTATATATATA:chr6_GL000256v2_alt_3929620-chr6_GL000256v2_alt_3929710
+chrUn_KI270438v1	43983	severus_INS18030	N	TGAAGATATTTCCTTTTTCACCATAGGCCTCATAGAGCTGACAAATATCCCTTTGCAGATTCTACAAAAAGTCTGTTTACAAACTGCTCAATCAAAAGAATGGTTCGCCTCTGTGAGATGAATGCACACATCACAAAGAGGTTTCTCTGAAATCTTCTGTCTAGTTTTTATG	60.0	PASS	SVTYPE=INS;END=44155;SVLEN=172;CHR2=chrUn_KI270438v1;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,10:172:.:60.0:INS:severus_INS18030:Severus_v1.5:N:TGAAGATATTTCCTTTTTCACCATAGGCCTCATAGAGCTGACAAATATCCCTTTGCAGATTCTACAAAAAGTCTGTTTACAAACTGCTCAATCAAAAGAATGGTTCGCCTCTGTGAGATGAATGCACACATCACAAAGAGGTTTCTCTGAAATCTTCTGTCTAGTTTTTATG:chrUn_KI270438v1_43983-chrUn_KI270438v1_44155
+chrY	11307687	severus_DEL7955	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=11307787;SVLEN=100;CHR2=chrY;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:748,30:100:.:60.0:DEL:severus_DEL7955:Severus_v1.5:N:<DEL>:chrY_11307687-chrY_11307787
+chrY	11322328	severus_DEL7963	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=11322428;SVLEN=100;CHR2=chrY;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:867,12:100:.:60.0:DEL:severus_DEL7963:Severus_v1.5:N:<DEL>:chrY_11322328-chrY_11322428
+chr1_KN538361v1_fix	138099	severus_INS12614	N	GGGGAATGAGGGAGGGAGGGGGAAGTGGGGAGGGAGGGAAATGGGGAGGGGAGGGGAGGGGGAATGGGGAGAGGAATGGGGGAG	60.0	PASS	SVTYPE=INS;END=138182;SVLEN=83;CHR2=chr1_KN538361v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,16:83:.:60.0:INS:severus_INS12614:Severus_v1.5:N:GGGGAATGAGGGAGGGAGGGGGAAGTGGGGAGGGAGGGAAATGGGGAGGGGAGGGGAGGGGGAATGGGGAGAGGAATGGGGGAG:chr1_KN538361v1_fix_138099-chr1_KN538361v1_fix_138182
+chr1_KN538360v1_fix	433806	severus_DEL3404	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=433958;SVLEN=152;CHR2=chr1_KN538360v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:30,20:152:.:60.0:DEL:severus_DEL3404:Severus_v1.5:N:<DEL>:chr1_KN538360v1_fix_433806-chr1_KN538360v1_fix_433958
+chr3_KZ208909v1_alt	124132	severus_DEL5009	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=124247;SVLEN=115;CHR2=chr3_KZ208909v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,12:115:.:60.0:DEL:severus_DEL5009:Severus_v1.5:N:<DEL>:chr3_KZ208909v1_alt_124132-chr3_KZ208909v1_alt_124247
+chr5_KV575244v1_fix	395731	severus_INS15876	N	TGGCACCATGCCAGGCTAATTTTTGTATTTTTAGTAGAGATAGGTTTCACCAGGCC	60.0	PASS	SVTYPE=INS;END=395786;SVLEN=55;CHR2=chr5_KV575244v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,24:55:.:60.0:INS:severus_INS15876:Severus_v1.5:N:TGGCACCATGCCAGGCTAATTTTTGTATTTTTAGTAGAGATAGGTTTCACCAGGCC:chr5_KV575244v1_fix_395731-chr5_KV575244v1_fix_395786
+chr5_KV575244v1_fix	412486	severus_INS15877	N	CCATGTAAGCAACTGGTGCCCATCAGGAACATGCATCTTGCAAGAATCCCCATGTAAGCAACTGGTGCCCATCAGGAACATGCATCTTGCAAGAATCC	60.0	PASS	SVTYPE=INS;END=412584;SVLEN=98;CHR2=chr5_KV575244v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:16,9:98:.:60.0:INS:severus_INS15877:Severus_v1.5:N:CCATGTAAGCAACTGGTGCCCATCAGGAACATGCATCTTGCAAGAATCCCCATGTAAGCAACTGGTGCCCATCAGGAACATGCATCTTGCAAGAATCC:chr5_KV575244v1_fix_412486-chr5_KV575244v1_fix_412584
+chr6_KQ031387v1_fix	236395	severus_DEL6482	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=236507;SVLEN=112;CHR2=chr6_KQ031387v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,15:112:.:60.0:DEL:severus_DEL6482:Severus_v1.5:N:<DEL>:chr6_KQ031387v1_fix_236395-chr6_KQ031387v1_fix_236507
+chr6_KQ090016v1_fix	120533	severus_DEL6483	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=120692;SVLEN=159;CHR2=chr6_KQ090016v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,6:159:.:60.0:DEL:severus_DEL6483:Severus_v1.5:N:<DEL>:chr6_KQ090016v1_fix_120533-chr6_KQ090016v1_fix_120692
+chr10_KN538366v1_fix	11360	severus_INS9269	N	GTATAGTGTGTGGGGGGTGTGTGTGTGGTGTGTGTGCGTGAGGTATGTATATGGGGGTGTGGGTACGTGGTGTGTCTGTGGGA	60.0	PASS	SVTYPE=INS;END=11441;SVLEN=81;CHR2=chr10_KN538366v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,18:81:.:60.0:INS:severus_INS9269:Severus_v1.5:N:GTATAGTGTGTGGGGGGTGTGTGTGTGGTGTGTGTGCGTGAGGTATGTATATGGGGGTGTGGGTACGTGGTGTGTCTGTGGGA:chr10_KN538366v1_fix_11360-chr10_KN538366v1_fix_11441
+chr12_KQ090023v1_alt	18473	severus_INS10221	N	CTGCTTCTCTTGTTTTTCTGTTTTGTTCTGCTGATGAATAGCGTGGATTGATGAGCACTCACACGTGTCCTTATGGTCGCCTCTGCTCCTGCTGCTTTTCTTGTTTTTCTGTTCTTGATGAATAGCGTAAATTAAATAACACTAAGGCACGTGTCCTTTATGATTATCTCCTTCTTTCTCCTG	60.0	PASS	SVTYPE=INS;END=18649;SVLEN=176;CHR2=chr12_KQ090023v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,5:176:.:60.0:INS:severus_INS10221:Severus_v1.5:N:CTGCTTCTCTTGTTTTTCTGTTTTGTTCTGCTGATGAATAGCGTGGATTGATGAGCACTCACACGTGTCCTTATGGTCGCCTCTGCTCCTGCTGCTTTTCTTGTTTTTCTGTTCTTGATGAATAGCGTAAATTAAATAACACTAAGGCACGTGTCCTTTATGATTATCTCCTTCTTTCTCCTG:chr12_KQ090023v1_alt_18473-chr12_KQ090023v1_alt_18649
+chr12_KZ208916v1_fix	598066	severus_DEL1575	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=598126;SVLEN=60;CHR2=chr12_KZ208916v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:2,21:60:.:60.0:DEL:severus_DEL1575:Severus_v1.5:N:<DEL>:chr12_KZ208916v1_fix_598066-chr12_KZ208916v1_fix_598126
+chr12_KZ208916v1_fix	600766	severus_DEL1577	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=600856;SVLEN=90;CHR2=chr12_KZ208916v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:3,23:90:.:60.0:DEL:severus_DEL1577:Severus_v1.5:N:<DEL>:chr12_KZ208916v1_fix_600766-chr12_KZ208916v1_fix_600856
+chr12_KN538369v1_fix	382814	severus_DEL1572	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=382913;SVLEN=99;CHR2=chr12_KN538369v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,8:99:.:60.0:DEL:severus_DEL1572:Severus_v1.5:N:<DEL>:chr12_KN538369v1_fix_382814-chr12_KN538369v1_fix_382913
+chr12_KN538369v1_fix	383468	severus_DEL1573	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=383595;SVLEN=127;CHR2=chr12_KN538369v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:19,5:127:.:60.0:DEL:severus_DEL1573:Severus_v1.5:N:<DEL>:chr12_KN538369v1_fix_383468-chr12_KN538369v1_fix_383595
+chr12_KQ759760v1_fix	42818	severus_INS10222	N	AGCAATGTAAGCACTTCATGCTATACATTTTTCTCTCAGCATTGCTTTAGCTGCATCTCTTGCATTTTTGTATGCTCCATATGTATTTTCATTCTAGTCTACATTTTTTA	60.0	PASS	SVTYPE=INS;END=42928;SVLEN=110;CHR2=chr12_KQ759760v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,9:110:.:60.0:INS:severus_INS10222:Severus_v1.5:N:AGCAATGTAAGCACTTCATGCTATACATTTTTCTCTCAGCATTGCTTTAGCTGCATCTCTTGCATTTTTGTATGCTCCATATGTATTTTCATTCTAGTCTACATTTTTTA:chr12_KQ759760v1_fix_42818-chr12_KQ759760v1_fix_42928
+chr12_KQ759760v1_fix	46049	severus_DEL1574	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=46161;SVLEN=112;CHR2=chr12_KQ759760v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,12:112:.:60.0:DEL:severus_DEL1574:Severus_v1.5:N:<DEL>:chr12_KQ759760v1_fix_46049-chr12_KQ759760v1_fix_46161
+chr12_KQ759760v1_fix	81191	severus_INS10223	N	AAAAAAAAAAAAAGGCCGGGCGCGGTGGCTCATGCCTGTAATACCAGCACTTTGGGAAGCCTAGGAGGGCTGATCACCTGAGGTCGGGAGTTCGAGACCAGCGTGACCAACATGGAGAAACCACATCTCTACTAAAAACAGC	60.0	PASS	SVTYPE=INS;END=81332;SVLEN=141;CHR2=chr12_KQ759760v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,10:141:.:60.0:INS:severus_INS10223:Severus_v1.5:N:AAAAAAAAAAAAAGGCCGGGCGCGGTGGCTCATGCCTGTAATACCAGCACTTTGGGAAGCCTAGGAGGGCTGATCACCTGAGGTCGGGAGTTCGAGACCAGCGTGACCAACATGGAGAAACCACATCTCTACTAAAAACAGC:chr12_KQ759760v1_fix_81191-chr12_KQ759760v1_fix_81332
+chr13_KN538372v1_fix	29555	severus_DEL1854	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=29633;SVLEN=78;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:117,13:78:.:60.0:DEL:severus_DEL1854:Severus_v1.5:N:<DEL>:chr13_KN538372v1_fix_29555-chr13_KN538372v1_fix_29633
+chr13_KN538372v1_fix	40890	severus_DEL1855	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=40972;SVLEN=82;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:99,21:82:.:60.0:DEL:severus_DEL1855:Severus_v1.5:N:<DEL>:chr13_KN538372v1_fix_40890-chr13_KN538372v1_fix_40972
+chr13_KN538372v1_fix	41785	severus_INS10653	N	TCTCTCTCTCCCCCTCCCTCTCCCGTCTCTCTCTCTCCCCCCTCTCTGTCTCTCTCCCGTCTCTCTCTCTCCCCC	60.0	PASS	SVTYPE=INS;END=41859;SVLEN=74;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:71,54:74:.:60.0:INS:severus_INS10653:Severus_v1.5:N:TCTCTCTCTCCCCCTCCCTCTCCCGTCTCTCTCTCTCCCCCCTCTCTGTCTCTCTCCCGTCTCTCTCTCTCCCCC:chr13_KN538372v1_fix_41785-chr13_KN538372v1_fix_41859
+chr13_KN538372v1_fix	47182	severus_INS10655	N	ATGGTCCACCCATCAGAAGCTCCAGCATAATTTACCTCCAAGAAGCTCCCACCATGGTCTACTCACCAGAAGCTCCACC	60.0	PASS	SVTYPE=INS;END=47234;SVLEN=52;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:85,42:52:.:60.0:INS:severus_INS10655:Severus_v1.5:N:ATGGTCCACCCATCAGAAGCTCCAGCATAATTTACCTCCAAGAAGCTCCCACCATGGTCTACTCACCAGAAGCTCCACC:chr13_KN538372v1_fix_47182-chr13_KN538372v1_fix_47234
+chr13_KN538372v1_fix	47654	severus_DEL1857	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=47757;SVLEN=103;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:116,6:103:.:60.0:DEL:severus_DEL1857:Severus_v1.5:N:<DEL>:chr13_KN538372v1_fix_47654-chr13_KN538372v1_fix_47757
+chr13_KN538372v1_fix	47910	severus_INS10656	N	TCCACCCACCAGAAGCTCCAGCATCGCCCACCCACCAGAAGCTCCAGCATGGCACCAGAAGCTCCAGCATGGTCCACCTACCAGAAGCTCCAGCATGATTTACCCATGAGAAGCTCCAGCATAATTTATC	60.0	PASS	SVTYPE=INS;END=48040;SVLEN=130;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:109,12:130:.:60.0:INS:severus_INS10656:Severus_v1.5:N:TCCACCCACCAGAAGCTCCAGCATCGCCCACCCACCAGAAGCTCCAGCATGGCACCAGAAGCTCCAGCATGGTCCACCTACCAGAAGCTCCAGCATGATTTACCCATGAGAAGCTCCAGCATAATTTATC:chr13_KN538372v1_fix_47910-chr13_KN538372v1_fix_48040
+chr13_KN538372v1_fix	50650	severus_INS10657	N	AGAAGGAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGA	60.0	PASS	SVTYPE=INS;END=50731;SVLEN=81;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:122,10:81:.:60.0:INS:severus_INS10657:Severus_v1.5:N:AGAAGGAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGA:chr13_KN538372v1_fix_50650-chr13_KN538372v1_fix_50731
+chr13_KN538372v1_fix	75027	severus_DEL1860	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=75134;SVLEN=107;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:126,9:107:.:60.0:DEL:severus_DEL1860:Severus_v1.5:N:<DEL>:chr13_KN538372v1_fix_75027-chr13_KN538372v1_fix_75134
+chr13_KN538372v1_fix	83361	severus_DEL1862	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=83505;SVLEN=144;CHR2=chr13_KN538372v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:114,10:144:.:60.0:DEL:severus_DEL1862:Severus_v1.5:N:<DEL>:chr13_KN538372v1_fix_83361-chr13_KN538372v1_fix_83505
+chr15_KQ031389v1_alt	161615	severus_DEL2321	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=161668;SVLEN=53;CHR2=chr15_KQ031389v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:11,37:53:.:60.0:DEL:severus_DEL2321:Severus_v1.5:N:<DEL>:chr15_KQ031389v1_alt_161615-chr15_KQ031389v1_alt_161668
+chr16_KQ090026v1_alt	45829	severus_INS11556	N	GGCGGGTGCCAGGGGCTGGGGAGGGAAATGGGGAGAGTGTTTTCTGGGGGCAGAGCTTCAGTTTGGGAGGATGCAGGGGAGGGGGAAATGGAAAGGAAGGGAGGGGAGGGGAGGAGAGAGCAGGGGGAAATGGAAGGGAAGGGACGGAGGGAGGGGAAT	60.0	PASS	SVTYPE=INS;END=45987;SVLEN=158;CHR2=chr16_KQ090026v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,22:158:.:60.0:INS:severus_INS11556:Severus_v1.5:N:GGCGGGTGCCAGGGGCTGGGGAGGGAAATGGGGAGAGTGTTTTCTGGGGGCAGAGCTTCAGTTTGGGAGGATGCAGGGGAGGGGGAAATGGAAAGGAAGGGAGGGGAGGGGAGGAGAGAGCAGGGGGAAATGGAAGGGAAGGGACGGAGGGAGGGGAAT:chr16_KQ090026v1_alt_45829-chr16_KQ090026v1_alt_45987
+chr18_KZ208922v1_fix	33278	severus_INS12208	N	TATATATGTATTACATATACATATACATATATACATATGTATATATGTTTATGTATACATATACATATATATACATATGTA	60.0	PASS	SVTYPE=INS;END=33355;SVLEN=77;CHR2=chr18_KZ208922v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:13,12:77:.:60.0:INS:severus_INS12208:Severus_v1.5:N:TATATATGTATTACATATACATATACATATATACATATGTATATATGTTTATGTATACATATACATATATATACATATGTA:chr18_KZ208922v1_fix_33278-chr18_KZ208922v1_fix_33355
+chr18_KZ208922v1_fix	47864	severus_INS12210	N	TGTGTGTTTGTGGTGTGTATGTGGTGTGTGTGTGTATGTGTGGTGTGTGTATGGTGTATGTGTATGTGTGGTGTGTGTGTGTATGTGTGTATGTGTGGTGTGTGTATGTGTGGTGTGTGTGTGTGTATGTGTGTATGTGTGGTGTGTATGTATGTGTGTATGTGTGGTGTGTGTATGTGTGTATGTGTGGTGTGTGTG	60.0	PASS	SVTYPE=INS;END=48062;SVLEN=198;CHR2=chr18_KZ208922v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,27:198:.:60.0:INS:severus_INS12210:Severus_v1.5:N:TGTGTGTTTGTGGTGTGTATGTGGTGTGTGTGTGTATGTGTGGTGTGTGTATGGTGTATGTGTATGTGTGGTGTGTGTGTGTATGTGTGTATGTGTGGTGTGTGTATGTGTGGTGTGTGTGTGTGTATGTGTGTATGTGTGGTGTGTATGTATGTGTGTATGTGTGGTGTGTGTATGTGTGTATGTGTGGTGTGTGTG:chr18_KZ208922v1_fix_47864-chr18_KZ208922v1_fix_48062
+chrY_KN196487v1_fix	20753	severus_INS18467	N	GACATATTTTCTCAGCATAACTCACCTCAACTTATAGATTCTCAACATTAGAAGAAAAGATAAATTCA	60.0	PASS	SVTYPE=INS;END=20821;SVLEN=68;CHR2=chrY_KN196487v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:51,12:68:.:60.0:INS:severus_INS18467:Severus_v1.5:N:GACATATTTTCTCAGCATAACTCACCTCAACTTATAGATTCTCAACATTAGAAGAAAAGATAAATTCA:chrY_KN196487v1_fix_20753-chrY_KN196487v1_fix_20821
+chrY_KN196487v1_fix	31884	severus_INS18468	N	AATCAGCAGAATCACCATCACTCCAGAACTTATTACAAATGCAGAATCTCAGGCCCGCTGAATCAGAAAGAGCAAAGCTTCAATGAGCCCCCTGCTGATT	60.0	PASS	SVTYPE=INS;END=31982;SVLEN=98;CHR2=chrY_KN196487v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,49:98:.:60.0:INS:severus_INS18468:Severus_v1.5:N:AATCAGCAGAATCACCATCACTCCAGAACTTATTACAAATGCAGAATCTCAGGCCCGCTGAATCAGAAAGAGCAAAGCTTCAATGAGCCCCCTGCTGATT:chrY_KN196487v1_fix_31884-chrY_KN196487v1_fix_31982
+chrY_KN196487v1_fix	33689	severus_INS18469	N	CGAGAACTTATTACAAAAGCAGGGATCTCAGGCCTGCTGAATCAGAATGTGCAGATTCAATGAGCCCCCTGCGATTTATTCAGGGAAGAGAAGTTCT	60.0	PASS	SVTYPE=INS;END=33785;SVLEN=96;CHR2=chrY_KN196487v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,46:96:.:60.0:INS:severus_INS18469:Severus_v1.5:N:CGAGAACTTATTACAAAAGCAGGGATCTCAGGCCTGCTGAATCAGAATGTGCAGATTCAATGAGCCCCCTGCGATTTATTCAGGGAAGAGAAGTTCT:chrY_KN196487v1_fix_33689-chrY_KN196487v1_fix_33785
+chrY_KN196487v1_fix	40072	severus_INS18470	N	AATTCCATTCGATTGCATTCCATTCGATTCGATTCCATTCGATTGCCATTCGATTCCATTCCATTCGATTAGATTCCATTCAAGACTGTACTATTACACTTCCATTCCATTCGATTGCTTTCCATTCCAGTCCATTCCATTTGAGTCCATTCCATTTCCATTCCTTTTGATTCCATT	60.0	PASS	SVTYPE=INS;END=40245;SVLEN=173;CHR2=chrY_KN196487v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:76,6:173:.:60.0:INS:severus_INS18470:Severus_v1.5:N:AATTCCATTCGATTGCATTCCATTCGATTCGATTCCATTCGATTGCCATTCGATTCCATTCCATTCGATTAGATTCCATTCAAGACTGTACTATTACACTTCCATTCCATTCGATTGCTTTCCATTCCAGTCCATTCCATTTGAGTCCATTCCATTTCCATTCCTTTTGATTCCATT:chrY_KN196487v1_fix_40072-chrY_KN196487v1_fix_40245
+chrY_KN196487v1_fix	52251	severus_DEL7973	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=52320;SVLEN=69;CHR2=chrY_KN196487v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:66,11:69:.:60.0:DEL:severus_DEL7973:Severus_v1.5:N:<DEL>:chrY_KN196487v1_fix_52251-chrY_KN196487v1_fix_52320
+chr4_ML143347v1_fix	48176	severus_INS15353	N	ACTGAGCGATCACTGGTTACCCCCTGAGTACTGAGCGATCACTGGGTACCCCCTGAGTACTGAGTGATCACTGGGTACCCCCTGAGC	60.0	PASS	SVTYPE=INS;END=48263;SVLEN=87;CHR2=chr4_ML143347v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,9:87:.:60.0:INS:severus_INS15353:Severus_v1.5:N:ACTGAGCGATCACTGGTTACCCCCTGAGTACTGAGCGATCACTGGGTACCCCCTGAGTACTGAGTGATCACTGGGTACCCCCTGAGC:chr4_ML143347v1_fix_48176-chr4_ML143347v1_fix_48263
+chr4_ML143348v1_fix	18898	severus_DEL5570	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=19038;SVLEN=140;CHR2=chr4_ML143348v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,9:140:.:60.0:DEL:severus_DEL5570:Severus_v1.5:N:<DEL>:chr4_ML143348v1_fix_18898-chr4_ML143348v1_fix_19038
+chr4_ML143345v1_fix	223815	severus_DEL5565	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=223962;SVLEN=147;CHR2=chr4_ML143345v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:347,8:147:.:60.0:DEL:severus_DEL5565:Severus_v1.5:N:<DEL>:chr4_ML143345v1_fix_223815-chr4_ML143345v1_fix_223962
+chr4_ML143345v1_fix	238454	severus_INS15349	N	CTTCCTTCCTTCCGTCCTACCTTCTTTCTTTCCTTCCTTCCTTTCTTCCTCCCTTG	60.0	PASS	SVTYPE=INS;END=238506;SVLEN=52;CHR2=chr4_ML143345v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:71,9:52:.:60.0:INS:severus_INS15349:Severus_v1.5:N:CTTCCTTCCTTCCGTCCTACCTTCTTTCTTTCCTTCCTTCCTTTCTTCCTCCCTTG:chr4_ML143345v1_fix_238454-chr4_ML143345v1_fix_238506
+chr4_ML143349v1_fix	209159	severus_DEL5571	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=209224;SVLEN=65;CHR2=chr4_ML143349v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:4,9:65:.:60.0:DEL:severus_DEL5571:Severus_v1.5:N:<DEL>:chr4_ML143349v1_fix_209159-chr4_ML143349v1_fix_209224
+chr7_ML143352v1_fix	206419	severus_DEL7009	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=206483;SVLEN=64;CHR2=chr7_ML143352v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,15:64:.:60.0:DEL:severus_DEL7009:Severus_v1.5:N:<DEL>:chr7_ML143352v1_fix_206419-chr7_ML143352v1_fix_206483
+chr7_ML143352v1_fix	221828	severus_DEL7010	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=221913;SVLEN=85;CHR2=chr7_ML143352v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,24:85:.:60.0:DEL:severus_DEL7010:Severus_v1.5:N:<DEL>:chr7_ML143352v1_fix_221828-chr7_ML143352v1_fix_221913
+chr7_ML143352v1_fix	223701	severus_INS17119	N	CGCATTCATCTCTCCAGGTAGCCTGGCACGGGGAGCCCACATTCATCTCCCCAGGTAGCCTGGCACGGGGGCCCACATTCACCTCTCCAGGTAGCCTGGCACGGGGGGC	60.0	PASS	SVTYPE=INS;END=223810;SVLEN=109;CHR2=chr7_ML143352v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,18:109:.:60.0:INS:severus_INS17119:Severus_v1.5:N:CGCATTCATCTCTCCAGGTAGCCTGGCACGGGGAGCCCACATTCATCTCCCCAGGTAGCCTGGCACGGGGGCCCACATTCACCTCTCCAGGTAGCCTGGCACGGGGGGC:chr7_ML143352v1_fix_223701-chr7_ML143352v1_fix_223810
+chr7_ML143352v1_fix	226485	severus_INS17120	N	GGCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTC	60.0	PASS	SVTYPE=INS;END=226648;SVLEN=163;CHR2=chr7_ML143352v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,17:163:.:60.0:INS:severus_INS17120:Severus_v1.5:N:GGCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTCACGCCTGCACTGAGTGGCCGGGCACGGCGGCTC:chr7_ML143352v1_fix_226485-chr7_ML143352v1_fix_226648
+chr11_ML143358v1_fix	64438	severus_INS9707	N	GGCAGAGCAGGGAGCCCGGCAGAGGAGGGAGGCCGGCGGAGGAGGGAGGCCGGCAGAGCAGGGAGCCCGGCAGAGGAGGGAGGCCGGCAGAGGAGGGAGGCTGGCGGAGCAGGGAGCCCGGCAGAGGAGGGAGGCCGGCGGAGGAGGGAGGCTGGCAGAGCAGGGAGGCC	60.0	PASS	SVTYPE=INS;END=64589;SVLEN=151;CHR2=chr11_ML143358v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:2,12:151:.:60.0:INS:severus_INS9707:Severus_v1.5:N:GGCAGAGCAGGGAGCCCGGCAGAGGAGGGAGGCCGGCGGAGGAGGGAGGCCGGCAGAGCAGGGAGCCCGGCAGAGGAGGGAGGCCGGCAGAGGAGGGAGGCTGGCGGAGCAGGGAGCCCGGCAGAGGAGGGAGGCCGGCGGAGGAGGGAGGCTGGCAGAGCAGGGAGGCC:chr11_ML143358v1_fix_64438-chr11_ML143358v1_fix_64589
+chr11_ML143358v1_fix	72110	severus_INS9708	N	CTCCCTCTGGACCTCGAGGGCGGGCGCTGGGCAGAGCAGGGCTCCCTCTGGACCTCGAGGGCGGGCGCTGGGCAGAGCAGGGC	60.0	PASS	SVTYPE=INS;END=72192;SVLEN=82;CHR2=chr11_ML143358v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,19:82:.:60.0:INS:severus_INS9708:Severus_v1.5:N:CTCCCTCTGGACCTCGAGGGCGGGCGCTGGGCAGAGCAGGGCTCCCTCTGGACCTCGAGGGCGGGCGCTGGGCAGAGCAGGGC:chr11_ML143358v1_fix_72110-chr11_ML143358v1_fix_72192
+chr11_ML143358v1_fix	83516	severus_DEL1187	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=83699;SVLEN=183;CHR2=chr11_ML143358v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,27:183:.:60.0:DEL:severus_DEL1187:Severus_v1.5:N:<DEL>:chr11_ML143358v1_fix_83516-chr11_ML143358v1_fix_83699
+chr11_ML143358v1_fix	134660	severus_INS9710	N	GGGAGGGAGGGGGGAGGAAGGTGGGAGGGAGGGGGAGGAAGGTGGGAGGGAGGGGGGAGGAAGGTGGGAGGGAGGGGGAGGAAGGTGGGAGGGAGGGGGGAGGAAGGTGGGAGGGAGGGGGGAGGGAGG	60.0	PASS	SVTYPE=INS;END=134784;SVLEN=124;CHR2=chr11_ML143358v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,24:124:.:60.0:INS:severus_INS9710:Severus_v1.5:N:GGGAGGGAGGGGGGAGGAAGGTGGGAGGGAGGGGGAGGAAGGTGGGAGGGAGGGGGGAGGAAGGTGGGAGGGAGGGGGAGGAAGGTGGGAGGGAGGGGGGAGGAAGGTGGGAGGGAGGGGGGAGGGAGG:chr11_ML143358v1_fix_134660-chr11_ML143358v1_fix_134784
+chr11_ML143357v1_fix	48346	severus_INS9705	N	ATATAATTATATTGTACAAGTATATTATAAAATATAATTATATTGTACAAGTATATTATAAAATATAATTATATTGTACAAGTATATT	60.0	PASS	SVTYPE=INS;END=48434;SVLEN=88;CHR2=chr11_ML143357v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:8,14:88:.:60.0:INS:severus_INS9705:Severus_v1.5:N:ATATAATTATATTGTACAAGTATATTATAAAATATAATTATATTGTACAAGTATATTATAAAATATAATTATATTGTACAAGTATATT:chr11_ML143357v1_fix_48346-chr11_ML143357v1_fix_48434
+chr11_ML143357v1_fix	51503	severus_INS9706	N	ATATATAATATATAATATATTATATATAATATATAATATATTATATATAATATATAATATATTATATATA	60.0	PASS	SVTYPE=INS;END=51573;SVLEN=70;CHR2=chr11_ML143357v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:1,11:70:.:60.0:INS:severus_INS9706:Severus_v1.5:N:ATATATAATATATAATATATTATATATAATATATAATATATTATATATAATATATAATATATTATATATA:chr11_ML143357v1_fix_51503-chr11_ML143357v1_fix_51573
+chr12_ML143361v1_fix	130239	severus_DEL1579	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=130308;SVLEN=69;CHR2=chr12_ML143361v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:24,8:69:.:60.0:DEL:severus_DEL1579:Severus_v1.5:N:<DEL>:chr12_ML143361v1_fix_130239-chr12_ML143361v1_fix_130308
+chr12_ML143361v1_fix	130692	severus_INS10224	N	CACACACACCCCACACAACCCACACCCCACACACACACACCACACAACCCACACCCCACACAACTCGCACCCCACACAACCTGCACCCCTCATACAGACACCCCACCCACACCCCA	60.0	PASS	SVTYPE=INS;END=130806;SVLEN=114;CHR2=chr12_ML143361v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,22:114:.:60.0:INS:severus_INS10224:Severus_v1.5:N:CACACACACCCCACACAACCCACACCCCACACACACACACCACACAACCCACACCCCACACAACTCGCACCCCACACAACCTGCACCCCTCATACAGACACCCCACCCACACCCCA:chr12_ML143361v1_fix_130692-chr12_ML143361v1_fix_130806
+chr12_ML143361v1_fix	134691	severus_DEL1580	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=134762;SVLEN=71;CHR2=chr12_ML143361v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:27,9:71:.:60.0:DEL:severus_DEL1580:Severus_v1.5:N:<DEL>:chr12_ML143361v1_fix_134691-chr12_ML143361v1_fix_134762
+chr13_ML143366v1_fix	12445	severus_DEL1870	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=12541;SVLEN=96;CHR2=chr13_ML143366v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:23,6:96:.:60.0:DEL:severus_DEL1870:Severus_v1.5:N:<DEL>:chr13_ML143366v1_fix_12445-chr13_ML143366v1_fix_12541
+chr13_ML143366v1_fix	61877	severus_INS10664	N	AGTGTTCTGGAATCCTATGTGAGGGACAAACATTCAGAACCCTGGTAGAAGTGTTCTGGAATCCTATGTGAGGGACAAACATTCAGAAAACCGTAGC	60.0	PASS	SVTYPE=INS;END=61973;SVLEN=96;CHR2=chr13_ML143366v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:16,17:96:.:60.0:INS:severus_INS10664:Severus_v1.5:N:AGTGTTCTGGAATCCTATGTGAGGGACAAACATTCAGAACCCTGGTAGAAGTGTTCTGGAATCCTATGTGAGGGACAAACATTCAGAAAACCGTAGC:chr13_ML143366v1_fix_61877-chr13_ML143366v1_fix_61973
+chr13_ML143366v1_fix	284928	severus_DEL1873	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=284993;SVLEN=65;CHR2=chr13_ML143366v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:48,20:65:.:60.0:DEL:severus_DEL1873:Severus_v1.5:N:<DEL>:chr13_ML143366v1_fix_284928-chr13_ML143366v1_fix_284993
+chr13_ML143364v1_fix	63964	severus_DEL1865	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=64036;SVLEN=72;CHR2=chr13_ML143364v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:19,8:72:.:60.0:DEL:severus_DEL1865:Severus_v1.5:N:<DEL>:chr13_ML143364v1_fix_63964-chr13_ML143364v1_fix_64036
+chr13_ML143364v1_fix	66198	severus_INS10660	N	CAAGCTCCTGGGTGATTGAGGGGGCCTGGATCCCGCACTCCATACAAGCTCCTGGGTGATTGAGGGGGCCTGGATCCCGCACTCCATAC	60.0	PASS	SVTYPE=INS;END=66286;SVLEN=88;CHR2=chr13_ML143364v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,24:88:.:60.0:INS:severus_INS10660:Severus_v1.5:N:CAAGCTCCTGGGTGATTGAGGGGGCCTGGATCCCGCACTCCATACAAGCTCCTGGGTGATTGAGGGGGCCTGGATCCCGCACTCCATAC:chr13_ML143364v1_fix_66198-chr13_ML143364v1_fix_66286
+chr13_ML143364v1_fix	94276	severus_INS10662	N	CCCCCAGCCTCACCCCCACGGCCTCAACCCCACGGCCTCACCCCATGGCCTCACCCCCACAGCCTCACCCCATGGCCTCACCC	60.0	PASS	SVTYPE=INS;END=94358;SVLEN=82;CHR2=chr13_ML143364v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,16:82:.:60.0:INS:severus_INS10662:Severus_v1.5:N:CCCCCAGCCTCACCCCCACGGCCTCAACCCCACGGCCTCACCCCATGGCCTCACCCCCACAGCCTCACCCCATGGCCTCACCC:chr13_ML143364v1_fix_94276-chr13_ML143364v1_fix_94358
+chr13_ML143365v1_fix	27211	severus_DEL1867	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=27400;SVLEN=189;CHR2=chr13_ML143365v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:9,23:189:.:60.0:DEL:severus_DEL1867:Severus_v1.5:N:<DEL>:chr13_ML143365v1_fix_27211-chr13_ML143365v1_fix_27400
+chr13_ML143365v1_fix	47315	severus_DEL1868	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=47431;SVLEN=116;CHR2=chr13_ML143365v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:14,14:116:.:60.0:DEL:severus_DEL1868:Severus_v1.5:N:<DEL>:chr13_ML143365v1_fix_47315-chr13_ML143365v1_fix_47431
+chr13_ML143365v1_fix	53967	severus_INS10663	N	TGAGGAGGCGGTTTCTTTCCGGCCGCGCCGGCTCCGTGGCTGAGGAGGCGGTTTCTTTCGGGTTCTGCCGGCTCCGTGGCTGAGGAGGCGGTTTCTTTCCGGCCGCGCCGGCTCCATGGCTGAGGAGGCGGTTTCTTTCCGGCCGCGCCGGCTCTGTGGCCGAGGAGGTGGTTTCTTTCCCGTTGTGCCGGCTCCGTGG	60.0	PASS	SVTYPE=INS;END=54166;SVLEN=199;CHR2=chr13_ML143365v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:15,14:199:.:60.0:INS:severus_INS10663:Severus_v1.5:N:TGAGGAGGCGGTTTCTTTCCGGCCGCGCCGGCTCCGTGGCTGAGGAGGCGGTTTCTTTCGGGTTCTGCCGGCTCCGTGGCTGAGGAGGCGGTTTCTTTCCGGCCGCGCCGGCTCCATGGCTGAGGAGGCGGTTTCTTTCCGGCCGCGCCGGCTCTGTGGCCGAGGAGGTGGTTTCTTTCCCGTTGTGCCGGCTCCGTGG:chr13_ML143365v1_fix_53967-chr13_ML143365v1_fix_54166
+chr15_ML143371v1_fix	473818	severus_INS11202	N	GGAGGGGAGGAGAGGGGAGAAGGGGAGGGGAGGAGAGGGAGGAGGGGAGGGGA	60.0	PASS	SVTYPE=INS;END=473870;SVLEN=52;CHR2=chr15_ML143371v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:45,14:52:.:60.0:INS:severus_INS11202:Severus_v1.5:N:GGAGGGGAGGAGAGGGGAGAAGGGGAGGGGAGGAGAGGGAGGAGGGGAGGGGA:chr15_ML143371v1_fix_473818-chr15_ML143371v1_fix_473870
+chr15_ML143371v1_fix	582796	severus_INS11203	N	CAGCCAGCCAGCCAGCCAAGCCAGCCAAGCCAGCCAGGCCACCCAGCCAGCCAGACAGCCAAGC	60.0	PASS	SVTYPE=INS;END=582860;SVLEN=64;CHR2=chr15_ML143371v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:50,5:64:.:60.0:INS:severus_INS11203:Severus_v1.5:N:CAGCCAGCCAGCCAGCCAAGCCAGCCAAGCCAGCCAGGCCACCCAGCCAGCCAGACAGCCAAGC:chr15_ML143371v1_fix_582796-chr15_ML143371v1_fix_582860
+chr15_ML143371v1_fix	584458	severus_INS11204	N	CCAGCCAGCCAACAAGCCAAGCCAGCCAAGCCACCCAGCCAGCCAAGCCAGCCAAGCCAGCCAGCCACTGGAGCCAGCCAAGCCAGCCAGCCAGCCAAGCCAAGCCAGCCAGCCAAGCCAAGCCAGCCAAGCGAGCCAAGCCAGCGAAGAGCCACCCAGCCAGCCAAGCCAGCCAAGCCAGCCAGCCAGCCAAGCCAGCCAAA	60.0	PASS	SVTYPE=INS;END=584653;SVLEN=195;CHR2=chr15_ML143371v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:31,14:195:.:60.0:INS:severus_INS11204:Severus_v1.5:N:CCAGCCAGCCAACAAGCCAAGCCAGCCAAGCCACCCAGCCAGCCAAGCCAGCCAAGCCAGCCAGCCACTGGAGCCAGCCAAGCCAGCCAGCCAGCCAAGCCAAGCCAGCCAGCCAAGCCAAGCCAGCCAAGCGAGCCAAGCCAGCGAAGAGCCACCCAGCCAGCCAAGCCAGCCAAGCCAGCCAGCCAGCCAAGCCAGCCAAA:chr15_ML143371v1_fix_584458-chr15_ML143371v1_fix_584653
+chr15_ML143371v1_fix	917919	severus_DEL2323	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=917969;SVLEN=50;CHR2=chr15_ML143371v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:39,7:50:.:60.0:DEL:severus_DEL2323:Severus_v1.5:N:<DEL>:chr15_ML143371v1_fix_917919-chr15_ML143371v1_fix_917969
+chr15_ML143371v1_fix	4139699	severus_INS11206	N	ATAGACTATATAGGATATATATAGAATATACATAGACTATATAGGATATATATAGAATATACATAGACTATATAGGATATATATAGAATATAC	60.0	PASS	SVTYPE=INS;END=4139792;SVLEN=93;CHR2=chr15_ML143371v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:21,6:93:.:60.0:INS:severus_INS11206:Severus_v1.5:N:ATAGACTATATAGGATATATATAGAATATACATAGACTATATAGGATATATATAGAATATACATAGACTATATAGGATATATATAGAATATAC:chr15_ML143371v1_fix_4139699-chr15_ML143371v1_fix_4139792
+chr15_ML143371v1_fix	4257154	severus_INS11207	N	TGTAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGACTGGCTTGAGCCTGGGAAGCAGAGCT	60.0	PASS	SVTYPE=INS;END=4257216;SVLEN=62;CHR2=chr15_ML143371v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:30,13:62:.:60.0:INS:severus_INS11207:Severus_v1.5:N:TGTAGTCCCAGCTACTTGGGAGGCTGAGGCAGGAGACTGGCTTGAGCCTGGGAAGCAGAGCT:chr15_ML143371v1_fix_4257154-chr15_ML143371v1_fix_4257216
+chr21_ML143377v1_fix	45716	severus_DEL4426	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=45812;SVLEN=96;CHR2=chr21_ML143377v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:41,6:96:.:60.0:DEL:severus_DEL4426:Severus_v1.5:N:<DEL>:chr21_ML143377v1_fix_45716-chr21_ML143377v1_fix_45812
+chr21_ML143377v1_fix	239501	severus_INS14002	N	AGAAGAAGAAGGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAAAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGGAGGACAGTGGAATATTT	60.0	PASS	SVTYPE=INS;END=239590;SVLEN=89;CHR2=chr21_ML143377v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:23,5:89:.:60.0:INS:severus_INS14002:Severus_v1.5:N:AGAAGAAGAAGGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAAAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGAAGGAGGACAGTGGAATATTT:chr21_ML143377v1_fix_239501-chr21_ML143377v1_fix_239590
+chr22_ML143380v1_fix	17639	severus_INS14213	N	AACATTCAGACCATCGTAGCAGTGTTCTGAAATCCTACGTGAGGGACAGACATTCTGATAAGAGTAGGAGTGTTCTGGAATGTTATGTGAGGGACA	60.0	PASS	SVTYPE=INS;END=17735;SVLEN=96;CHR2=chr22_ML143380v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:27,5:96:.:60.0:INS:severus_INS14213:Severus_v1.5:N:AACATTCAGACCATCGTAGCAGTGTTCTGAAATCCTACGTGAGGGACAGACATTCTGATAAGAGTAGGAGTGTTCTGGAATGTTATGTGAGGGACA:chr22_ML143380v1_fix_17639-chr22_ML143380v1_fix_17735
+chr22_ML143380v1_fix	31774	severus_DEL4595	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=31870;SVLEN=96;CHR2=chr22_ML143380v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:51,6:96:.:60.0:DEL:severus_DEL4595:Severus_v1.5:N:<DEL>:chr22_ML143380v1_fix_31774-chr22_ML143380v1_fix_31870
+chr22_ML143380v1_fix	79490	severus_INS14216	N	TCTATACTGTACATAAAATATCAAAGTACACCATATATATACTATACTGTACATAAAATATCAAACTACCCCAAACATATATTGTATACTGTACATAATATATCAGTACCCAAATTATGTATTTTATAATGTACGTAAAATATCAAAGTACCCAAACTATACATTATA	60.0	PASS	SVTYPE=INS;END=79658;SVLEN=168;CHR2=chr22_ML143380v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:45961,1574:168:.:60.0:INS:severus_INS14216:Severus_v1.5:N:TCTATACTGTACATAAAATATCAAAGTACACCATATATATACTATACTGTACATAAAATATCAAACTACCCCAAACATATATTGTATACTGTACATAATATATCAGTACCCAAATTATGTATTTTATAATGTACGTAAAATATCAAAGTACCCAAACTATACATTATA:chr22_ML143380v1_fix_79490-chr22_ML143380v1_fix_79658
+chr22_ML143380v1_fix	167694	severus_DEL4596	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=167746;SVLEN=52;CHR2=chr22_ML143380v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:71,7:52:.:60.0:DEL:severus_DEL4596:Severus_v1.5:N:<DEL>:chr22_ML143380v1_fix_167694-chr22_ML143380v1_fix_167746
+chr22_ML143380v1_fix	174763	severus_DEL4597	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=174822;SVLEN=59;CHR2=chr22_ML143380v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:81,8:59:.:60.0:DEL:severus_DEL4597:Severus_v1.5:N:<DEL>:chr22_ML143380v1_fix_174763-chr22_ML143380v1_fix_174822
+chr22_ML143378v1_fix	192221	severus_DEL4589	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=192312;SVLEN=91;CHR2=chr22_ML143378v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:7,8:91:.:60.0:DEL:severus_DEL4589:Severus_v1.5:N:<DEL>:chr22_ML143378v1_fix_192221-chr22_ML143378v1_fix_192312
+chr22_ML143378v1_fix	216811	severus_DEL4590	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=216958;SVLEN=147;CHR2=chr22_ML143378v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:19,5:147:.:60.0:DEL:severus_DEL4590:Severus_v1.5:N:<DEL>:chr22_ML143378v1_fix_216811-chr22_ML143378v1_fix_216958
+chr22_ML143378v1_fix	217759	severus_DEL4591	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=217914;SVLEN=155;CHR2=chr22_ML143378v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:20,5:155:.:60.0:DEL:severus_DEL4591:Severus_v1.5:N:<DEL>:chr22_ML143378v1_fix_217759-chr22_ML143378v1_fix_217914
+chr22_ML143378v1_fix	247751	severus_DEL4593	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=247832;SVLEN=81;CHR2=chr22_ML143378v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:120,6:81:.:60.0:DEL:severus_DEL4593:Severus_v1.5:N:<DEL>:chr22_ML143378v1_fix_247751-chr22_ML143378v1_fix_247832
+chrX_ML143383v1_fix	29246	severus_DEL7949	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=29300;SVLEN=54;CHR2=chrX_ML143383v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,17:54:.:60.0:DEL:severus_DEL7949:Severus_v1.5:N:<DEL>:chrX_ML143383v1_fix_29246-chrX_ML143383v1_fix_29300
+chr1_MU273332v1_alt	316802	severus_DEL3407	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=316862;SVLEN=60;CHR2=chr1_MU273332v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:5,17:60:.:60.0:DEL:severus_DEL3407:Severus_v1.5:N:<DEL>:chr1_MU273332v1_alt_316802-chr1_MU273332v1_alt_316862
+chr3_MU273348v1_fix	280929	severus_INS14750	N	GCAATGCACAGGACAGCTCCCCACACAACAAGGAATTATCCAACAATGCACAGGACAGCTCCCCACACAACAAGGAATTATCCAACAATGCACAGGACAGCTCCCCACACAACAAGGAATTATCC	60.0	PASS	SVTYPE=INS;END=281054;SVLEN=125;CHR2=chr3_MU273348v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,7:125:.:60.0:INS:severus_INS14750:Severus_v1.5:N:GCAATGCACAGGACAGCTCCCCACACAACAAGGAATTATCCAACAATGCACAGGACAGCTCCCCACACAACAAGGAATTATCCAACAATGCACAGGACAGCTCCCCACACAACAAGGAATTATCC:chr3_MU273348v1_fix_280929-chr3_MU273348v1_fix_281054
+chr4_MU273350v1_fix	27673	severus_DEL5572	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=27734;SVLEN=61;CHR2=chr4_MU273350v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:12,6:61:.:60.0:DEL:severus_DEL5572:Severus_v1.5:N:<DEL>:chr4_MU273350v1_fix_27673-chr4_MU273350v1_fix_27734
+chr5_MU273352v1_fix	20058	severus_DEL6076	N	<DEL>	60.0	PASS	SVTYPE=DEL;END=20198;SVLEN=140;CHR2=chr5_MU273352v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:125,9:140:.:60.0:DEL:severus_DEL6076:Severus_v1.5:N:<DEL>:chr5_MU273352v1_fix_20058-chr5_MU273352v1_fix_20198
+chr9_MU273364v1_fix	141349	severus_INS18011	N	GTATATATATATACGTATATATACGTATATATACGTATATATATACGTATATAT	60.0	PASS	SVTYPE=INS;END=141401;SVLEN=52;CHR2=chr9_MU273364v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,27:52:.:60.0:INS:severus_INS18011:Severus_v1.5:N:GTATATATATATACGTATATATACGTATATATACGTATATATATACGTATATAT:chr9_MU273364v1_fix_141349-chr9_MU273364v1_fix_141401
+chr9_MU273364v1_fix	144810	severus_INS18012	N	TGGCGGCGGGGCAGAGACGCTCCTCACTTTCCAGACTGGGCAGCCAGGCAGAGGGGCCCCTCACGTCCCAGACGAGGCAGCCGGGCAGCCAGGCAGAGACGCTCCTCACTTCCCAGAGGGGG	60.0	PASS	SVTYPE=INS;END=144926;SVLEN=116;CHR2=chr9_MU273364v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,28:116:.:60.0:INS:severus_INS18012:Severus_v1.5:N:TGGCGGCGGGGCAGAGACGCTCCTCACTTTCCAGACTGGGCAGCCAGGCAGAGGGGCCCCTCACGTCCCAGACGAGGCAGCCGGGCAGCCAGGCAGAGACGCTCCTCACTTCCCAGAGGGGG:chr9_MU273364v1_fix_144810-chr9_MU273364v1_fix_144926
+chr11_MU273369v1_fix	247184	severus_INS9713	N	GGTGGTTGGGGGGTGGGGCTGGGAGGTGGGGCCTGGTGGGGGGTGATTAGGGGTGGGGCTGGGAGGTGGGGCCTGGTGGGCGGTGATTAGGGGTGGGGCTGGGAGGTGGGGCCTGGTGGGCGGTGATTAGGGGTGGGGCTTGGAGGTGGGGCCTGGTGGGA	60.0	PASS	SVTYPE=INS;END=247344;SVLEN=160;CHR2=chr11_MU273369v1_fix;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:10,14:160:.:60.0:INS:severus_INS9713:Severus_v1.5:N:GGTGGTTGGGGGGTGGGGCTGGGAGGTGGGGCCTGGTGGGGGGTGATTAGGGGTGGGGCTGGGAGGTGGGGCCTGGTGGGCGGTGATTAGGGGTGGGGCTGGGAGGTGGGGCCTGGTGGGCGGTGATTAGGGGTGGGGCTTGGAGGTGGGGCCTGGTGGGA:chr11_MU273369v1_fix_247184-chr11_MU273369v1_fix_247344
+chr15_MU273375v1_alt	95222	severus_INS11209	N	TCCTGTCCATCTCTAACCTCAGTGTACATTCCAGGAAGGCACAATCTGTGAGTTCCTGTGTGACTTCCCACTTCC	60.0	PASS	SVTYPE=INS;END=95295;SVLEN=73;CHR2=chr15_MU273375v1_alt;SUPPORT=.;SVMETHOD=OctopuSV;RTID=.;AF=.;STRAND=.;RNAMES=.	GT:AD:LN:ST:QV:TY:ID:SC:REF:ALT:CO	0/1:0,16:73:.:60.0:INS:severus_INS11209:Severus_v1.5:N:TCCTGTCCATCTCTAACCTCAGTGTACATTCCAGGAAGGCACAATCTGTGAGTTCCTGTGTGACTTCCCACTTCC:chr15_MU273375v1_alt_95222-chr15_MU273375v1_alt_95295
