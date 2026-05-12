@@ -388,6 +388,9 @@ The earth sciences folder contain subfolders for different data formats encounte
     - vcf
       - dbsnp: DBSnp file downsampled based on reference position
       - gnomAD: gnomAD file downsampled based on reference position
+      - octopusv
+        - 'sk-n-as-sniffles-ont.svcf': a minimal SVCF file obtained from ONT data using sniffles and octopusv/correct (SK-N-AS cell line)
+        - 'sk-n-as-severus-ont.svcf': a minimal SVCF file obtained from ONT data using severus and octopusv/correct (SK-N-AS cell line)
       - mills_and_1000G: Indels file downsampled based on reference position
       - vcfanno
         - 'vcfanno_grch38_module_test.tar.gz': exac.vcf.gz + exac.vcf.gz.tbi and they're reference ExAC vcf used to query
