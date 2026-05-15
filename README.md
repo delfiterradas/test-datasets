@@ -733,7 +733,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - toy:
         - toy.symm.upper.2.cool, toy.symm.upper.2.cp2.cool: test file for cooler_merge. Downloaded from [open2c/cooler](https://github.com/open2c/cooler/master/tests/data/toy.symm.upper.2.cool)
         - toy.symm.upper.balanced.2.cool: test file for the cooltools/insulation module. Balanced copy of toy.symm.upper.2.cool, generated with cooler balance.
-       
+
   - gene_set_analysis:
 
     - P53_6samples_collapsed_symbols.gct: a gene cluster text file format (GCT) example
