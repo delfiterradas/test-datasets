@@ -6,7 +6,7 @@ Minimal hand-rolled test files used by the following custom modules:
 - `custom/clustervisualization`
 
 **Files:**
-- `test.eigenvec`      : small example PCA output (first 6 samples)
+- `test.eigenvec`      : small example PCA output (200 samples)
 - `test_clusters.csv`  : example cluster assignments (KMeans + DBSCAN)
 - `test_features.tsv`  : example feature matrix for clustering
 
