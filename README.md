@@ -960,6 +960,7 @@ The earth sciences folder contain subfolders for different data formats encounte
   - influenza
     - fasta
       - 'test-genome-A1.fasta': Complete HPAI H5N1 clade 2.3.4.4b genome with all eight segments (PB2, PB1, PA, HA, NP, NA, MP, NS). Expected GenoFLU genotype: A1 (fully Eurasian). Source: https://github.com/USDA-VS/GenoFLU/tree/main/test
+      - 'H5N1_2.3.4.4b_Italy.fa': Complete HPAI H5N1 clade 2.3.4.4b genome with all eight segments (PB2, PB1, PA, HA, NP, NA, MP, NS). Expected Genin2 genotype: EA-2022-BB. Source: https://github.com/izsvenezie-virology/FluMut/blob/main/examples/single_sample.fa (GISAID accession number: EPI_ISL_16979821).
 
 ### imaging
 - staging
