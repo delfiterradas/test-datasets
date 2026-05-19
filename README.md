@@ -731,6 +731,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 1000GP.chr*.chunks.txt: chunks of the chromosome obtain with GLIMPSE_chunk
     - AFR.gwas: Study locus file. From [SuShiE](https://github.com/mancusolab/sushie).
     - AFR.ld: LD matrix file. From [SuShiE](https://github.com/mancusolab/sushie).
+  - popgen/clustering/: Test data for the new custom modules (`custom/clustering`, `custom/clustermetrics`, `custom/clustervisualization`) - `test.eigenvec`, `test_clusters.csv`, `test_features.tsv` + `README.md` (200-sample PCA derived from `popgen/plink_simulated` via `plink2 --pca`, plus KMeans cluster assignments)
   - svsig:
 
     - NA03697B2_new.pbmm2.repeats.svsig.gz: structural variant file for NA03697B2_new.pbmm2.repeats.bam, created with PBSV discover version (2.9.0 default settings)
