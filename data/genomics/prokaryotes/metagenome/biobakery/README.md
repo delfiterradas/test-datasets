@@ -19,4 +19,5 @@ a Bowtie2 large index from the resulting FASTA.
 Files:
 
 - `mpa_vJan25_TOY_CHOCOPhlAnSGB_202503.tar.gz` — archive containing the marker database pickle,
-  marker sequences (FASTA), and Bowtie2 large index files
+  marker sequences (FASTA), and Bowtie2 large index files.
+- `test_genefamilies.tsv` – mock file for gene family abundance data, to test the HUMAnN3 module.
