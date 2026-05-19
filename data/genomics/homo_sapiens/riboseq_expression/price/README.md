@@ -25,8 +25,8 @@ Total: ~11 MB across 10 files.
 
 ## How they were derived
 
-1. Source BAMs taken from a successful test_full run of nf-core/riboseq (commit `c4cb19dc`) on Seqera Platform stage.
-2. Each `*.genome.sorted.bam` filtered to chr19+chr22 with `samtools view -bh -F 256 <bam> 19 22`.
+1. Source Ribo-seq reads SRR15480788/9/90/91 (SRA accessions for SRX11780885-8, from GSE182201) were aligned to the Ensembl GRCh38 primary assembly + Ensembl 111 GTF using STAR (full-genome alignment, post-rRNA-filtering).
+2. Each genome-sorted BAM filtered to chr19+chr22 with `samtools view -bh -F 256 <bam> 19 22`.
 3. Downsampled to 50% with `samtools view -bh -s 42.50`.
 4. Filtered to reads overlapping protein-coding gene loci with `samtools view -bh -L pc_gene.bed`.
 5. FASTA built from `Homo_sapiens.GRCh38.dna.chromosome.{19,22}.fa.gz` (Ensembl 111), then N-masked outside the union of protein-coding-gene exon intervals.
