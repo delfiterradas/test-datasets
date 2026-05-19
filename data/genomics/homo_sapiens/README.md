@@ -131,7 +131,8 @@ bedtools makewindows -b genome.bed -w 10000 > genome.bins_10kb.bed
 
 ### Coordinates of transcription start sites (TSS) 
 
-The list of TSS for hg38 was downloaded from the ENCODE project (release date 2021-02-05, ID ENCFF766FGL), sorted 
+The list of TSS for hg38 was downloaded from the ENCODE project (release date 2021-02-05, [ID ENCFF766FGL](
+https://www.encodeproject.org/files/ENCFF766FGL/@@download/ENCFF766FGL.bed.gz)), sorted 
 with `bedtools` and limited to only chromosome 22:
 
 ```bash
@@ -139,9 +140,6 @@ wget https://www.encodeproject.org/files/ENCFF766FGL/@@download/ENCFF766FGL.bed.
   gunzip -c  | bedtools sort | \
   grep "^chr22" > genome_tss.bed
 ```
-
-
-https://www.encodeproject.org/files/ENCFF766FGL/@@download/ENCFF766FGL.bed.gz
 
 ### SDF
 
