@@ -458,6 +458,11 @@ The earth sciences folder contain subfolders for different data formats encounte
       - plastid
         - Homo_sapiens.GRCh38.111_chr20_rois.txt: metagene generated from Homo_sapiens.GRCh38.111_chr20.gtf using plastid `metagene generate` command
         - SRX11780887_p_offsets.txt: p-site offsets genereated from SRX11780887_chr20.bam and Homo_sapiens.GRCh38.111_chr20.gtf using plastid `psite` command
+      - price
+        - Homo_sapiens.GRCh38_chr19_22.pc_exon_masked.fa.gz: chr19+chr22 of Ensembl GRCh38 primary assembly, hard-masked outside protein-coding exons, for testing gedi/price (PRICE requires ~2x the candidate-ORF count chr20 provides, so this fixture uses two gene-rich chromosomes)
+        - Homo_sapiens.GRCh38.111_chr19_22.pc.gtf.gz: chr19+chr22 of Ensembl 111 GTF, subset to `gene_biotype "protein_coding"` with lean attributes
+        - bams/SRX1178088{5,6,7,8}.chr19_22.ds50.bam(+ .bai): 4-sample Ribo-seq cohort (same upstream SRX accessions as the chr20 BAMs above) at 50% downsample, filtered to chr19+chr22 and to reads overlapping protein-coding gene loci. 4 samples is the empirical PRICE-cohort floor; 3 samples crashes its noise-model inference.
+        - README.md: full derivation recipe, empirical justification for the chosen subset/cohort, and the PRICE invocation used for verification.
       - ribocode
         - genome_updated.gtf.gz: GTF with gene names updated via ribocode/gtfupdate, compressed for efficient storage
         - annotation.tar.gz: Tarball containing annotation directory output from ribocode/prepare for testing ribocode/metaplots and ribocode/ribocode modules
