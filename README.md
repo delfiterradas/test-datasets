@@ -395,7 +395,7 @@ The earth sciences folder contain subfolders for different data formats encounte
         - 'sk-n-as-severus-ont.svcf': a minimal SVCF file obtained from ONT data using severus and octopusv/correct (SK-N-AS cell line)
       - mills_and_1000G: Indels file downsampled based on reference position
       - savana
-        - 'sv_breakpoints.vcf': a minimal VCF file from the SAVANA/RUN obtained from ONT data
+        - 'sv_breakpoints.vcf': a minimal VCF file obtained from ONT data using SAVANA 
       - vcfanno
         - 'vcfanno_grch38_module_test.tar.gz': exac.vcf.gz + exac.vcf.gz.tbi and they're reference ExAC vcf used to query
         - 'vcfanno.toml': configuration file for vcfanno to operate
