@@ -144,6 +144,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'genome-ena.fasta': ENA associated fasta sequence
     - 'genome.2bit': Two bit compressed version of 'genome.fasta'
     - 'genome.bins_10kb.bed': BED file for 'genome.bed' divided into 10kbp bins
+    - 'genome.bins_10kb_annotated.bed': BED file for 'genome.bed' divided into 10kbp bins that are named
     - 'genome_tss.bed': BED file for transcription start sites on chromosome 22
     - 'transcriptome.fasta': coding sequencing from MT192765.1 genome (transcripts)
     - 'transcriptome.paf': transcriptome PAF file for MT192765.1 genome

@@ -122,13 +122,18 @@ faToTwoBit genome.fasta genome.2bit
 
 ### Genome coordinates divided in 10kbp bins
 
-The binned version of 'genome.bed' from this repository was used to generate a BED of the interval divided into
+1. The binned version of 'genome.bed' from this repository was used to generate a BED of the interval divided into
 10kbp bins:
 
 ```bash
 bedtools makewindows -b genome.bed -w 10000 > genome.bins_10kb.bed
 ```
 
+2. bin names were added to the genome.bins_10kb.bed file:
+
+```bash
+awk '{print $0 "\tbin" NR}' genome.bins_10kb.bed > genome.bins_10kb_annotated.bed
+```
 ### Coordinates of transcription start sites (TSS) 
 
 The list of TSS for hg38 was downloaded from the ENCODE project (release date 2021-02-05, [ID ENCFF766FGL](
