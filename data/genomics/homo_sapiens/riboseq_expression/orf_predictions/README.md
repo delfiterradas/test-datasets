@@ -50,6 +50,13 @@ Produced by `modules/nf-core/ribotish/predict` test
 nf-test test modules/nf-core/ribotish/predict/tests/main.nf.test --profile docker
 head -1 test_pred.txt > sample1.ribotish.pred.txt
 head -16 test_pred.txt | tail -15 >> sample1.ribotish.pred.txt
+# The source ribotish run lacks a TIS (Harringtonine) BAM, so TISPvalue
+# and FisherPvalue cells come out as the literal string "None" - which
+# means a downstream FisherPvalue-reading parser never sees a real
+# p-value. Substitute the real RiboPvalue into the FisherPvalue column
+# so the fixture covers the typical case (FisherPvalue populated):
+awk -F'\t' 'BEGIN{OFS="\t"} NR==1 {print; next} {if ($15=="None" && $13!="None") $15=$13; print}' \
+    sample1.ribotish.pred.txt > .tmp && mv .tmp sample1.ribotish.pred.txt
 ```
 
 ### `sample1.ribotricer.tsv`
