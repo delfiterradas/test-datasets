@@ -470,6 +470,8 @@ The earth sciences folder contain subfolders for different data formats encounte
         - genome_updated.gtf.gz: GTF with gene names updated via ribocode/gtfupdate, compressed for efficient storage
         - annotation.tar.gz: Tarball containing annotation directory output from ribocode/prepare for testing ribocode/metaplots and ribocode/ribocode modules
         - test_pre_config.txt: P-site configuration file output from ribocode/metaplots for testing ribocode/ribocode module
+      - orf_predictions
+        - sample1.ribocode.txt, sample1.ribotish.pred.txt, sample1.ribotricer.tsv, sample1.rpbp.predicted-orfs.bed.gz, cohort.price.orfs.tsv: Five real-tool ORF prediction outputs (one per Ribo-seq ORF caller) sliced to header + 15 records (<13 KB each). Used by custom/orfnormalise + custom/orfmerge tests. Per-fixture provenance, source-module-test details and slim recipes are in `orf_predictions/README.md`.
       - salmon.merged.gene_counts_length_scaled.tsv: Example matrix containing both Riboseq and RNA-seq runs, suitable for translational efficiency analysis
       - samplesheet.csv: Sample sheet corresponding to salmon.merged.gene_counts_length_scaled.tsv
   - illumina
