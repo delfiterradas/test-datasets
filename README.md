@@ -391,6 +391,8 @@ The earth sciences folder contain subfolders for different data formats encounte
       - dbsnp: DBSnp file downsampled based on reference position
       - gnomAD: gnomAD file downsampled based on reference position
       - octopusv
+        - stat
+          - stats_sk-n-as-severus-ont.txt: variant statistics generated with `octopusv stat` for `octopusv/stat/sk-n-as-severus-ont.svcf`
         - 'sk-n-as-sniffles-ont.svcf': a minimal SVCF file obtained from ONT data using sniffles and octopusv/correct (SK-N-AS cell line)
         - 'sk-n-as-severus-ont.svcf': a minimal SVCF file obtained from ONT data using severus and octopusv/correct (SK-N-AS cell line)
       - mills_and_1000G: Indels file downsampled based on reference position
