@@ -791,6 +791,8 @@ The earth sciences folder contain subfolders for different data formats encounte
       - SRR28679756_raw_matrix.h5ad: SRR28679756 was processed with nf-core/scrnaseq v4.0.0 and subsetted to 10k genes and 300k cells.
       - SRR28679759_filtered_matrix.h5ad: SRR28679759 was processed with nf-core/scrnaseq v4.0.0 and subsetted to 10k genes.
       - SRR28679759_raw_matrix.h5ad: SRR28679759 was processed with nf-core/scrnaseq v4.0.0 and subsetted to 10k genes and 300k cells.
+    - zarr:
+      - test_zarr.zarr.tar.gz: Small AnnData Zarr fixture archived for scanpy/pca module tests.
     - rds:
       - SRR28679757_filtered_matrix.sce.rds: SRR28679757 was processed with nf-core/scrnaseq v4.0.0, subsetted to 10k genes and stored as a SingleCellExperiment RDS object.
       - SRR28679757_raw_matrix.sce.rds: SRR28679757 was processed with nf-core/scrnaseq v4.0.0, subsetted to 10k genes and stored as a SingleCellExperiment RDS object.
