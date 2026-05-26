@@ -104,6 +104,47 @@ samtools faidx ${REF_PATH}.fa.bgz chr21 chr22 | bgzip > ${REF_PATH}_chr21_22.fa.
 samtools faidx ${REF_PATH}_chr21_22.fa.gz
 rm ${REF_PATH}.fa.bgz*
 ```
+### Two bit compressed genome files (.2bit)
+
+The two bit compressed genome file was generated directly from `genome.fasta` in this repository.
+
+UCSC's `faToTwoBit` was downloaded:
+
+```bash
+wget https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/faToTwoBit
+```
+
+Then the actual 2bit file was generated:
+
+```bash
+faToTwoBit genome.fasta genome.2bit
+```
+
+### Genome coordinates divided in 10kbp bins
+
+1. The binned version of 'genome.bed' from this repository was used to generate a BED of the interval divided into
+10kbp bins:
+
+```bash
+bedtools makewindows -b genome.bed -w 10000 > genome.bins_10kb.bed
+```
+
+2. bin names were added to the genome.bins_10kb.bed file:
+
+```bash
+awk '{print $0 "\tbin" NR}' genome.bins_10kb.bed > genome.bins_10kb_annotated.bed
+```
+### Coordinates of transcription start sites (TSS) 
+
+The list of TSS for hg38 was downloaded from the ENCODE project (release date 2021-02-05, [ID ENCFF766FGL](
+https://www.encodeproject.org/files/ENCFF766FGL/@@download/ENCFF766FGL.bed.gz)), sorted 
+with `bedtools` and limited to only chromosome 22:
+
+```bash
+wget https://www.encodeproject.org/files/ENCFF766FGL/@@download/ENCFF766FGL.bed.gz -O - | \
+  gunzip -c  | bedtools sort | \
+  grep "^chr22" > genome_tss.bed
+```
 
 ### SDF
 
@@ -190,11 +231,11 @@ wget --no-check-certificate https://bochet.gcc.biostat.washington.edu/beagle/gen
 for chr in 21 22; do
    # Eagle / hapmap format
    zcat ${MAP_GRCH38}.eagle.map.gz \
-   | awk -v CHR="$chr" 'BEGIN {OFS="\t"} NR==1 {print; next} $1 == CHR {print $1,$2,$3,$4}' \
+   | awk -v CHR="$chr" 'BEGIN {OFS=" "} NR==1 {print; next} $1 == CHR {print $1,$2,$3,$4}' \
    > ${MAP_GRCH38}.${chr}.eagle.map
 
    # Stitch or quilt format
-   wget https://ftp.ncbi.nlm.nih.gov/hapmap/recombination/latest/rates/genetic_map_chr21_b36.txt -O ${MAP_GRCH38}.chr${chr}.stitch.map
+   wget https://ftp.ncbi.nlm.nih.gov/hapmap/recombination/latest/rates/genetic_map_chr${chr}_b36.txt -O ${MAP_GRCH38}.chr${chr}.stitch.map
 
    # Plink / bealge5 format
    unzip -p ${MAP_GRCH38}.plink.map.zip chr_in_chrom_field/plink.chrchr${chr}.GRCh38.map > ${MAP_GRCH38}.chr${chr}.plink.map
@@ -651,6 +692,28 @@ Then the target range is extracted:
 ```
 zcat gnomad_hg38.0.05.txt.gz | awk '$1 == 20 && ($2 >= 90000 && $2 <= 100000)' | gzip > gnomad_hg38_chr20_90000_to_100000.0.05.txt.gz
 ```
+
+### stitchr test dataset
+
+TCR data was downloaded from [vdjdb](https://vdjdb.com/) on March 12th 2026. 
+
+### anarcii test dataset
+
+Stitchr/thimble was run on the first five entries of the stitchr test dataset. The results were transformed into a fasta file with one entry per chain using a short python script:
+    
+    ```
+    import pandas as pd
+    thimbleOut = pd.read_csv(<output file from stitchr/thimble>, sep="\t", dtype=str)
+    # Write amino acid sequecnes to FASTA, one entry per chain
+    with open(args.out_fasta, "w") as fh:
+        for _, row in thimbleOut.iterrows():
+            tcr_name = row["TCR_name"]
+            tra = row["TRA_aa"]
+            trb = row["TRB_aa"]
+
+            fh.write(f">{tcr_name}|TRA\n{tra}\n")
+            fh.write(f">{tcr_name}|TRB\n{trb}\n")
+   ```
 
 ### Missing files
 
