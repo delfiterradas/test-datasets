@@ -1,4 +1,5 @@
 #!/usr/bin/env Rscript
+# SPDX-License-Identifier: MIT
 
 args <- commandArgs(trailingOnly = FALSE)
 file_arg <- "--file="
