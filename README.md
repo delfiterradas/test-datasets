@@ -208,6 +208,7 @@ The earth sciences folder contain subfolders for different data formats encounte
     - fasta
       - 'contigs.fasta': sarscov2 contigs obtained running SPAdes `--rnaviral`on sample1 of the [nf-core/viralrecon tests-dataset](https://github.com/nf-core/test-datasets/tree/viralrecon/illumina/amplicon)
       - 'scaffolds.fasta': sarscov2 scaffolds obtained running SPAdes `--rnaviral`on sample1 of the [nf-core/viralrecon test-dataset](https://github.com/nf-core/test-datasets/tree/viralrecon/illumina/amplicon)
+      - 'amplicon.txt': a short sarscov2 sequence extracted from test1.fastq, designed for testing amplicon-based tools
     - fastq
       - 'test\_{1,2}.fastq.gz' sarscov2 paired-end sequencing reads
       - 'test_interleaved.fastq.gz': Interleaved version of the above
