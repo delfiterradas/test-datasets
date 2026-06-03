@@ -337,7 +337,12 @@ The earth sciences folder contain subfolders for different data formats encounte
 
     - universc
       - homo_sapiens_chr22_reference.tar.gz: reference genome processed using the cellranger v3.0.2.9001
-
+  - cnvkit
+    - test.antitargetcoverage.cnn: synthetic chr22 off-target bin coverage for a test sample, generated manually for cnvkit module testing.
+    - test.targetcoverage.cnn: synthetic chr22 on-target bin coverage for a test sample, generated manually for cnvkit module testing.
+    - test_reference.cnn: synthetic chr22 copy number reference profile (with gc, rmask, spread columns) built manually from the above bins for cnvkit module testing.
+    - test.cnr: copy number ratio file produced by running `cnvkit.py fix` on the test.targetcoverage.cnn, test.antitargetcoverage.cnn and test_reference.cnn files.
+    - test.cns: copy number segment file produced by running `cnvkit.py segment` on the test.cnr file. 
   - demultiplexing
     - barcode.tsv: A list of barcodes used for demultiplexing the test data.
     - chr21.bam: A BAM file containing reads from chromosome 21.
