@@ -1095,6 +1095,11 @@ The earth sciences folder contain subfolders for different data formats encounte
     - 'images/mosaic_DAPI_z3.tif' : identical to 'data/imaging/segmentation/nuclear_image.tif', requires particular naming format
     - 'images/mosaic_PolyT_z3.tif' : as above, the extra PolyT channel is required downstream to generate a report
     - 'detected_transcripts.csv' : a minimal detected transcripts file
+- xenium
+	- minimal test data from the xenium bundle (10X Genomics Xenium InSitu)
+ 		- transcripts.parquet - parquet file containing the transcript coordinates
+		- xenium.toml - config used to run the baysor module with the transcript above
+  		- spatial_gene_expression.csv - Cropped csv file from a Xenium homo sapiens breast cancer dataset. 
 
 ### generic
 
