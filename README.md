@@ -474,6 +474,17 @@ The earth sciences folder contain subfolders for different data formats encounte
         - Homo_sapiens.GRCh38.111_chr19_22.pc.gtf.gz: chr19+chr22 of Ensembl 111 GTF, subset to `gene_biotype "protein_coding"` with lean attributes
         - bams/SRX1178088{5,6,7,8}.chr19_22.ds50.bam(+ .bai): 4-sample Ribo-seq cohort (same upstream SRX accessions as the chr20 BAMs above) at 50% downsample, filtered to chr19+chr22 and to reads overlapping protein-coding gene loci. 4 samples is the empirical PRICE-cohort floor; 3 samples crashes its noise-model inference.
         - README.md: full derivation recipe, empirical justification for the chosen subset/cohort, and the PRICE invocation used for verification.
+      - rpbp
+        - reference.annotated.bed.gz: transcript-level annotated BED output by rpbp/preparegenome, for testing rpbp/extractmetageneprofiles
+        - reference.orfs-genomic.annotated.bed.gz: genomic-coordinate ORF BED output by rpbp/preparegenome, for testing rpbp/extractorfprofiles and rpbp/estimateorfbayesfactors
+        - reference.orfs-exons.annotated.bed.gz: exon-coordinate ORF BED output by rpbp/preparegenome, for testing rpbp/extractorfprofiles
+        - SRX11780888_chr20.metagene-profile.csv.gz: metagene profile output by rpbp/extractmetageneprofiles, for testing rpbp/estimatemetagenebayesfactors
+        - SRX11780888_chr20.metagene-periodicity-bayes-factors.csv.gz: per-length metagene Bayes-factor table output by rpbp/estimatemetagenebayesfactors, for testing rpbp/selectperiodicoffsets
+        - SRX11780888_chr20.periodic-offsets.csv.gz: per-length periodic-offset table output by rpbp/selectperiodicoffsets, for testing rpbp/getperiodiclengthsoffsets
+        - SRX11780888_chr20.periodic_lengths_offsets.tsv: filtered length/offset pairs (lenient thresholds for chr20) output by rpbp/getperiodiclengthsoffsets, for testing rpbp/extractorfprofiles
+        - SRX11780888_chr20.profiles.mtx.gz: per-ORF Ribo-seq read-count profile matrix output by rpbp/extractorfprofiles, for testing rpbp/estimateorfbayesfactors
+        - SRX11780888_chr20.bayes-factors.bed.gz: per-ORF Bayes-factor table output by rpbp/estimateorfbayesfactors, for testing rpbp/selectfinalpredictionset
+        - README.md: per-file derivation recipe.
       - ribocode
         - genome_updated.gtf.gz: GTF with gene names updated via ribocode/gtfupdate, compressed for efficient storage
         - annotation.tar.gz: Tarball containing annotation directory output from ribocode/prepare for testing ribocode/metaplots and ribocode/ribocode modules
