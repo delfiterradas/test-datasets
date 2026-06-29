@@ -435,6 +435,8 @@ The earth sciences folder contain subfolders for different data formats encounte
     - sizes
     - .bed
     - multi_intervals.bed: Contains the interval from `interval.list` split into two parts
+    - genome.intervals1_multi.bed: First interval from `multi_intervals.bed` (chr22:1-15000), used for scatter-gather testing
+    - genome.intervals2_multi.bed: Second interval from `multi_intervals.bed` (chr22:20000-40001), used for scatter-gather testing
     - blacklist_intervals.bed: Contains the intervals of problematic regions of the genome
     - annotated_intervals.tsv: Contains the intervals of the genome (annotated with gc-content) excluding problematic regions
     - filtered_intervals.interval_list: Contains the intervals of the genome that contain at least one read hit
