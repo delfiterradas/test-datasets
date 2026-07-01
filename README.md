@@ -383,8 +383,10 @@ The earth sciences folder contain subfolders for different data formats encounte
         - dbNSFP4.1a.21: Created from dbNSFP database. Chromosome 21 extracted from main file and posterior subsampling of first 100K lines.
         - SNP_GRCh38_hg38_wChr.bed: Common heterozygous SNPs, used to determine if samples match in the NGSCheckMate tool (chr21 only)
       - chromosomes.tar.gz: compressed directory containing the fasta genome file renamed to chr21 (needed for ControlFREEC)
-    - chr22: directory for reference files using chr22, for bbsplit
+    - chr22: directory for reference files using chr22
       - sequence/chr22_23800000-23980000.fa: Fasta file containing a section of chr22
+      - sequence/hg38.chr22.fasta: Fasta file containing the entire chr22
+      - sequence/hg38.chr22.fasta.fai: Fasta index for `hg38.chr22.fasta`
     - chr22_chr22_KI270734v1_random: directory for reference files using chr22 and chr22_KI270734v1_random, for paraphase
       - sequence/genome.fa.gz: Gzipped fasta file from GRCh38 with bases not within chr22:18912282-18936793 and chr22_KI270734v1_random:137587-162092 hard masked to N.
     - genetic_map: directory containing genetic map of GRCh38 in various format
@@ -696,6 +698,11 @@ The earth sciences folder contain subfolders for different data formats encounte
         - HG002_ont_tel_sub.cram.crai: Index for HG002_ont_tel_sub.cram
         - HG002_ont_tel_sub_ref.fa: Mini reference FASTA containing the last ~56 kb of chr1 and ~94 kb of chr2 from GRCh38 (telomeric regions where the reads align)
         - HG002_ont_tel_sub_ref.fa.fai: Index for HG002_ont_tel_sub_ref.fa
+      - savana
+        - colo829.PAU61426.sup.chr22.subset.0.05.bam: Tumour COLO829 ONT BAM, 5% downsample of the chr22 subset
+        - colo829.PAU61426.sup.chr22.subset.0.05.bam.bai: Index for colo829.PAU61426.sup.chr22.subset.0.05.bam
+        - colo829bl.PAU59807.sup.chr22.subset.0.05.bam: Normal COLO829 ONT BAM, 5% downsample of the chr22 subset
+        - colo829bl.PAU59807.sup.chr22.subset.0.05.bam.bai: Index for colo829bl.PAU59807.sup.chr22.subset
   - pacbio:
 
     - bam:
