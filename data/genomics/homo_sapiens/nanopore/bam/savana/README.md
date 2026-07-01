@@ -2,7 +2,7 @@
 
 Minimal ONT BAM files and a chromosome 22 FASTA reference for testing SAVANA.
 
-- **Source**: [SAVANA issue 111](https://github.com/cortes-ciriano-lab/savana/issues/111), provided by the @helrick & @cmsauer as test files
+- **Source**: [SAVANA issue 111](https://github.com/cortes-ciriano-lab/savana/issues/111), test files provided by @helrick & @cmsauer
 - **Original data**: ONT EPI2ME public sequencing data from the COLO829 melanoma cell line and matched normal cell line COLO829BL
 - **Region**: BAMs were subset to `chr22:24000000-25000000`
 - **Additional downsampling**: The test BAMs provided [here](https://github.com/cortes-ciriano-lab/savana/issues/111) were downsampled with `samtools view -s 0.05`
