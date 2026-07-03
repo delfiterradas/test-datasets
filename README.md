@@ -355,7 +355,7 @@ The earth sciences folder contain subfolders for different data formats encounte
       - genome.fasta.gz
       - genome.gtf
     - chr20: directory for reference files using chr20, used for angsd/dosaf testing
-      - 'sequence/GRCh38_chr20_1_2000000.fasta.gz': Gzipped GRCh38 reference sequence for chr20:1-2,000,000, extracted from Extracted from the full 1000 Genomes Project reference build (GRCh38_full_analysis_set_plus_decoy_hla.fa), used for angsd/dosaf
+      - 'sequence/GRCh38_chr20_1_2000000.fasta.gz': Gzipped GRCh38 reference sequence for chr20:1-2,000,000, extracted from the full 1000 Genomes Project reference build (GRCh38_full_analysis_set_plus_decoy_hla.fa), used for angsd/dosaf
       - 'sequence/GRCh38_chr20_1_2000000.fasta.gz.fai': Fasta index for `GRCh38_chr20_1_2000000.fasta.gz`, used for angsd/dosaf
       - 'ancestral_state/homo_sapiens_ancestor_chr20_1_2000000.fasta.gz': 'Gzipped Ensembl Compara EPO ancestral consensus sequence for chr20:1-1,000,000, used for angsd/dosaf
       - 'ancestral_state/homo_sapiens_ancestor_chr20_1_2000000.fasta.gz.fai': Fasta index for `homo_sapiens_ancestor_chr20_1_2000000.fasta.gz`, used for angsd/dosaf
