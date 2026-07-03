@@ -354,6 +354,11 @@ The earth sciences folder contain subfolders for different data formats encounte
     - chr1: directory for reference files using chr1 rather than 22, used for cellranger-atac
       - genome.fasta.gz
       - genome.gtf
+    - chr20: directory for reference files using chr20, used for angsd/dosaf testing
+      - 'sequence/GRCh38_chr20_1_2000000.fasta.gz': Gzipped GRCh38 reference sequence for chr20:1-2,000,000, extracted from Extracted from the full 1000 Genomes Project reference build (GRCh38_full_analysis_set_plus_decoy_hla.fa), used for angsd/dosaf
+      - 'sequence/GRCh38_chr20_1_2000000.fasta.gz.fai': Fasta index for `GRCh38_chr20_1_2000000.fasta.gz`, used for angsd/dosaf
+      - 'ancestral_state/homo_sapiens_ancestor_chr20_1_2000000.fasta.gz': 'Gzipped Ensembl Compara EPO ancestral consensus sequence for chr20:1-1,000,000, used for angsd/dosaf
+      - 'ancestral_state/homo_sapiens_ancestor_chr20_1_2000000.fasta.gz.fai': Fasta index for `homo_sapiens_ancestor_chr20_1_2000000.fasta.gz`, used for angsd/dosaf
     - chr21: directory for reference files using chr21 rather than 22, used for most gatk4 testing
       - sequence: directory containing fasta (with and without 'chr' prefix), fai, dict and several other indexes for chr21 including:
         - 'genome_sdf.tar.gz': The SDF (RTG Sequence Data File) folder of the reference genome
@@ -518,6 +523,10 @@ The earth sciences folder contain subfolders for different data formats encounte
       - NA12878.chr21_22.1X.bam{.bai}: Downsampled at 1X bam file of individual NA12878 for chr21 and 22 between position 16570000-16610000 with index.
       - NA19401.chr21_22.1X.bam{.bai}: Full coverage (32X) bam file of individual NA19401 for chr21 and 22 between position 16570000-16610000 with index.
       - NA19401.chr21_22.1X.bam{.bai}: Downsampled at 1X bam file of individual NA19401 for chr21 and 22 between position 16570000-16610000 with index.
+      - 'HG00349.chr20_1400000-1500000.bam{.bai}': Low-coverage WGS BAM for 1000 Genomes FIN individual HG00349, subsetted to chr20:1400000-1500000.
+      - 'HG00350.chr20_1400000-1500000.bam{.bai}': Low-coverage WGS BAM for 1000 Genomes FIN individual HG00350, subsetted to chr20:1400000-1500000.
+      - 'HG00351.chr20_1400000-1500000.bam{.bai}': Low-coverage WGS BAM for 1000 Genomes FIN individual HG00351, subsetted to chr20:1400000-1500000.
+      - 'HG00358.chr20_1400000-1500000.bam{.bai}': Low-coverage WGS BAM for 1000 Genomes FIN individual HG00358, subsetted to chr20:1400000-1500000.
       - test_illumina_mt: bam file containing mt data, to test eklipse
       - 'test3.single_end.markduplicates.sorted.bam': Mapped, sorted, and duplicate removed reads from ancient DNA across all human chromosomes on the hs37d5 human reference. Data from [ERR2857053](https://www.ebi.ac.uk/ena/browser/view/ERR2857053) downsampled to 10% of original reads.
       - 'test.rna.paired_end.bam': STAR-aligned, unsorted, paired-end RNAseq bam file from the test*rnaseq*{1,2}.fastq.gz: chr22 of sample GM12878 (SRA accession: SRX2900878)
