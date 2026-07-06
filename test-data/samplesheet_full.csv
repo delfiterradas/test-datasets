@@ -1,2 +1,2 @@
-sample,input,checksum_md5,checksum_sha
-demultiplex,s3://nf-core-awsmegatests/demultiplex/results-fbec8e442f0599f8b74876e62263af05b9a41d33/,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/checksum_md5.tsv,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/checksum_sha.tsv
+sample,input,output_path,checksum_md5,checksum_sha
+demultiplex,s3://nf-core-awsmegatests/demultiplex/results-fbec8e442f0599f8b74876e62263af05b9a41d33/,s3://nf-core-awsmegatests/demultiplex/results-fbec8e442f0599f8b74876e62263af05b9a41d33/,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/checksum_md5.tsv,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/checksum_sha.tsv
