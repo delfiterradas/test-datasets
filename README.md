@@ -1155,6 +1155,9 @@ The earth sciences folder contain subfolders for different data formats encounte
 - models
   - clair3_hifi.tar.gz: gzipped tar folder containing TensorFlow models needed to run clair3 on Hifi data
   - clair3_v2.hifi.tar.gz: gzipped tar folder containing PyTorch models needed to run clair3 V2 on Hifi data
+- newick
+  - gene_tree.nwk: phylogenetic gene tree of 6 species with duplication events, used as input for [treerecs]().
+  - species_tree.nwk: cladogram of 6 species, used as input for [treerecs]().
 - notebooks
   - jupyter
     - 'ipython_notebook.ipynb': exemplary jupyter notebook
