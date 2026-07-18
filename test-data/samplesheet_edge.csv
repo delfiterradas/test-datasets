@@ -1,0 +1,5 @@
+sample,input,output_path,checksum_md5,checksum_sha
+Illumina_annotation_missing,s3://ngi-igenomes/igenomes/PhiX/Illumina/RTA/Annotation/Archives/,s3://ngi-igenomes/igenomes/PhiX/Illumina/RTA/Annotation/,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/Illumina_annotation_missing_md5.tsv,
+Illumina_annotation_incorrect,s3://ngi-igenomes/igenomes/PhiX/Illumina/RTA/Annotation/Archives/,s3://ngi-igenomes/igenomes/PhiX/Illumina/RTA/Annotation/,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/Illumina_annotation_incorrect_md5.tsv,
+Illumina_annotation_sha_only,s3://ngi-igenomes/igenomes/PhiX/Illumina/RTA/Annotation/Archives/,s3://ngi-igenomes/igenomes/PhiX/Illumina/RTA/Annotation/,,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/Illumina_annotation_incorrect_sha.tsv
+Illumina_annotation_existing_destination,s3://ngi-igenomes/igenomes/PhiX/Illumina/RTA/Annotation/Archives/,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/Illumina_annotation_existing_destination/,https://raw.githubusercontent.com/nf-core/test-datasets/datasync/test-data/Illumina_annotation_md5.tsv,
