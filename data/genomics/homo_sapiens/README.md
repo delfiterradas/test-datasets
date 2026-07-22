@@ -211,6 +211,22 @@ The salmon index (`homo_sapiens/genome/index/salmon`) was created with the follo
 salmon index -t transcriptome.fasta -k 31 -i salmon
 ```
 
+### GenomeSize.xml
+The GenomeSize.xml index (`homo_sapiens/genome/GenomeSize.xml`) was created using the following command:
+
+```bash
+stripped_seq=$(mktemp)
+tail -n +2 genome.fasta | tr -d '\n' > $stripped_seq
+length=$(wc -c $stripped_seq | cut -f 1 -d ' ' )
+md5=$(md5sum $stripped_seq | cut -f 1 -d ' ' )
+
+cat << EOF > GenomeSize.xml
+<sequenceSizes genomeName="Homo Sapiens (NCBI GRCh38)">
+	<chromosome fileName="genome.fa" contigName="chr22" totalBases="${length}" build="GRCh38" isCircular="false" md5="${md5}" ploidy="2" species="Homo_sapiens" knownBases="${length}" type="Autosome" />
+</sequenceSizes>
+EOF
+```
+
 ### Genome map
 
 There is multiple type of genetic map depending on the softwares.
