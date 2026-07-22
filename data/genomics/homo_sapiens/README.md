@@ -212,6 +212,7 @@ salmon index -t transcriptome.fasta -k 31 -i salmon
 ```
 
 ### GenomeSize.xml
+
 The GenomeSize.xml index (`homo_sapiens/genome/GenomeSize.xml`) was created using the following command:
 
 ```bash
